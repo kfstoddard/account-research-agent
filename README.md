@@ -86,7 +86,7 @@ without spending credits twice. Set `DEBUG_RAW=1` to save every raw Bright Data 
 | Share of signals that were recent | 72% | 57% |
 | Median time per search | 12.7s | 2.1s |
 | Failed searches | 5 of 78 | 0 of 75 |
-| Est. cost per recent signal | $0.016 | $0.028 |
+| Est. cost per recent signal | $0.011 | $0.021 |
 
 The full analysis and caveats are in [`findings.md`](findings.md). Raw outputs, summary tables and the manual
 spot-check (`manual_review.csv`) are in `results/v1/`.

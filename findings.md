@@ -5,7 +5,7 @@
 ## TL;DR
 
 - **Tavily was faster, more reliable and found more.** It returned 74 recent signals against Bright Data's 64. The median search took 2.1s on Tavily and 12.7s on Bright Data, and Tavily had 0 failed searches against Bright Data's 5 of 78.
-- **Bright Data was more precise and about 40% cheaper per useful signal.** Of its signals, 72% were recent (Tavily: 57%) and 76% were dated (Tavily: 62%). Google's short snippets meant the agent read about half the tokens per company. All-in, that came to an estimated **$0.016 per recent signal, against $0.028 for Tavily**.
+- **Bright Data was more precise and about 45% cheaper per useful signal.** Of its signals, 72% were recent (Tavily: 57%) and 76% were dated (Tavily: 62%). Google's short snippets meant the agent read about half the tokens per company. All-in, that came to an estimated **$0.011 per recent signal, against $0.021 for Tavily**.
 - **Accuracy was high on both.** A manual check of 10 signals found 9 correct and 1 unverifiable, with none wrong or stale. Every undated signal checked turned out to be recent: the date was on the page, just not in the snippet.
 - **Decision this points to:** position Bright Data SERP for **batch, background account research and enrichment pipelines**, where cost per signal and precision matter and nobody waits on latency. Don't lead with real-time, in-chat agents, where Tavily's speed wins today. (See *Implications*.)
 
@@ -85,12 +85,12 @@ Tavily's coverage advantage comes almost entirely from growth startups. On non-t
 |---|---|---|
 | Search API, list price | $1.50 per 1K requests (PAYG) | $0.008 per credit (1 credit per basic search) |
 | Search cost, full run | $0.12 | $0.60 |
-| LLM cost, full run* | $0.92 | $1.44 |
-| **Total, full run** | **$1.04** | **$2.04** |
-| Per company | $0.052 | $0.102 |
-| **Per recent signal** | **$0.016** | **$0.028** |
+| LLM cost, full run* | $0.61 | $0.96 |
+| **Total, full run** | **$0.73** | **$1.56** |
+| Per company | $0.036 | $0.078 |
+| **Per recent signal** | **$0.011** | **$0.021** |
 
-\*LLM cost is an estimate at an assumed $3 per 1M input tokens and $15 per 1M output tokens. It uses the token counts measured in this run, and the ratio between backends holds at any per-token price. Actual spend for this test was $0 on both search APIs because it fit inside the free tiers (Bright Data: 5K requests per month; Tavily: 1,000 credits per month).
+\*LLM cost is an estimate at the Claude Sonnet 5.5 list price ($2 per 1M input tokens, $10 per 1M output tokens), the model used in this eval. It uses the token counts measured in this run, and the ratio between backends holds at any per-token price. Anthropic’s Batch API halves the LLM price, which suits the scheduled, batch workload this positioning targets. Actual spend for this test was $0 on both search APIs because it fit inside the free tiers (Bright Data: 5K requests per month; Tavily: 1,000 credits per month).
 
 **Why Bright Data is cheaper:** the search call itself costs about 5× less, and Google snippets are short, so the model reads about 45% fewer input tokens. At scale (for example, 10K accounts refreshed weekly), that gap compounds. **Why Tavily finds more:** its results carry longer, content-rich snippets, so each search gives the model more facts to extract. That also explains the lower share of dated and recent signals: more background and undated items get through.
 
@@ -147,7 +147,7 @@ I opened the source for 10 signals: 5 per backend, as matched pairs from the sam
 ### Marketing
 
 1. **Segment:** builders of GTM and sales-intelligence agents (AI SDR tools, enrichment platforms, CRM copilots) that research thousands of accounts on a schedule. In that workload nobody waits on a single search, and cost per signal and precision decide the bill. This matches the "owned context compounds" thesis: research once in batch, store it, and refresh it.
-2. **Positioning to test:** *"The cheapest dated, primary-source signal for account research at scale"* rather than "the fastest search API for agents." The evidence supports roughly 40% lower cost per useful signal and higher precision, with honest latency caveats.
+2. **Positioning to test:** *"The cheapest dated, primary-source signal for account research at scale"* rather than "the fastest search API for agents." The evidence supports roughly 45% lower cost per useful signal and higher precision, with honest latency caveats.
 3. **Proof assets:** publish this eval harness as an open benchmark builders can run on their own account lists. Credibility in this segment comes from reproducible numbers, not claims.
 4. **Objections to prepare for:** "too slow for my agent" (answer: batch architecture plus async), "Tavily gives me more per call" (answer: more tokens and more undated items; compare on cost per recent signal), and "Google snippets are too thin" (answer: pair SERP with Web Unlocker fetches on the top results).
 
