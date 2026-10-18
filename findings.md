@@ -75,7 +75,9 @@ Bright Data's failed searches came in the Chobani, Cohere, Crusoe, Glean and Ram
 
 Tavily's coverage advantage comes almost entirely from growth startups. On non-tech brands the two were level.
 
-**Companies with zero recent signals:** Bright Data had two, Allbirds and Clay (Clay was the invalid-JSON run). Tavily had one, Glean.
+**Companies with zero recent signals:** Bright Data had two, Allbirds and Clay. Tavily had one, Glean.
+
+**The Clay failure was a formatting error, not a search failure.** The Bright Data Clay run did find 5 dated, recent, grounded signals: the $115M Series D, a tender offer, the Marketbridge partnership and two hiring signals. But the model left out one closing quote mark at the end of its JSON, so the parser rejected the whole answer. The tables above count it as a failure, exactly as measured. If it is repaired, Bright Data's totals become **69 recent signals (73% of 94)**, and the head-to-head becomes 10 companies for Tavily, 8 for Bright Data and 2 ties. That makes it a harness issue (fix: structured output or a JSON-repair retry), not a backend difference.
 
 ### Estimated cost per useful signal
 
@@ -104,7 +106,7 @@ See `results/v1/side_by_side.md` for every company.
 - **Both backends returned low-quality social sources** (Facebook pages, X posts, Instagram) with no dates. The agent mostly flagged these as lower confidence rather than dropping them.
 - **Dates are the weak point for both.** Many Google results carry only relative dates ("2 days ago"), which the agent rightly left as null. Tavily often had no date at all.
 - **Bright Data returned a Google redirect URL as a source** (Ramp: `google.com/goto?url=...`) instead of the publisher URL. It still counts as "grounded" because it came from the tool results, but a seller can't use it as a citation.
-- **Ambiguous names hurt Bright Data more.** The Clay run used all 4 searches, and the last query referenced the actual Series D, yet the agent returned no valid JSON. My hypothesis is that results mixing "Clay" the company with clay the material, plus a prose final answer, made the model fail. The raw final text is saved in `results/v1/brightdata/clay.json`. Ramp and Runway also needed qualifiers ("fintech", "AI video") in the queries.
+- **Ambiguous names needed qualifiers on both backends.** For Clay, Ramp and Runway, the agent added terms ("clay.com", "fintech", "AI video") to its queries to avoid results about clay the material, ramps or fashion runways. It managed this without help, but it costs part of a small search budget.
 - **Both handled a hard case well.** For Vacasa, both explained that it is now owned by Casago and franchised out, and told the seller to target Casago and local operators. That is exactly the context a rep needs.
 
 ## Accuracy spot-check
@@ -130,6 +132,7 @@ I opened the source for 10 signals: 5 per backend, as matched pairs from the sam
 - **Automated metrics are proxies.** "Grounded" checks that a URL came from the tool results, not that the claim is true. "Recent" depends on the date the agent assigned. The manual spot-check covers only 10 signals.
 - **One run was redone.** My laptop slept during the Cohere Bright Data run, which inflated its time. I deleted that result and re-ran it. The re-run's time (about 100s) is in the tables.
 - **Cost figures use list prices** and an assumed LLM token price. They are not a billing comparison.
+- **The JSON parsing is strict.** One malformed answer (Clay on Bright Data) was scored as a total miss. The next version would use structured outputs or retry on a parse error.
 - **Free tiers only,** as the brief required. Nothing in this test hit a free-tier limit.
 
 ## Implications
@@ -138,7 +141,7 @@ I opened the source for 10 signals: 5 per backend, as matched pairs from the sam
 
 1. **Latency and variance are the first objection.** A 12.7s median, a 29.5s worst case and a 6% failure rate rule out interactive agents. If Light JSON or async closes the gap, that needs to be the default in agent-facing docs and SDKs.
 2. **Return publisher URLs, not Google redirects,** and add a normalized absolute date field (convert "2 days ago" into a date). Agents need citations and dates more than they need ranking. The spot-check showed every undated signal checked was actually recent, with the date sitting on the page. A built-in "SERP + fetch top result for its date" option (SERP API plus Web Unlocker) would turn that into a measurable win.
-3. **Disambiguation helpers for entity search.** A domain-anchored mode (a company plus `ramp.com` hint) would fix the Clay, Ramp and Runway problems on the customer's side of the API.
+3. **Disambiguation helpers for entity search.** A domain-anchored mode (a company plus `ramp.com` hint) would save the searches the agent spent disambiguating Clay, Ramp and Runway.
 4. **Onboarding friction for developers on Windows.** The dashboard's Windows snippet runs only in cmd, not PowerShell. The bracketed key placeholder and the missing "Bearer" prefix each cost me a failed call.
 
 ### Marketing
