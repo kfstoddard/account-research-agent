@@ -1,0 +1,109 @@
+{
+  "company": "Allbirds",
+  "domain": "allbirds.com",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Allbirds (now reportedly renamed Smartbird; Nasdaq: BIRD)",
+    "signals": [
+      {
+        "type": "other_news",
+        "summary": "Allbirds is reported to have pivoted from footwear to AI servers after securing $50M in funding, which sparked a large stock rally. The headlines are undated and the article body wasn't retrieved, so the details are unverified.",
+        "date": null,
+        "source_url": "https://www.proactiveinvestors.co.uk/companies/allbirds-inc"
+      },
+      {
+        "type": "funding",
+        "summary": "A Proactive headline says Allbirds secured $50M in funding tied to the AI-server pivot. Investors, terms and date are not confirmed.",
+        "date": null,
+        "source_url": "https://www.proactiveinvestors.co.uk/companies/allbirds-inc"
+      },
+      {
+        "type": "leadership_change",
+        "summary": "Allbirds, rebranded as Smartbird, appointed Nadia Carlsten as CEO and board member, replacing Joe Vernachio. A separate snippet says the company officially changed its corporate name and named a new CEO about 8 days before the snippet was captured.",
+        "date": null,
+        "source_url": "https://intellizence.com/insights/executive-appointments/latest-ceo-changes-and-appointments"
+      },
+      {
+        "type": "leadership_change",
+        "summary": "Former Allbirds CEO Joe Vernachio has been named president of Sorel. The snippet only says '5 days ago' and gives no date.",
+        "date": null,
+        "source_url": "https://fashionunited.com/fashion-jobs/retail-supervisor-san-diego-2031063"
+      },
+      {
+        "type": "earnings",
+        "summary": "Q2 2026 results were reported on Aug 18, 2026. Revenue was $2.76M against a consensus of about $29.5M, and EPS was -$1.39 (adjusted) or -$1.79 (GAAP). The tiny revenue figure suggests the footwear business has shrunk or been divested, but that is not confirmed.",
+        "date": "2026-08-18",
+        "source_url": "https://www.marketbeat.com/stocks/NASDAQ/BIRD/earnings"
+      },
+      {
+        "type": "other_news",
+        "summary": "The stock is volatile: it rose 33.7% on Oct 1, 2026 to about $3.49, then fell to about $2.36 by Oct 14. The next earnings date is estimated for around Nov 5, 2026.",
+        "date": "2026-10-14",
+        "source_url": "https://www.globalbankingandfinance.com/allbirds-bird-falls-2026-10-14"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The company appears to be in a major transformation: a rebrand to Smartbird, a new CEO (Nadia Carlsten) and an AI-infrastructure pivot with reported $50M funding. This is likely a very different business from the footwear brand the seller may expect. Several key items (pivot, funding, rebrand, CEO change) come from undated snippets or headlines, so I could not confirm exact dates or details. I also did not confirm whether the footwear brand was sold or wound down, and I found no hiring, partnership or layoff signals. Before outreach, verify these items in the company's press releases or SEC filings (8-Ks), and tailor the pitch to the new AI/compute strategy rather than to footwear or DTC retail. The FourWeekMBA and Enrich Labs pages are generic and may be outdated, so I did not use them as signals."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 26.62,
+    "search_api_time_s": 10.68,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 12209,
+    "output_tokens": 1813,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://ceofrontier.com/categories/leadership",
+    "https://fashionunited.com/fashion-jobs/retail-supervisor-san-diego-2031063",
+    "https://fourweekmba.com/allbirds-business-model",
+    "https://index.businessinsurance.com/businessinsurance/news/publisher/allbirds,%20inc.?CurrentPage=1",
+    "https://intellizence.com/insights/executive-appointments/latest-ceo-changes-and-appointments",
+    "https://wwd.com/p/earnings-and-insights?query-2-page=2&cst=&tpcc=earnings-insights-onsite&_ptid=%7Bkpdx%7DAAAAwEnf3dPzhAoKUkFJMjlGZzNwdRIQbXBhZnRoaDJmOHU1c3M5YxoMRVgwRU1PWkhTVzYzIiUxODA3bWswMGRjLTAwMDAzN2hyN2c5dW9zMzY0Y2NqNjd0bWVnKhtzaG93VGVtcGxhdGVTUk4wMFk0S0RZNjEzMTAwAToMT1RJUTJPVE5MVzdVQg1PVFZOUUNHUUdaWVlJUhJ2LYUA8BdqamU5ejVlNGVaDDY2LjI0OS43Ny4zNGIDYmJiaO3FsdAGcAN4BA&query-2-business-reporting-period=2024-q4",
+    "https://www-fallback.instagram.com/allbirds",
+    "https://www.drapersonline.com/news/this-weeks-fashion-retail-people-moves-harrods-ms-jdsports-temperleylondon",
+    "https://www.earningswhispers.com/seasonality/BIRD",
+    "https://www.enrichlabs.ai/case-study/allbirds-marketing-strategy",
+    "https://www.facebook.com/ResToeRunLimketkaiOfficial/posts/sale-2500dont-let-this-offer-dash-away-%EF%B8%8F-get-up-to-70-off-on-allbirds-shoes-expe/1541086804702257",
+    "https://www.facebook.com/ResToeRunLimketkaiOfficial/videos/-allbirds-sale-your-favorite-allbirds-pairs-are-now-2500-only-dont-miss-out-limi/846240791873932",
+    "https://www.globalbankingandfinance.com/allbirds-bird-falls-2026-10-14",
+    "https://www.instagram.com/reel/DdkE6CuE_mL",
+    "https://www.investing.com/equities/allbirds-historical-data",
+    "https://www.marketbeat.com/stocks/NASDAQ/BIRD",
+    "https://www.marketbeat.com/stocks/NASDAQ/BIRD/earnings",
+    "https://www.proactiveinvestors.co.uk/companies/allbirds-inc",
+    "https://www.tradingkey.com/markets/stocks/bird/earnings"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Allbirds news 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Allbirds earnings quarter results",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Allbirds CEO leadership change",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Allbirds partnership OR launch OR layoffs OR acquisition",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "non_tech",
+  "backend_errors": []
+}

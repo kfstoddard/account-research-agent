@@ -1,0 +1,80 @@
+{
+  "company": "Vacasa",
+  "domain": "vacasa.com",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Vacasa",
+    "signals": [
+      {
+        "type": "leadership_change",
+        "summary": "Joe Riley became CEO of Casago, which owns Vacasa. Founder Steve Schwab moved to chairman. The announcement came in early October 2026 after Casago finished selling off the former Vacasa markets.",
+        "date": "2026-10-02",
+        "source_url": "https://www.businesswire.com/news/home/20261002386620/en/Casago-Leadership-Transition-Takes-Effect-as-Joe-Riley-Becomes-CEO"
+      },
+      {
+        "type": "other_news",
+        "summary": "Casago said on Aug 20, 2026 that it had sold every former Vacasa market to local franchisees or other partners. Final operational handoffs finished in September 2026.",
+        "date": "2026-08-20",
+        "source_url": "https://www.bookwithhaven.com/blog/what-happened-to-vacasa"
+      },
+      {
+        "type": "other_news",
+        "summary": "Skift reported that Casago sold all but about 600 of Vacasa's roughly 32,000 units to local operators, mostly as franchises. Franchise partners rehired about 89% of former Vacasa field staff. Vacasa is being repositioned as a consumer-facing booking brand, with supply coming through Guesty, Streamline and Rentals United.",
+        "date": "2026-07-13",
+        "source_url": "https://skift.com/2026/07/13/casago-sold-nearly-all-vacasas-property-manager-acquisitions-and-turned-many-into-franchises"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "Vacasa is no longer an independent public company. Casago acquired it and took it private on about 2025-04-30 or 2025-05-01, so there are no earnings or funding signals. Robinhood still shows a VCSA quote, but that data looks stale and I ignored it. The contact and buying context has changed: most former Vacasa operations now sit with local Casago franchisees or other partners, and Casago (Scottsdale) is the parent. The seller should confirm who owns the relevant function, such as the Vacasa booking-channel team versus a local franchise operator. The Aug 20 date and the 'relaunch as third-party booking channel' details come from a secondary blog (bookwithhaven). The Skift and BusinessWire pages are the more primary sources. The BusinessWire snippet had no date, so I took 2026-10-02 from the URL. I did not open the pages, so details are limited to search snippets. I found no hiring, layoff or partnership signals specific to Vacasa in the last 90 days beyond the Guesty, Streamline and Rentals United supply integrations."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 16.81,
+    "search_api_time_s": 4.87,
+    "searches": 3,
+    "fetches": 0,
+    "input_tokens": 15573,
+    "output_tokens": 1192,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://finance.yahoo.com/small-business/articles/casago-leadership-transition-takes-effect-140000527.html",
+    "https://flgpartners.com/news/casago-completes-acquisition-of-vacasa-in-130-million-deal",
+    "https://rapideyeinspections.com/blog/largest-short-term-rental-management-companies",
+    "https://robinhood.com/us/en/stocks/VCSA",
+    "https://shorttermrentalz.com/news/former-vacasa-wyndham-first-chair-destinations",
+    "https://skift.com/2025/05/01/vacasa-is-now-a-casago-company-after-acquisition-closes",
+    "https://skift.com/2026/07/13/casago-sold-nearly-all-vacasas-property-manager-acquisitions-and-turned-many-into-franchises",
+    "https://www.bookwithhaven.com/blog/what-happened-to-vacasa",
+    "https://www.businesswire.com/news/home/20261002386620/en/Casago-Leadership-Transition-Takes-Effect-as-Joe-Riley-Becomes-CEO",
+    "https://www.redawning.com/pm/post/casago-property-management-review-2026",
+    "https://www.redawning.com/pm/post/casago-vacasa-merger-property-managers-2026",
+    "https://www.rentalscaleup.com/casago-vacasa-acquisition-2025",
+    "https://www.thehostreport.com/news/joe-riley-takes-over-as-casago-ceo",
+    "https://www.vacasa.com/news/casago-completes-vacasa-acquisition"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Vacasa news",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Vacasa 2026 Casago acquisition OR layoffs OR leadership OR partnership",
+      "recency": "year",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Vacasa consumer-facing booking platform Casago franchise Skift 2026",
+      "recency": "year",
+      "n_results": 5
+    }
+  ],
+  "segment": "non_tech",
+  "backend_errors": []
+}

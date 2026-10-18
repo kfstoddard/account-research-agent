@@ -1,0 +1,91 @@
+{
+  "company": "Runway",
+  "domain": "runwayml.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Runway (runwayml.com)",
+    "signals": [
+      {
+        "type": "product_launch",
+        "summary": "At the close of the Runway AI Summit, co-founder and co-CEO Cristóbal Valenzuela introduced something called \"Continuum\". The snippet was cut off, so I don't know what it is.",
+        "date": null,
+        "source_url": "https://x.com/runwayml/status/2106057035884478609"
+      },
+      {
+        "type": "partnership",
+        "summary": "Valenzuela said Runway is joining the OpenAI marketplace as a launch partner. Users can reach Runway's image, video, audio and editing models through it.",
+        "date": null,
+        "source_url": "https://x.com/c_valenzuelab/status/2104990254017196305"
+      },
+      {
+        "type": "hiring",
+        "summary": "Runway has open roles in enterprise sales and partnerships. These include an Account Executive for growth and emerging accounts, a Strategic AI Partnerships Lead aimed at Hollywood studios, brands and Fortune companies, and a Chief of Staff to the Co-CEO. The job postings are dated from late September to mid-October 2026.",
+        "date": "2026-09-28",
+        "source_url": "https://www.builtinnyc.com/job/chief-staff-co-ceo/10060632"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The tweets had no dates in the results. The Summit post was shown as '2 weeks ago', which would put it in early October 2026. I couldn't open the posts, so the details of Continuum and the OpenAI marketplace deal are unverified. I did not report anything on 'Gen-5' or 'Gen-5.5'. The only sources were low-quality SEO pages, and they look speculative. A secondary source (Straits Research) says Runway announced a $315M Series E in February 2026 to pre-train next-generation world models. That is outside the 90-day window and I didn't check it against a primary source. The hiring postings point to a push into enterprise sales and Hollywood and brand partnerships, and the company describes itself as building world models. Before outreach, check the Runway blog or press page for details on Continuum and the OpenAI marketplace listing."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 124.07,
+    "search_api_time_s": 108.78,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 12343,
+    "output_tokens": 1257,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://bebee.com/us/jobs/remote-strategic-ai-partnerships-lead-runway-new-york--pureheal-29599_25200_c66b632547345ba97b0cdf9eb653687a",
+    "https://cryptocoremesh1.homes/runway-ml-gen-3-vs-gen-5-what-to-expect-next/",
+    "https://ganloss.com/company/runway",
+    "https://hyperfluxgrid10.mom/runway-gen-3-vs-gen-5-whats-next-for-ai-video/",
+    "https://isradar.com.tr/ilan/65aabcd1-6f08-438a-a179-6df0306f9331",
+    "https://neurobytegrid10.cyou/runway-gen-5-5-release-date-features-ai-video-guide/",
+    "https://pulsebytevault1.baby/runway-ml-gen-5-next-gen-ai-video-guide/",
+    "https://pulsebytevault6.baby/runway-gen-5-release-date-everything-we-know-so-far/",
+    "https://qbwb.bizniss.co.za/mwhopzr/",
+    "https://straitsresearch.com/report/ai-video-generator-market",
+    "https://us.trabajo.org/job-5381-e06a4b8fcb425d4228468480fb9d0830",
+    "https://www.adweek.com/dealroom/martin-sorrells-venture-fund-backs-ai-video-startup-higgsfield/",
+    "https://www.builtinnyc.com/job/chief-staff-co-ceo/10060632",
+    "https://www.facebook.com/areastudionyc/posts/in-preparation-for-the-runway-area-partnered-with-raspberry-ai-to-explore-new-wa/1748140703985423/",
+    "https://www.upmarket.co/private-markets/pre-ipo/runway/",
+    "https://www.youtube.com/watch?v=YE5dCkN2wjg&xstg=CAMSBhUDze3xHw%3D%3D",
+    "https://x.com/c_valenzuelab/status/2104990254017196305",
+    "https://x.com/runwayml/status/2106057035884478609",
+    "https://x.com/runwayml/status/2106057035884478609/video/1"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Runway AI video funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Runway runwayml new product launch Gen-5 OR world model",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Runway runwayml partnership OR hiring OR executive",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Runway AI Valenzuela announces",
+      "recency": "month",
+      "n_results": 4
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

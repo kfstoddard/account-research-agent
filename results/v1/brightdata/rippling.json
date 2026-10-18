@@ -1,0 +1,98 @@
+{
+  "company": "Rippling",
+  "domain": "rippling.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Rippling (rippling.com)",
+    "signals": [
+      {
+        "type": "hiring",
+        "summary": "Rippling is posting a General Manager, Mergers & Acquisitions - Recruiting role. The role owns revenue, cash flow, expenses and client relationships, which may point to an acquisition-led growth push in recruiting. That reading is my inference from the posting, not something the posting states.",
+        "date": null,
+        "source_url": "https://ats.rippling.com/source/jobs/dd59e807-8793-46dd-9ac6-e73a3dc3bd79"
+      },
+      {
+        "type": "hiring",
+        "summary": "Rippling is actively hiring sales roles, including Strategic Enterprise Account Executive and New Logo AE NAMER (ESB). That suggests it is expanding go-to-market capacity in both enterprise and SMB.",
+        "date": "2026-09-29",
+        "source_url": "https://ats.rippling.com/rippling/jobs/a1d75550-0c0d-43dd-acd1-1358f2d3b7b2"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Rippling AI launched plugins, skills and automations. They let it pull data from existing systems and give every employee AI capabilities. The posts I found carry no date, so I can't confirm this falls in the last 90 days.",
+        "date": null,
+        "source_url": "https://www.linkedin.com/posts/macinnis_rippling-ai-hr-payroll-and-it-automation-activity-7508662605046104064-HhgY"
+      },
+      {
+        "type": "other_news",
+        "summary": "A third-party analysis says Rippling's ARR crossed $1B in March 2026, up 78% year over year, on a $16.8B valuation from its May 2025 Series G. This is outside the 90-day window and comes from a secondary blog, so use it as context only.",
+        "date": "2026-10-01",
+        "source_url": "https://valueaddvc.com/blog/how-does-rippling-make-money-pepm-pricing-peo-margins-and-the-business-model-breakdown"
+      }
+    ],
+    "overall_confidence": "low",
+    "notes": "I found no funding round, acquisition, leadership change, earnings or layoffs news in the last 90 days. The latest round I found was the $450M Series G in May 2025, per Tracxn. The Deel litigation search returned only irrelevant results, so I have nothing on it. The sources are mostly job postings and third-party blogs, with no primary press release dated in the window. Before outreach, check Rippling's newsroom and press page for the AI launch date and any recent announcements."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 35.74,
+    "search_api_time_s": 23.1,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 5622,
+    "output_tokens": 1175,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "http://www.nasdaqprivatemarket.com/company/rippling/",
+    "https://ats.rippling.com/rippling/jobs/a1d75550-0c0d-43dd-acd1-1358f2d3b7b2",
+    "https://ats.rippling.com/source/jobs/dd59e807-8793-46dd-9ac6-e73a3dc3bd79",
+    "https://new-mantra.com/ai-solutions/rippling/",
+    "https://pointerbox.com/ripping-rippling-features-pricing-how-it-works-in-2026/",
+    "https://revopsroles.com/jobs/f8777618-6023-4b60-8594-266ff61fa8e8",
+    "https://startup.jobs/account-executive-new-logo-sales-namer-esb-current-16-10232726",
+    "https://tracxn.com/d/companies/rippling/__0jBKlITnDSnX0Ucn3h0dJV4XxoMOMDeE4UYtJv7fZ30",
+    "https://tracxn.com/d/companies/rippling/__0jBKlITnDSnX0Ucn3h0dJV4XxoMOMDeE4UYtJv7fZ30/funding-and-investors",
+    "https://valueaddvc.com/blog/how-does-rippling-make-money-pepm-pricing-peo-margins-and-the-business-model-breakdown",
+    "https://www.google.com/goto?url=CAESggEB6zswFS-Z5DgLTd_rpT1TUKNj6-hg9fpCrFB0_w7HOVHaF-A_epAQ0W4CbuuMFD6hwodxjwpjUkBS7XedbhhRPiEXu4M74yAXq6OOxPSEG-75xlpuJ_FPItMUQ0J3Je-Tn5dRODtR3Ia535659L-XCsqZUAmhL2-BebSFE7UHMP2D",
+    "https://www.google.com/goto?url=CAESngEB6zswFZlOoHJvYPZ9vBk7Ph_qkFvKdDWb2PJYeRhg2pBk_ve7sfWy-H3NSoenUvR6YJEwRa17rxs7AN62gZ4eKuwoEU58C4LV-J-C26FAHNZ4qv3aeCIGyqKjWXqsxU9XxLfxfKp4d5G7U-o4Oe48BXvfbs8lxESkyy0dDIdOx4t2yxbAZKEMagcN40BKFe16t7AsXqIRrNBFSUzbxQ",
+    "https://www.google.com/goto?url=CAESogEB6zswFXfvguNA4tPJ3KMCf-AN-dHiVgMzROEYLex3phZwxDoIp-2qUM9uX7zbuvX09PMx4KMC2UtaUTBNIMZvqk_bsr_rFCpaLKswyf50uIc21LPmS-i0V3jKCb6DdxJxnfRL0kLxlDyB33UUANJmtWeqU4T9-g6DW6rb0ko82P9A8qFAtr6R1vNkEyNY7W6ATshtHz1k3cbFc5iFfu2iNjI",
+    "https://www.google.com/goto?url=CAESpQEB6zswFeBVIlILFHOawSfdv5uxHM4G2L771v6bd_M0pU9ZaPPNa_jL5BjeL6dWupvK2gAGm0n5sHR_UARg-lUwEXQd6X1TVtsEdYBF2t9sjBkIfvVOW5tIEI3d3AiRytu6qYKBh4MwQ95mfGKVZ1_M0oxKy7kxZGqhHR6USpNs3eXtTqjkgI2EmhwD1PQ_MnKh5jEivQRrI0anm8DW05Mlqri3sbc",
+    "https://www.linkedin.com/jobs/view/strategic-enterprise-account-executive-at-rippling-4480335519",
+    "https://www.linkedin.com/posts/macinnis_rippling-ai-hr-payroll-and-it-automation-activity-7508662605046104064-HhgY",
+    "https://www.linkedin.com/posts/matthewplank_excited-to-announce-another-big-rippling-activity-7508565690434367489-q8Oa",
+    "https://www.rippling.com/blog/next-big-thing-in-tech-2026",
+    "https://www.rippling.com/blog/rippling-vs-paycor",
+    "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-fifth-day-health-update-gemelli-hospital.html"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Rippling funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Rippling product launch announcement",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Rippling new executive hires OR acquisition OR partnership",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Rippling Deel lawsuit news",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

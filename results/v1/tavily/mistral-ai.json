@@ -1,0 +1,122 @@
+{
+  "company": "Mistral AI",
+  "domain": "mistral.ai",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Mistral AI",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Mistral closed a €3B Series D at a post-money valuation above €21B (about $24B). Samsung led the round, with Scaleup Europe Fund (EQT) and PSG co-leading. Advent, BlackRock-managed funds and Luxembourg joined as new investors. It is Europe's largest private tech raise, and the proceeds go to research, compute and international commercialisation.",
+        "date": "2026-09-08",
+        "source_url": "https://app.dealroom.co/companies/mistral_ai"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Mistral launched a public preview of Mistral Large 4 ('le Chonk'), a roughly 1T-parameter open-weight model aimed at cyber, coding, manufacturing, finance and multimodal work. It was trained on Mistral's own European datacenters. Weights are due to be released on Oct 27.",
+        "date": "2026-10-06",
+        "source_url": "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html"
+      },
+      {
+        "type": "partnership",
+        "summary": "CERN and Mistral signed a statement of intent for a long-term strategic partnership to build foundation models for scientific discovery, starting with a Large Physics Model for collider physics. No timeline or budget was disclosed.",
+        "date": "2026-10-15",
+        "source_url": "https://www.reuters.com/science/cern-mistral-partner-build-ai-foundation-models-physics-2026-10-15"
+      },
+      {
+        "type": "partnership",
+        "summary": "Samsung Electronics announced a strategic partnership with Mistral to enhance its semiconductor engineering and manufacturing. The snippet was dated only '5 weeks ago', so the date is approximate.",
+        "date": null,
+        "source_url": "https://stockanalysis.com/private/mistral-ai"
+      },
+      {
+        "type": "partnership",
+        "summary": "Microsoft and Mistral announced an expanded strategic partnership, backed by a new multibillion-dollar Microsoft commitment to expand Mistral's Europe-based GPU infrastructure. The snippet was dated only '2 months ago'.",
+        "date": null,
+        "source_url": "https://stockanalysis.com/private/mistral-ai"
+      },
+      {
+        "type": "other_news",
+        "summary": "Mistral opened a Munich hub for Physics AI and Industrial AI, with applied engineers serving enterprise partners. It is working with BMW on crash simulation and Siemens Energy on industrial AI, and has a research partnership with TU Munich. The hub builds on the Emmi AI acquisition in May 2026.",
+        "date": null,
+        "source_url": "https://mistral.ai/news/hallo-deutschland"
+      },
+      {
+        "type": "acquisition",
+        "summary": "Mistral acquired design studio New Material, which will form a new 'Solutions Design' group that works with customers on AI deployments. No price was disclosed.",
+        "date": null,
+        "source_url": "https://www.frenchtechjournal.com/french-tech-wire-aire-ora-robotics-stealthy-mistral"
+      },
+      {
+        "type": "hiring",
+        "summary": "LinkedIn's 2026 French Top Startups list ranks Mistral first, based partly on hiring growth and talent attraction. Separately, research staff made up only 29% of technical staff in H1 2026, which points to a shift toward applied and enterprise engineering.",
+        "date": null,
+        "source_url": "https://www.frenchtechjournal.com/french-tech-wire-aire-ora-robotics-stealthy-mistral"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The funding, Large 4 and CERN signals are well sourced and dated. Several signals have no exact date: the Samsung and Microsoft partnerships, the Munich hub, the New Material acquisition and the hiring items. The Emmi AI acquisition (May 2026) falls outside the 90-day window and is mentioned only as context. Revenue is last reported at about $400M ARR with a $1B target, which comes from secondary sources. I found no leadership changes or layoffs, but I did not search for them directly. A shattered.io article also mentions a Shieldstral safety model, a robotics model and a formal-verification tool, but I did not verify these and left them out. Good conversation hooks are the Large 4 weights release on Oct 27, the compute and datacenter build-out, and the push into industrial, physics and sovereign AI in Europe."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 26.32,
+    "search_api_time_s": 6.9,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 11913,
+    "output_tokens": 1903,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://app.dealroom.co/companies/mistral_ai",
+    "https://emergent.sh/news/mistral-ai-launches-large-4-preview-model",
+    "https://fortune.com/2026/10/07/cio-intelligence-dropbox-cto",
+    "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science",
+    "https://mistral.ai/news/hallo-deutschland",
+    "https://mistral.ai/news/mistral-large-4",
+    "https://multiples.vc/private-comps/mistral-ai",
+    "https://shattered.io/mistral-24-billion-valuation-ai-safety-tool-2026",
+    "https://startupdb.com/organizations/mistral-ai",
+    "https://stockanalysis.com/private/mistral-ai",
+    "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html",
+    "https://www.frenchtechjournal.com/french-tech-wire-aire-ora-robotics-stealthy-mistral",
+    "https://www.instagram.com/reel/DeDLB2ljjNL",
+    "https://www.kucoin.com/news/flash/mistral-ai-revenue-surpasses-400m-eyes-1b-by-2026",
+    "https://www.lemonde.fr/en/economy/article/2026/10/06/mistral-ai-unveils-new-ai-model-aimed-at-narrowing-the-gap-with-top-chinese-competitors_6758318_19.html",
+    "https://www.reuters.com/science/cern-mistral-partner-build-ai-foundation-models-physics-2026-10-15",
+    "https://www.stephensonharwood.com/insights/neural-network-september-2026",
+    "https://www.trendingtopics.eu/mistral-large-4-open-weight-model",
+    "https://www.wsj.com/tech/ai/mistral-to-release-new-ai-model-to-better-compete-with-u-s-rivals-3f7c8a3d",
+    "https://x.com/AGTPinsights/status/2110733618599653465"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Mistral AI funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Mistral AI new product launch",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Mistral AI partnership announcement",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Mistral AI acquisition OR hiring OR executive appointed",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "large_tech",
+  "backend_errors": []
+}

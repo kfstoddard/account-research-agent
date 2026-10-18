@@ -1,0 +1,110 @@
+{
+  "company": "Rippling",
+  "domain": "rippling.com",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Rippling (rippling.com)",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "An aggregator lists a $500M Series I for Rippling dated 2026-07-20, at a reported $35B valuation and $3.2B total raised. I found no primary source such as a press release or major outlet, so treat it as unconfirmed.",
+        "date": "2026-07-20",
+        "source_url": "https://www.techstackipo.com/compare/brex-vs-rippling"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Rippling announced AI Spend Console, a capability that tracks and controls company AI/token spend and usage ROI. It sits alongside AI Governance and Rippling AI plugins, skills and automations.",
+        "date": null,
+        "source_url": "https://stockanalysis.com/private/rippling"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Rippling launched the Rippling AI Lab in Bengaluru, India, a research and engineering group for continuous AI innovation. Fast Company also named Rippling to its 2026 Next Big Thing in Tech list for applied AI and data.",
+        "date": null,
+        "source_url": "https://www.rippling.com/blog/next-big-thing-in-tech-2026"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Rippling relaunched Automated Compliance with multi-framework support (SOC 2, ISO 27001, HIPAA, with GDPR and PCI DSS due in December), an audit portal, Trust Centers and embedded AI workflows.",
+        "date": null,
+        "source_url": "https://www.rippling.com/blog/reintroducing-automated-compliance"
+      },
+      {
+        "type": "partnership",
+        "summary": "Rippling announced direct API integrations with Guardian, MetLife and Unum under a new Preferred Carrier Program to automate benefits enrollment.",
+        "date": null,
+        "source_url": "https://stockanalysis.com/private/rippling"
+      },
+      {
+        "type": "other_news",
+        "summary": "AI security firm Runlayer, backed by Vinod Khosla, filed a lawsuit alleging Rippling violated confidentiality agreements during a nearly year-long commercial partnership. Only a snippet was visible.",
+        "date": null,
+        "source_url": "https://stockanalysis.com/private/rippling"
+      }
+    ],
+    "overall_confidence": "low",
+    "notes": "Most sources are aggregators or Rippling's own blog, and almost none show publication dates, so I can't confirm that the product, partnership and lawsuit items fall within the last 90 days. The funding data conflicts: one aggregator says $25B valuation with $1.8B raised, another says $35B with $3.2B raised, and a third lists Series G in May 2025 as the latest round. Check the Series I round against TechCrunch, Reuters or Rippling's own announcement before citing it. Separately, a TechCrunch-derived summary says Rippling passed $1B ARR with 78% YoY growth in April 2026. That is outside the 90-day window but useful context. I found no confirmed layoffs, acquisitions or leadership changes. The leadership search returned only unrelated LinkedIn and job-board pages. Hiring looks active (Built In lists about 17 open roles, and Rippling opened the Bengaluru AI Lab), but I found no dated hiring announcement. The best hooks are the AI Spend Console and AI governance push, the compliance relaunch, and the Series I news once verified."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 25.6,
+    "search_api_time_s": 10.82,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 13855,
+    "output_tokens": 1618,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://ats.rippling.com/advanced-medaesthetic-partners-inc/jobs/cbcc4776-a8f6-40c9-b5fb-bc43343becda",
+    "https://ats.rippling.com/frank-and-eileen/jobs/bde3c591-1c61-46da-8385-dca10e0744fb",
+    "https://ats.rippling.com/pure-infusion/jobs/bb82aec7-7e44-4551-b7a8-c29e1a4adc24",
+    "https://aventure.vc/companies/rippling-san-francisco-ca-us/fundraising",
+    "https://ca.linkedin.com/in/charles-addington-01b37425",
+    "https://okara.ai/blog/rippling-revenue-growth",
+    "https://startupfundraising.com/companies/rippling",
+    "https://stockanalysis.com/private/rippling",
+    "https://www.builtinsf.com/articles/companies-hiring-customer-success-managers-san-francisco",
+    "https://www.instagram.com/popular/rippling-layoffs",
+    "https://www.rippling.com/blog/next-big-thing-in-tech-2026",
+    "https://www.rippling.com/blog/reintroducing-automated-compliance",
+    "https://www.rippling.com/en-GB/blog/how-ai-is-transforming-hr-payroll-and-peopleops",
+    "https://www.rippling.com/en-GB/resources/unlock-global-hiring-success",
+    "https://www.rippling.com/en-IE/webinars/how-to-optimize-hr-costs-during-economic-uncertainty",
+    "https://www.rippling.com/en-IN/webinars/how-to-optimize-hr-costs-during-economic-uncertainty",
+    "https://www.teamblind.com/post/layoffs-at-vmware-after-broadcom-acquisition-7x3p7mue",
+    "https://www.techstackipo.com/company/rippling",
+    "https://www.techstackipo.com/compare/brex-vs-rippling",
+    "https://www.techstackipo.com/compare/rippling-vs-spacex"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Rippling funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Rippling product launch announcement",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Rippling acquisition OR partnership OR layoffs OR hiring",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Rippling new executive appointed",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

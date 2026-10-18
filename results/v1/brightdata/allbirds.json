@@ -1,0 +1,75 @@
+{
+  "company": "Allbirds",
+  "domain": "allbirds.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Allbirds",
+    "signals": [
+      {
+        "type": "other_news",
+        "summary": "Allbirds announced a pivot from footwear to \"AI compute infrastructure\", backed by a $50M deal, and plans to rename itself NewBird AI. The stock rose about 580% on the news. This is outside the 90-day window, but it changes who the company is and what it buys.",
+        "date": "2026-04-15",
+        "source_url": "https://www.bbc.com/news/articles/c98mrepzgj7o"
+      }
+    ],
+    "overall_confidence": "low",
+    "notes": "I found no signals from the last 90 days (since about 2026-07-19). Three of my four searches returned irrelevant results or nothing, and the fourth returned only April 2026 coverage of the pivot. The pivot is about six months old, so the seller should check what has happened since. Look for the status of the NewBird AI rename, any Q2 or Q3 2026 earnings, leadership changes, layoffs, retail store closures, and how the $50M financing was structured. CNBC (https://www.cnbc.com/2026/04/15/allbirds-bird-stock-shoes-ai.html) reported a market cap of about $21M before the announcement, which suggests the company was in financial distress. Don't pitch to the old footwear and DTC business without confirming it still exists."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 67.17,
+    "search_api_time_s": 57.76,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 6458,
+    "output_tokens": 774,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://elections.maricopa.gov/results-and-data/election-results.html",
+    "https://finance.yahoo.com/news/allbirds-stock-gains-350-this-week-as-shoemaker-pivots-to-ai-205243380.html",
+    "https://news.med.miami.edu/",
+    "https://www.astrazeneca.com/investor-relations/q1-2026-results-event.html",
+    "https://www.bbc.com/news/articles/c98mrepzgj7o",
+    "https://www.bgsu.edu/news.html",
+    "https://www.cnbc.com/2026/04/15/allbirds-bird-stock-shoes-ai.html",
+    "https://www.gov.ca.gov/newsroom/",
+    "https://www.hrsa.gov/opa/program-integrity/fy-25-audit-results",
+    "https://www.investopedia.com/allbirds-hottest-stock-today-shoe-company-pivoting-to-ai-bird-11950269",
+    "https://www.naco.org/page/news",
+    "https://www.pbs.org/newshour/nation/community-leaders-say-foiled-hindu-temple-attack-was-result-of-surge-in-online-hate",
+    "https://www.reddit.com/r/theprimeagen/comments/1tvt2q5/the_allbirds_shoe_company_stock_price_is_in_the/",
+    "https://www.uwplatt.edu/news/",
+    "https://www.whitehouse.gov/releases/2026/10/president-trump-returns-to-georgia-with-a-record-of-results/"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Allbirds news 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Allbirds earnings quarter results",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Allbirds CEO leadership change",
+      "recency": "month",
+      "n_results": 0
+    },
+    {
+      "tool": "web_search",
+      "query": "Allbirds shoe company BIRD stock",
+      "recency": "year",
+      "n_results": 5
+    }
+  ],
+  "segment": "non_tech",
+  "backend_errors": []
+}

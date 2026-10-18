@@ -1,0 +1,102 @@
+{
+  "company": "Vercel",
+  "domain": "vercel.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Vercel",
+    "signals": [
+      {
+        "type": "product_launch",
+        "summary": "Vercel Shop, an open source Next.js template for Shopify with agent-oriented shopping tools, is now generally available. Vercel announced it with Shopify.",
+        "date": "2026-10-15",
+        "source_url": "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers"
+      },
+      {
+        "type": "partnership",
+        "summary": "Vercel and Shopify are partnering on agent-ready commerce (Vercel Shop).",
+        "date": "2026-10-15",
+        "source_url": "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers"
+      },
+      {
+        "type": "product_launch",
+        "summary": "The Vercel Ship 2026 recap lists Vercel Connect in public preview, which gives agents scoped access to external tools and data without long-lived provider credentials. It also mentions a first DACH Partner Award, given to Valtech.",
+        "date": "2026-10-15",
+        "source_url": "https://vercel.com/blog/vercel-ship-2026-recap"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Bring Your Own Cloud (BYOC) on AWS is generally available. It lets customers run Vercel Functions in their own AWS account for security and compliance needs.",
+        "date": "2026-10-14",
+        "source_url": "https://vercel.com/changelog/bring-your-own-cloud-on-aws-is-now-generally-available"
+      },
+      {
+        "type": "other_news",
+        "summary": "Vercel says the 'Jev' model was the fastest-adopted launch in AI Gateway history, which points to growing AI Gateway usage.",
+        "date": "2026-09-18",
+        "source_url": "https://vercel.com/blog/ai-gateway-jev-model-launch"
+      },
+      {
+        "type": "hiring",
+        "summary": "Vercel is hiring an Account Executive for Startups (Install Base) in New York, so it is still building out its sales team.",
+        "date": "2026-09-22",
+        "source_url": "https://www.builtinnyc.com/job/account-executive-startups-install-base/11316747"
+      },
+      {
+        "type": "other_news",
+        "summary": "A newsletter reports Vercel at about $600M annualized revenue, up 148% year over year, with more than 485,000 paying teams and a $9.3B valuation. This is a secondary, reported figure, not an official one.",
+        "date": "2026-10-16",
+        "source_url": "https://www.sourcery.vc/p/breaking-93b-vercel-on-ais-infra"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "Dates for the Shopify, Ship recap and BYOC items come from relative labels such as '2 days ago' and '3 days ago' in the search results, so they are approximate. The Ship 2026 recap date is especially doubtful, because a Ship event would normally be earlier than the post date suggests. The $9.3B Series F was in Sep 2025, which is outside the 90-day window, and I found no new funding round. The revenue and customer figures are unverified and come from a newsletter. I found no leadership change, acquisition, layoff or earnings signals. An SAP partnership for Commerce Cloud (LinkedIn post) appeared, but it had no date, so I left it out. Vercel's current focus looks like agents, an 'AI Cloud', AI Gateway and enterprise deployment options."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 61.25,
+    "search_api_time_s": 50.69,
+    "searches": 3,
+    "fetches": 0,
+    "input_tokens": 4079,
+    "output_tokens": 1472,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://guptadeepak.com/startup-offers/programs/vercel-for-startups",
+    "https://tracxn.com/d/companies/vercel/__uPuJfXzfvAQs0wmUuqRiXFxW4uGbcaKUHjHks8VPbrI",
+    "https://tracxn.com/d/companies/vercel/__uPuJfXzfvAQs0wmUuqRiXFxW4uGbcaKUHjHks8VPbrI/funding-and-investors",
+    "https://vercel.com/blog/ai-gateway-jev-model-launch",
+    "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers",
+    "https://vercel.com/blog/vercel-ship-2026-recap",
+    "https://vercel.com/changelog/bring-your-own-cloud-on-aws-is-now-generally-available",
+    "https://www.builtinnyc.com/job/account-executive-startups-install-base/11316747",
+    "https://www.instagram.com/reel/DeiUJoEsDWo/",
+    "https://www.linkedin.com/posts/rauchg_sap-vercel-excited-to-bring-vercel-to-activity-7511069616371159041-aGok",
+    "https://www.sourcery.vc/p/breaking-93b-vercel-on-ais-infra",
+    "https://www.upmarket.co/private-markets/pre-ipo/vercel/"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Vercel funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Vercel announces launch",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Vercel acquisition OR partnership OR hires OR executive",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

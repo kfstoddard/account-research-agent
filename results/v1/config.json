@@ -1,0 +1,15 @@
+{
+  "backends": [
+    "brightdata"
+  ],
+  "companies": "eval/companies.csv",
+  "limit": 0,
+  "max_searches": 4,
+  "max_fetches": 0,
+  "window_days": 90,
+  "run_id": "v1",
+  "llm": "claude",
+  "model": "claude-sonnet-5-5",
+  "num_results": "5",
+  "started": "2026-10-17T17:18:55.863652"
+}

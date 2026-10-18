@@ -1,0 +1,109 @@
+{
+  "company": "Figma",
+  "domain": "figma.com",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Figma",
+    "signals": [
+      {
+        "type": "product_launch",
+        "summary": "At its first Config in India, Figma announced Figma Specs (a Markdown editor that defines design language for teams and agents) and a Payload headless CMS integration. It also moved code layers into public beta.",
+        "date": "2026-10-14",
+        "source_url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform"
+      },
+      {
+        "type": "partnership",
+        "summary": "Figma is deepening its India investment with its largest international Config yet. The announcements include an education program, new research, and an MCP partnership with Sarvam.",
+        "date": null,
+        "source_url": "https://www.figma.com/newsroom"
+      },
+      {
+        "type": "earnings",
+        "summary": "Figma will report Q3 2026 results after the close on Nov 4, 2026. Q1 2026 revenue was $333.4M, up 46% year over year, with a net loss of $142.4M. Guidance cited on Simply Wall St was raised to $1.422–1.428B for full-year 2026 revenue, about 35% growth.",
+        "date": "2026-11-04",
+        "source_url": "https://www.morningstar.com/news/business-wire/20261014564456/figma-to-announce-third-quarter-2026-financial-results-on-november-4-2026"
+      },
+      {
+        "type": "other_news",
+        "summary": "Figma expanded its London office and launched data residency in Japan, which points to international and enterprise expansion.",
+        "date": null,
+        "source_url": "https://www.figma.com/newsroom"
+      },
+      {
+        "type": "hiring",
+        "summary": "Figma has many open roles posted in late September and early October 2026. They include AI observability, AI tooling, security, enterprise sales (including Berlin), solutions consulting, and a Director of Data Science.",
+        "date": "2026-10-05",
+        "source_url": "https://www.workingnomads.com/remote-company/figma"
+      },
+      {
+        "type": "other_news",
+        "summary": "FIG stock fell about 21% from Aug 26 to Sep 24, 2026, which Tickeron attributes to profit-taking, AI competition concerns and valuation pressure. It closed at $21.49 on Oct 16.",
+        "date": "2026-09-24",
+        "source_url": "https://tickeron.com/blogs/figma-fig-stock-slides-21-over-30-days-amid-profit-taking-and-ai-concerns-17079"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The product launch and Config India news are well supported and recent. Several items have no dates, namely the Sarvam MCP partnership, the London office expansion, Japan data residency, and the Config 2026 launches (Motion, Weave, Figma agent). The Q3 earnings date is upcoming, not past. The Q1 figures come from a Simply Wall St snippet, and I did not find the Q2 results directly. The Q2 data I saw conflicts: the Zacks snippet reports $0.08 EPS for the last quarter, and the Simply Wall St page shows a Jun 30 TTM net loss of $1.527B. The Q2 detail should be verified before use. I found no funding, acquisition, leadership-change or layoff signals in the last 90 days. The stock-decline cause is third-party commentary, not company-reported."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 23.1,
+    "search_api_time_s": 9.65,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 12731,
+    "output_tokens": 1391,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://config.figma.com",
+    "https://investor.figma.com/financials/sec-filings/default.aspx",
+    "https://investor.figma.com/overview/default.aspx",
+    "https://simplywall.st/stocks/us/software/nyse-fig/figma/future",
+    "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform",
+    "https://tickeron.com/blogs/figma-fig-stock-slides-21-over-30-days-amid-profit-taking-and-ai-concerns-17079",
+    "https://www.figma.com/blog",
+    "https://www.figma.com/blog/design-together-with-code-layers",
+    "https://www.figma.com/blog/thought-leadership",
+    "https://www.figma.com/newsroom",
+    "https://www.figma.com/release-notes",
+    "https://www.finalroundai.com/blog/dylan-field-ai-advantage-junior-workers",
+    "https://www.marketbeat.com/stocks/NASDAQ/ADBE/sec-filings",
+    "https://www.morningstar.com/news/business-wire/20261014564456/figma-to-announce-third-quarter-2026-financial-results-on-november-4-2026",
+    "https://www.stocktitan.net/news/FIG/figma-to-announce-third-quarter-2026-financial-results-on-november-4-xk0ae8hj19fr.html",
+    "https://www.teamblind.com/post/figma-hiring-f8018uoh",
+    "https://www.workingnomads.com/remote-company/figma",
+    "https://www.youtube.com/watch?v=4UvEN_VNp9s",
+    "https://www.zacks.com/stock/research/FIG/earnings-calendar"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Figma news",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Figma earnings 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Figma acquisition OR partnership OR launch 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Figma leadership OR layoffs OR hiring 2026",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "large_tech",
+  "backend_errors": []
+}

@@ -1,0 +1,91 @@
+{
+  "company": "Zipline",
+  "domain": "flyzipline.com",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Zipline (flyzipline.com)",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Bloomberg reportedly says Zipline is in early talks to raise about $1B at a roughly $20B valuation, nearly triple its $7.6B valuation from January 2026. No close has been announced.",
+        "date": "2026-09-20",
+        "source_url": "https://www.instagram.com/p/Ddikj-mjD1-"
+      },
+      {
+        "type": "funding",
+        "summary": "Uber made a strategic investment (Series H, undisclosed amount) in Zipline, tied to an expanded Uber Eats drone delivery partnership.",
+        "date": "2026-08-17",
+        "source_url": "https://tracxn.com/d/companies/zipline/__HOnzS4P78iB9dsX0RCekEFl3b1ePdiuFboNYPgM5kDA"
+      },
+      {
+        "type": "partnership",
+        "summary": "Zipline signed an eight-year deal with Côte d'Ivoire to build nine more facilities, expanding from a 3-year pilot to serve about 12M people (roughly a third of the population). Nigeria expansion of about a dozen more hubs is also planned.",
+        "date": "2026-09-22",
+        "source_url": "https://www.semafor.com/article/09/22/2026/zipline-inks-eight-year-cte-divoire-deal-to-expand-drone-delivery"
+      },
+      {
+        "type": "partnership",
+        "summary": "Uber reportedly aims for up to 1 million daily drone deliveries through its Zipline partnership. The source is a headline in a third-party tear sheet, not the article itself.",
+        "date": "2026-08-16",
+        "source_url": "https://siliconvalleyinvestclub.com/vi/companies/zipline/tear-sheet.pdf"
+      },
+      {
+        "type": "other_news",
+        "summary": "Zipline reported more than 2.5M deliveries and 140M autonomous miles as of Sept 4, 2026. It has expanded to Houston and Phoenix, and has launched in Round Rock, TX, with Austin to follow.",
+        "date": "2026-09-04",
+        "source_url": "https://dronehub.ai/blog/top-us-drone-companies"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "Several sources are secondary aggregators (Tracxn, an Instagram post, a Dronehub blog, a tear sheet) rather than primary reporting. The $20B raise is based on reported talks only. I did not open the Bloomberg report. Undated items I left out as signals: the Checkmate partnership, the Teriyaki Madness partnership, and the Austin/Round Rock launch article. These could be recent, so check their dates. The January 2026 $600M and March 2026 $200M rounds fall outside the 90-day window, but they are useful context. The sources name two different CEOs: Keller Rinaudo Cliffton (co-founder and CEO) and Caitlin Burton, who is described as 'Zipline CEO' in social posts. She may lead Zipline Africa or be a title mix-up, so confirm before naming anyone in outreach. I found no layoffs or leadership-change signals. Hiring signals are weak, limited to job listings and a mention of hires from Tesla and SpaceX."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 17.2,
+    "search_api_time_s": 5.08,
+    "searches": 3,
+    "fetches": 0,
+    "input_tokens": 9311,
+    "output_tokens": 1471,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://dronehub.ai/blog/top-us-drone-companies",
+    "https://finance.yahoo.com/technology/articles/checkmate-zipline-partner-bring-drone-130000098.html",
+    "https://jobgether.com/offer/6ab615ee865119c687ecf1a1-executive-assistant-to-the-ceo-africa",
+    "https://multiples.vc/private-comps/zipline",
+    "https://siliconvalleyinvestclub.com/vi/companies/zipline/tear-sheet.pdf",
+    "https://tracxn.com/d/companies/zipline/__HOnzS4P78iB9dsX0RCekEFl3b1ePdiuFboNYPgM5kDA",
+    "https://www.facebook.com/CSIS.org/posts/zipline-ceo-caitlin-burton-joined-csis-global-health-policy-center-to-share-how-/1534035835435188",
+    "https://www.facebook.com/Devex/posts/in-a-live-recording-of-devexs-theory-of-change-podcast-caitlin-burton-ceo-of-zip/1560193439471904",
+    "https://www.instagram.com/p/Ddikj-mjD1-",
+    "https://www.qsrmagazine.com/news/teriyaki-madness-announces-partnership-with-ziplines-drone-delivery-service",
+    "https://www.semafor.com/article/09/22/2026/zipline-inks-eight-year-cte-divoire-deal-to-expand-drone-delivery",
+    "https://www.statesman.com/business/technology/article/austin-round-rock-drone-delivery-zipline-22468323.php",
+    "https://www.youtube.com/watch?v=1UqKIrhA3XY"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Zipline drone delivery funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Zipline drone delivery partnership expansion",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Zipline flyzipline new CEO OR hiring OR layoffs OR executive",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

@@ -1,0 +1,98 @@
+{
+  "company": "Columbia Sportswear",
+  "domain": "columbia.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Columbia Sportswear",
+    "signals": [
+      {
+        "type": "earnings",
+        "summary": "Columbia announced it will report Q3 2026 results on Oct 29, 2026 at about 4:05pm ET. This gives sellers a timely hook for outreach just before or after the release.",
+        "date": "2026-10-15",
+        "source_url": "https://markets.financialcontent.com/stocks/article/bizwire-2026-10-15-columbia-sportswear-company-to-announce-third-quarter-2026-financial-results-on-thursday-october-29-2026"
+      },
+      {
+        "type": "earnings",
+        "summary": "Q2 2026 results beat guidance on international growth and a roughly $78M IEEPA tariff refund (about $62M recognized in earnings). The company updated its full-year 2026 outlook, and the fibre2fashion headline says it raised it.",
+        "date": "2026-07-30",
+        "source_url": "https://investor.columbia.com/news-events/press-releases/detail/389/columbia-sportswear-company-reports-second-quarter-2026"
+      },
+      {
+        "type": "other_news",
+        "summary": "Executives warned of increased pressure on the US consumer and softer US demand. Excluding the refund, gross margin contracted slightly and SG&A grew in line with sales.",
+        "date": "2026-07-31",
+        "source_url": "https://shop-eat-surf-outdoor.com/news/columbia-sportswear-execs-u-s-consumer-under-increased-pressure/621537/"
+      },
+      {
+        "type": "other_news",
+        "summary": "CEO Tim Boyle discussed the $78M tariff refund and how tariffs are affecting the business in a CNBC interview.",
+        "date": "2026-08-07",
+        "source_url": "https://www.cnbc.com/video/2026/08/07/watch-cnbcs-full-interview-with-columbia-sportswear-ceo-tim-boyle.html"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "I found no funding, acquisition, layoff, hiring or partnership signals in the last 90 days, but my searches were limited and not exhaustive. Leadership: a succession-planning announcement dated Nov 12, 2025 is outside the 90-day window. It says Tim Boyle keeps the Chairman and CEO roles while other executives take expanded roles, and I did not verify the details. Some search results (a Stifel $67 price target and a limited-edition PDX-carpet fleece) were only headlines with no usable URL, so I did not report them. Main themes for outreach are tariff cost and refund dynamics, US consumer softness, international growth, and the upcoming Q3 earnings on Oct 29. Check the Q3 release for fresh news."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 67.83,
+    "search_api_time_s": 55.77,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 15696,
+    "output_tokens": 1403,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://finance.yahoo.com/economy/policy/articles/tariff-recovery-fuels-major-profit-114410467.html",
+    "https://in.marketscreener.com/news/columbia-sportswear-company-to-announce-third-quarter-2026-financial-results-on-thursday-october-29-ce785dd3d18cf527",
+    "https://investor.columbia.com/news-events/press-releases/detail/380/columbia-sportswear-company-advances-its-succession-plans",
+    "https://investor.columbia.com/news-events/press-releases/detail/389/columbia-sportswear-company-reports-second-quarter-2026",
+    "https://investor.columbia.com/news-events/press-releases/detail/391/columbia-sportswear-company-to-announce-third-quarter-2026",
+    "https://markets.financialcontent.com/stocks/article/bizwire-2026-10-15-columbia-sportswear-company-to-announce-third-quarter-2026-financial-results-on-thursday-october-29-2026",
+    "https://shop-eat-surf-outdoor.com/news/columbia-sportswear-execs-u-s-consumer-under-increased-pressure/621537/",
+    "https://simplywall.st/stocks/us/consumer-durables/nasdaq-colm/columbia-sportswear/news/columbia-sportswear-colm-stock-price-drops-as-tariff-refund",
+    "https://uk.finance.yahoo.com/news/columbia-sportswear-company-announce-third-201500371.html",
+    "https://uk.marketscreener.com/news/columbia-sportswear-company-to-announce-third-quarter-2026-financial-results-on-thursday-october-29-ce785dd3d18cf527",
+    "https://www.cnbc.com/video/2026/08/07/watch-cnbcs-full-interview-with-columbia-sportswear-ceo-tim-boyle.html",
+    "https://www.facebook.com/KGWTV8/posts/columbia-sportswear-ceo-tim-boyle-spoke-on-tuesday-at-gov-tina-koteks-press-conf/1301672338670120/",
+    "https://www.fibre2fashion.com/news/company-reports-news/us-columbia-sportswear-returns-to-profit-in-q2-lifts-fy26-outlook-312258-newsdetails.htm",
+    "https://www.foxbusiness.com/video/6385981054112",
+    "https://www.google.com/goto?url=CAESggIB6zswFaAFeaqvyEZq2DLwEqmh7Klix2koYdVkJNIHh7oHzxMB0hVSVGgDedpts53HpePflc6LrXDqWFzJM0dolHSqwy_yHrCF7e4BjkrvVS0SmegmM3y80JvLzsQQm2j9uT2uJt1utB9lLgwkz6rUd3PkFVnkGxxlIVojfOuO4IJ8x_FTZY5-Kbe2maXUVWRia__l0bHUzft3BaZ16XOjAFlkgUtYTZ2heKK40FQsE7gK269qKemfSPooJJi5-hBSV5i9_LCIwy1ub8GjOnMX2NJiJWwT6pmBOa_dxG2LGntDHuaq7_3irRBV_m4U6XOluNmKfxyfSiGhvfxSpJn9oks",
+    "https://www.google.com/goto?url=CAESowEB6zswFfxDeZdlxRHj8c5VFCOIwQacii61rfEVRCTexKvQFGuSfEgcdr-_2ExOWdFs9USYPlTud0yDAJf-LZDU0fUHDhdsTUC9pfpe5_GQx6G-BFw1b6TfQz58Jq1lYBP4YZdRLBu2D0zILid99kMEncTlNNcDu5KOR7lrUblp1vUl7d3kdOjyOjOPiQpH-TZfoFSpbOKKOe_9ySe4Z-qZykX1",
+    "https://www.google.com/goto?url=CAESsQEB6zswFagTteltx0rkzB6VR-EZQbx5dbgLYl4VrAoW4lF49VuQsVRF3rKCYRKOO2wubH6I3mK1WRnyKm5jpiztgU7Jn6JaOLgqy3wroGlCKwh1jMJ5cs4oAIfFJxwYr1PXOyAMp9XJI1-g5w4mrc6RoeEQifkB0w5fvOGab32Wefxn1Ex_XMvhqi2blqLw5CxSHfF5vhlVcPHlyOIqlNhOJrY2NlorQv-Ertr8SOo-HRk",
+    "https://www.lelezard.com/en/news-columbia-sportswear-company-to-announce-third-quarter-2026-financial-results-on-thursday-22404610.html",
+    "https://www.marketbeat.com/earnings/reports/2026-10-29-columbia-sportswear-stock/",
+    "https://www.youtube.com/watch?v=9_mnYdsWuPc"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Columbia Sportswear news",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Columbia Sportswear earnings 2026 third quarter",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Columbia Sportswear CEO OR layoffs OR acquisition OR partnership 2026",
+      "recency": "year",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Columbia Sportswear second quarter 2026 results guidance tariff refund",
+      "recency": "year",
+      "n_results": 5
+    }
+  ],
+  "segment": "non_tech",
+  "backend_errors": []
+}

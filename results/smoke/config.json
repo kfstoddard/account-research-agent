@@ -1,0 +1,15 @@
+{
+  "backends": [
+    "mock"
+  ],
+  "companies": "eval/companies.csv",
+  "limit": 2,
+  "max_searches": 4,
+  "max_fetches": 0,
+  "window_days": 90,
+  "run_id": "smoke",
+  "llm": "mock",
+  "model": "mock",
+  "num_results": "5",
+  "started": "2026-10-17T14:08:56.730204"
+}

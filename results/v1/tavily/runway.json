@@ -1,0 +1,122 @@
+{
+  "company": "Runway",
+  "domain": "runwayml.com",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Runway (runwayml.com)",
+    "signals": [
+      {
+        "type": "acquisition",
+        "summary": "Runway acquired Kinetix, a Paris-based research lab. The team is joining Runway as it accelerates its investment in robotics research and scales commercial deployment, and Runway is hiring in Paris and elsewhere.",
+        "date": "2026-09-08",
+        "source_url": "https://www.notboring.co/p/runway-learning-from-watching-the"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Runway introduced Solaris, which it calls the first 'Interface World Model'. It generates interfaces in real time from prompts or on-screen actions.",
+        "date": "2026-09-01",
+        "source_url": "https://www.notboring.co/p/runway-learning-from-watching-the"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Runway announced Praxis-1, its first open-weights world-action model for robotics policy. The announcement is quoted in the same article. I couldn't confirm the exact date, which looks like early September 2026.",
+        "date": null,
+        "source_url": "https://www.notboring.co/p/runway-learning-from-watching-the"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Runway launched Runway Ads on Sept 30. It is an AI system that generates video and image ads, publishes approved versions to Meta, Google and TikTok, reads back performance data and produces the next round of creative. It is being piloted with select enterprise partners, with Lovable as a launch partner. The source is an Instagram post, so it is secondary.",
+        "date": "2026-09-30",
+        "source_url": "https://www.instagram.com/p/DeIW-bAGood"
+      },
+      {
+        "type": "partnership",
+        "summary": "Runway partnered with Baseten so enterprises can deploy Gen-4.5 and Aleph 2.0 in dedicated single-tenant environments, fine-tune them on their own data and scale with reserved GPU capacity. This points to an enterprise push. The source shows no date, so it may fall outside the 90-day window.",
+        "date": null,
+        "source_url": "https://digg.com/ai/qvk05yys"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Runway's changelog shows continued additions of third-party models to its platform and MCP, for example Ideogram 4.0 on Aug 13, 2026. It also lists Grok Imagine 1.5 Video on the same date.",
+        "date": "2026-08-13",
+        "source_url": "https://runway.com/changelog"
+      },
+      {
+        "type": "funding",
+        "summary": "Runway raised a $315M Series E at a $5.3B post-money valuation, led by General Atlantic, to pre-train next-generation world models. This is outside the 90-day window but is useful context.",
+        "date": "2026-02-01",
+        "source_url": "https://www.upmarket.co/private-markets/pre-ipo/runway"
+      },
+      {
+        "type": "hiring",
+        "summary": "Runway has an open remote Senior/Staff HRBP role, which suggests it is scaling headcount. The posting is undated, and the same Kinetix announcement mentions open roles in Paris and elsewhere.",
+        "date": null,
+        "source_url": "https://www.builtinnyc.com/job/senior-staff-hrbp/11605920"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The strongest signals are Runway's pivot toward world models and robotics (Kinetix acquisition, Praxis-1, Solaris, GWM Worlds 2), plus its move into enterprise (Baseten, Runway Ads). The Series E was announced in February 2026, which is outside the 90-day window. Several items have no explicit date or come from secondary sources (Instagram, Digg, a newsletter). I found no leadership changes, layoffs or earnings; Runway is private. The Series E month is approximate, because the source only says February 2026. I didn't verify the Runway AI Summit announcements. Check the Baseten partnership date before citing it."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 24.58,
+    "search_api_time_s": 8.21,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 11040,
+    "output_tokens": 1620,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://digg.com/ai/qvk05yys",
+    "https://fluxnote.io/guides/runway-pricing-breakdown-2026",
+    "https://github.com/runwayml/skills",
+    "https://runway.com/changelog",
+    "https://startuprunway.global/runway-intelligence",
+    "https://straitsresearch.com/report/ai-video-generator-market",
+    "https://www.builtinnyc.com/job/senior-staff-hrbp/11605920",
+    "https://www.facebook.com/nemetschekgroup/posts/we-are-excited-to-share-two-important-additions-to-the-nemetschek-groups-leaders/1622398529898141",
+    "https://www.facebook.com/runwayml/videos/unlimited-wan-30-this-week-only/1376765697576457",
+    "https://www.instagram.com/p/DeIW-bAGood",
+    "https://www.instagram.com/p/DecHYLxEc3c",
+    "https://www.instagram.com/reel/Ddj-53eqv7j",
+    "https://www.instagram.com/reel/DeCgFP_CoHQ",
+    "https://www.instagram.com/reel/DekTwrICa-q",
+    "https://www.latent.space/p/runway",
+    "https://www.linkedin.com/posts/michelleskwon_runway-ai-summit-san-francisco-2026-activity-7511447314524225536-SBNM",
+    "https://www.notboring.co/p/runway-learning-from-watching-the",
+    "https://www.upmarket.co/private-markets/pre-ipo/runway",
+    "https://www.youtube.com/watch?v=YE5dCkN2wjg",
+    "https://www.youtube.com/watch?v=rLYBb7BwQAw"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Runway AI video funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Runway runwayml new model launch",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Runway runwayml partnership announcement",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Runway runwayml hiring executive appoints",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

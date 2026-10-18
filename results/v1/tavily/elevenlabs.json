@@ -1,0 +1,110 @@
+{
+  "company": "ElevenLabs",
+  "domain": "elevenlabs.io",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "ElevenLabs",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "ElevenLabs closed a $300M employee tender offer co-led by Wellington and T. Rowe Price at a $22B valuation. That is double the $11B Series D valuation from February 2026.",
+        "date": "2026-09-30",
+        "source_url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b"
+      },
+      {
+        "type": "product_launch",
+        "summary": "ElevenLabs launched Eleven v4, a more expressive text-to-speech model, and Eleven v4 Turbo, a low-latency variant for voice agents and real-time use. Both are available in ElevenAgents, ElevenCreative and the API.",
+        "date": "2026-09-28",
+        "source_url": "https://www.unite.ai/elevenlabs-launches-eleven-v4-with-low-latency-turbo-variant"
+      },
+      {
+        "type": "partnership",
+        "summary": "ElevenLabs and Universal Music Group announced a multi-year licensing agreement to build an authorized AI music platform. Fans could remix licensed UMG tracks, and the two companies will jointly develop AI audio tools for artists.",
+        "date": "2026-09-10",
+        "source_url": "https://finance.yahoo.com/technology/ai/articles/universal-music-group-enxtam-umg-011237059.html"
+      },
+      {
+        "type": "other_news",
+        "summary": "ElevenLabs says organizations including Stripe, Deutsche Telekom, SevenRooms, Admiral, Customers Bank, Cadence and the governments of Ukraine and Greece have rolled out ElevenAgents. This is useful as customer proof points.",
+        "date": null,
+        "source_url": "https://elevenlabs.io/blog/tender-22bn"
+      },
+      {
+        "type": "product_launch",
+        "summary": "ElevenLabs launched an 'ElevenLabs for Students' plan. It gives university students in the US, Canada, EU27, Australia and the UK 3 months of free access and a free year of ElevenReader Ultra.",
+        "date": null,
+        "source_url": "https://elevenlabs.io/blog/introducing-elevenlabs-for-students"
+      },
+      {
+        "type": "hiring",
+        "summary": "ElevenLabs is actively hiring enterprise go-to-market staff. Open roles include Enterprise Account Executives (consumer brands, strategic, and ElevenProductions in North America), a sports specialist, and a first Product Enablement hire.",
+        "date": null,
+        "source_url": "https://www.builtinnyc.com/job/account-executive-enterprise-sports-specialist/11712615"
+      }
+    ],
+    "overall_confidence": "high",
+    "notes": "The funding, v4 launch and UMG deal are well supported by recent sources. Third-party sites report about $500M ARR by April 2026 and a $500M Series D (announced February 2026, closed May 2026 at $11B). I did not check these against primary sources, so treat them as unverified. The students plan, the ElevenAgents customer list and the hiring postings have no visible date. They are likely recent, but I couldn't confirm that they fall within the last 90 days. I found no leadership changes, acquisitions, layoffs or earnings (the company is private) in these searches. That is a gap in my searching, not proof that none occurred. Good conversation openers are the enterprise ElevenAgents push, the low-latency v4 Turbo for voice agents, and the company's fast growth and heavy enterprise hiring."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 20.37,
+    "search_api_time_s": 8.63,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 17384,
+    "output_tokens": 1544,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://aibusinessweekly.net/p/elevenlabs-statistics",
+    "https://builtin.com/articles/what-is-elevenlabs",
+    "https://builtin.com/job/creative-partnerships/10827730",
+    "https://elevenlabs.io/blog/eleven-v4",
+    "https://elevenlabs.io/blog/introducing-elevenlabs-for-students",
+    "https://elevenlabs.io/blog/tender-22bn",
+    "https://finance.yahoo.com/technology/ai/articles/universal-music-group-enxtam-umg-011237059.html",
+    "https://jobs.a16z.com/jobs/elevenlabs/7a235499-7cee-48f5-9fe4-3f4764b91865--gtm-enablement-product",
+    "https://multiples.vc/private-comps/elevenlabs",
+    "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b",
+    "https://undetectr.com/blog/suno-vs-elevenlabs-music",
+    "https://www.builtinnyc.com/job/account-executive-enterprise-sports-specialist/11712615",
+    "https://www.instagram.com/p/Dd89ty5jWUs",
+    "https://www.instagram.com/p/DeH5AwgGkxL",
+    "https://www.instagram.com/reel/Dd_3MbhpAkg",
+    "https://www.jobleads.com/us/job/localization-specialist--new-york--eb63f8f82ee13bf2380f6320457314e7a",
+    "https://www.linkedin.com/jobs/view/enterprise-account-executive-consumer-brands-at-elevenlabs-4476793590",
+    "https://www.unite.ai/elevenlabs-launches-eleven-v4-with-low-latency-turbo-variant",
+    "https://www.upmarket.co/private-markets/pre-ipo/eleven-labs",
+    "https://www.workingnomads.com/jobs/strategic-account-executive-elevenlabs-1877919"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "ElevenLabs funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "ElevenLabs launches new product",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "ElevenLabs partnership acquisition hiring executive",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "ElevenLabs Universal Music Group partnership AI music platform",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

@@ -1,0 +1,96 @@
+{
+  "company": "Columbia Sportswear",
+  "domain": "columbia.com",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Columbia Sportswear",
+    "signals": [
+      {
+        "type": "partnership",
+        "summary": "GXO Logistics began running Columbia's main European distribution hub in Cambrai, France, under a new 10-year agreement. The agreement covers inbound logistics, storage, fulfillment and outbound distribution. GXO describes it as part of a multi-year plan to strengthen Columbia's European supply chain.",
+        "date": "2026-09-29",
+        "source_url": "https://gxo.com/fr/news_article/gxo-columbia-sportswear-10-year-logistics-partnership-europe"
+      },
+      {
+        "type": "earnings",
+        "summary": "Columbia will report Q3 2026 results on Oct 29, 2026. Current guidance is Q3 EPS of $1.15-1.35 and full-year EPS of $4.45-4.90. Q2 results came out on Jul 30, 2026, and the company updated its full-year outlook then.",
+        "date": "2026-10-15",
+        "source_url": "https://uk.finance.yahoo.com/news/columbia-sportswear-company-announce-third-201500371.html"
+      },
+      {
+        "type": "other_news",
+        "summary": "Footwear is a key growth priority under the Columbia brand's ACCELERATE strategy. The Spring 2027 wholesale order book points to low-to-mid-single-digit growth, and footwear is expected to grow faster than apparel in 2026.",
+        "date": null,
+        "source_url": "https://www.tradingview.com/news/zacks:d6c285371094b:0-can-columbia-sportswear-s-footwear-momentum-sustain-sales-growth"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Columbia released a limited-edition Helvetia II fleece in a print based on the Portland airport carpet, marking 35 years of the Helvetia fleece. It also opened a new store at PDX.",
+        "date": "2026-10-14",
+        "source_url": "https://www.koin.com/news/portland/limited-edition-columbia-sportswear-fleece-pays-homage-to-pdx-carpet"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "No funding, acquisition, leadership-change, layoff or notable hiring signals turned up in the searches. Q2 2026 details are thin. Search snippets showed only that results were released on Jul 30 with an updated outlook, and that one Q2 revenue figure was up 1.5% year over year. The search budget ran out before I could open the Q2 release itself. The Q2 figures and the ACCELERATE/footwear commentary come from third-party sites (MarketBeat, Zacks via TradingView), not company filings. The ACCELERATE article is undated. The Q3 earnings call on Oct 29 is a near-term hook, and the GXO deal points to active European supply-chain and logistics investment. The Helvetia fleece is a marketing item and is a weak sales hook."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 20.26,
+    "search_api_time_s": 8.81,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 21008,
+    "output_tokens": 1331,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://finance.yahoo.com/markets/stocks/articles/gxo-10-columbia-sportswear-deal-161027211.html",
+    "https://finance.yahoo.com/small-business/articles/gxo-columbia-sportswear-company-launch-110000238.html",
+    "https://finviz.com/stock?t=COLM",
+    "https://gxo.com/fr/news_article/gxo-columbia-sportswear-10-year-logistics-partnership-europe",
+    "https://investors.gxo.com/news-releases/news-release-details/gxo-and-columbia-sportswear-company-launch-10-year-strategic",
+    "https://outdooroccupations.com/job/305400/seasonal-retail-associate",
+    "https://seekingalpha.com/symbol/COLM",
+    "https://simplywall.st/stocks/us/consumer-durables/nasdaq-colm/columbia-sportswear/news/how-investors-are-reacting-to-columbia-sportswear-colm-10-ye",
+    "https://stockstory.org/us/stocks/nasdaq/colm/news/earnings/q2-earnings-outperformers-columbia-sportswear-nasdaqcolm-and-the-rest-of-the-consumer-discretionary-apparel-and-accessories-stocks",
+    "https://textilevaluechain.in/columbia-sportswear-company",
+    "https://uk.finance.yahoo.com/news/columbia-sportswear-company-announce-third-201500371.html",
+    "https://www.columbiasportswearcompany.com/careers",
+    "https://www.facebook.com/100054278479844/posts/gear-up-for-greatness-once-again-columbia-sportswear-and-rox-proudly-leads-the-c/1588255002993767",
+    "https://www.koin.com/news/portland/limited-edition-columbia-sportswear-fleece-pays-homage-to-pdx-carpet",
+    "https://www.marketbeat.com/instant-alerts/consensus-columbia-sportswear-company-nasdaq-colm-stock-rated-hold-by-wall-street-brokerages-2026-10-16",
+    "https://www.morningstar.com/news/business-wire/20261015128055/columbia-sportswear-company-to-announce-third-quarter-2026-financial-results-on-thursday-october-29-2026",
+    "https://www.stocktitan.net/sec-filings/COLM/form-4-columbia-sportswear-co-insider-trading-activity-b1d9b511570b.html",
+    "https://www.tradingview.com/news/zacks:d6c285371094b:0-can-columbia-sportswear-s-footwear-momentum-sustain-sales-growth"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Columbia Sportswear news",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Columbia Sportswear earnings 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Columbia Sportswear leadership OR layoffs OR acquisition OR partnership 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Columbia Sportswear GXO Cambrai 10-year logistics agreement",
+      "recency": "year",
+      "n_results": 5
+    }
+  ],
+  "segment": "non_tech",
+  "backend_errors": []
+}

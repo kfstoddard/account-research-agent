@@ -1,0 +1,112 @@
+{
+  "company": "Supabase",
+  "domain": "supabase.com",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Supabase",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Supabase announced $150M in new funding led by GIC, with CapitalG, IronArc and Square Peg also participating. It came four months after the $500M Series F, and part of it gives employees liquidity.",
+        "date": "2026-10-02",
+        "source_url": "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html"
+      },
+      {
+        "type": "acquisition",
+        "summary": "Supabase is acquiring Turso, the SQLite-based database company, to build databases for AI agents. Turso founder Glauber Costa becomes Head of Agentic Services, and Turso stays open source.",
+        "date": "2026-10-02",
+        "source_url": "https://supabase.com/blog/supabase-is-acquiring-turso"
+      },
+      {
+        "type": "leadership_change",
+        "summary": "Turso founders Glauber Costa (Head of Agentic Services) and Pekka Enberg are joining Supabase, and Costa will lead the agentic infrastructure effort.",
+        "date": "2026-10-02",
+        "source_url": "https://finance.yahoo.com/technology/ai/articles/supabase-raises-150m-buys-turso-083958845.html"
+      },
+      {
+        "type": "product_launch",
+        "summary": "At Supabase Select, the company announced 'Supabase from code' so coding agents can define and deploy the backend from the app repo. It also announced app-specific MCP servers and long-running services on Supabase Compute.",
+        "date": "2026-10-02",
+        "source_url": "https://supabase.com/blog/select-2026-build-anything"
+      },
+      {
+        "type": "partnership",
+        "summary": "Supabase became a prebuilt connector in Google Cloud's Gemini Enterprise. The blog post is dated 9 Sep 2026 in the Turso post's navigation, while the product blog index appears to show 2 Oct, so the date is uncertain.",
+        "date": "2026-09-09",
+        "source_url": "https://supabase.com/blog/categories/product"
+      },
+      {
+        "type": "other_news",
+        "summary": "Supabase says it now adds more than 1M users and 4M databases per month, and 70% of new databases are created by agents or AI tools. It reports more than 13M developers on the platform.",
+        "date": "2026-10-02",
+        "source_url": "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html"
+      },
+      {
+        "type": "hiring",
+        "summary": "Supabase has about 24 open remote roles on one job board. They include an AWS Partner Marketing Manager, a FinOps Engineer and an APAC-based Executive Assistant to the CEO, which points to scaling and an AWS channel push.",
+        "date": null,
+        "source_url": "https://remotivated.com/companies/supabase"
+      }
+    ],
+    "overall_confidence": "high",
+    "notes": "Funding and acquisition are confirmed by the press release, Supabase's own blog and Yahoo Finance. The $500M Series F at a $10.5B post-money valuation (June 2026, led by GIC) is just outside the 90-day window, so I left it out of the signals. Sources disagree on its exact date (Tracxn shows May 13 and Jun 4). The Gemini Enterprise post date is ambiguous (Sep 9 vs Oct 2). The hiring signal comes from a job-board aggregator with no date. I found no layoffs, earnings or other C-suite changes. The Feb 2026 incident post is older than 90 days. Conversation hooks: agent-driven database growth, enterprise MCP auth, the AWS and Google Cloud partner motion, and Turso integration."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 27.56,
+    "search_api_time_s": 9.34,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 22303,
+    "output_tokens": 1862,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://catdoes.com/blog/what-is-supabase",
+    "https://createwith.com/tool/supabase",
+    "https://docs.cloud.google.com/gemini/enterprise/docs/release-notes",
+    "https://finance.yahoo.com/technology/ai/articles/supabase-raises-150m-buys-turso-083958845.html",
+    "https://mezha.net/eng/news/23882110_supabase_in_2026-_why",
+    "https://multiples.vc/private-comps/supabase",
+    "https://remotivated.com/companies/supabase",
+    "https://supabase.com/blog/categories/company",
+    "https://supabase.com/blog/categories/product",
+    "https://supabase.com/blog/select-2026-build-anything",
+    "https://supabase.com/blog/supabase-is-acquiring-turso",
+    "https://tracxn.com/d/companies/supabase/__Eu-Qv0PGLlKKydFQbekQazgnqS4w5jeSDfFyg6oGPjg",
+    "https://tracxn.com/d/companies/supabase/__Eu-Qv0PGLlKKydFQbekQazgnqS4w5jeSDfFyg6oGPjg/funding-and-investors",
+    "https://www.linkedin.com/posts/paulcopplestone_today-supabase-is-announcing-150m-in-new-activity-7511811438659710977-qyxC",
+    "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html",
+    "https://www.realworkfromanywhere.com/jobs/executive-assistant-to-the-ceo-supabase-402"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Supabase funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Supabase launch announcement",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Supabase acquisition OR partnership OR hiring OR executive",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Supabase Gemini Enterprise available",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

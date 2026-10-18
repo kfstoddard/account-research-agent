@@ -1,0 +1,43 @@
+{
+  "company": "Databricks",
+  "domain": "databricks.com",
+  "backend": "mock",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Example",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Raised $50M Series B.",
+        "date": "2026-09-30",
+        "source_url": "https://example.com/news/1"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "mock"
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 0.0,
+    "search_api_time_s": 0.0,
+    "searches": 1,
+    "fetches": 0,
+    "input_tokens": 400,
+    "output_tokens": 100,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://example.com/news/1"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Example funding",
+      "recency": "month",
+      "n_results": 1
+    }
+  ],
+  "segment": "large_tech",
+  "backend_errors": []
+}

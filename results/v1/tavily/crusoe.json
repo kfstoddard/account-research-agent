@@ -1,0 +1,126 @@
+{
+  "company": "Crusoe",
+  "domain": "crusoe.ai",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Crusoe (crusoe.ai)",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Crusoe raised a $3.9B Series F at a $30.9B post-money valuation. Atreides, Mubadala and Valor co-led, with Nvidia, Founders Fund, GIC, QIA and TPG also participating. The money will fund the Abilene, TX campus work and expansion of its modular 'Spark' data centers.",
+        "date": "2026-09-19",
+        "source_url": "https://theaiinsider.tech/2026/09/19/ai-infrastructure-firm-crusoe-raises-3-9b-series-f-at-30-9b-valuation"
+      },
+      {
+        "type": "leadership_change",
+        "summary": "Alongside the Series F, Crusoe added three board members: Cloudflare CFO Thomas Seifert, Bill Stein of Primary Digital Infrastructure, and JB Straubel of Redwood Materials. The same source mentions IPO plans, but the snippet gave no detail.",
+        "date": "2026-09-19",
+        "source_url": "https://www.trendingtopics.eu/crusoe-raises-3-9-billion-as-openais-stargate-partner-hits-a-30-9-billion-valuation"
+      },
+      {
+        "type": "partnership",
+        "summary": "Crusoe signed a multi-year deal with Perplexity. Perplexity will train models on dedicated Nvidia GB300 NVL72 clusters and run production inference on Crusoe Managed Inference.",
+        "date": "2026-09-15",
+        "source_url": "https://www.channelinsider.com/ai/news-crusoe-3-9-billion-series-f-nvidia-ai-infrastructure"
+      },
+      {
+        "type": "partnership",
+        "summary": "Thinking Machines Lab signed a $65M annual agreement to serve its open models (Inkling, GLM 5.2 and 5.3, and fine-tuned variants) on Crusoe Managed Inference. The deployment runs on dedicated NVIDIA HGX B200 systems.",
+        "date": "2026-09-23",
+        "source_url": "https://www.crusoe.ai/resources/newsroom/crusoe-thinking-machines-lab-inference-partnership"
+      },
+      {
+        "type": "partnership",
+        "summary": "Bloomberg reportedly said Crusoe has a five-year, $13B cloud contract with Jane Street. This comes from a secondary blog that relays TechCrunch, so it is not confirmed by the company.",
+        "date": "2026-09-03",
+        "source_url": "https://valueaddvc.com/blog/crusoe-company-deep-dive"
+      },
+      {
+        "type": "other_news",
+        "summary": "Crusoe reportedly ended a $1.25B agreement for 29 Boom Supersonic Superpower turbines. A spokesperson said its energy plans 'haven't changed' and that it will still use turbines, just not Boom's.",
+        "date": "2026-09-25",
+        "source_url": "https://valueaddvc.com/blog/crusoe-company-deep-dive"
+      },
+      {
+        "type": "other_news",
+        "summary": "Crusoe pledged $50M in compute credits to a White House AI science initiative. It is also a launch partner for the National Compute Grid.",
+        "date": null,
+        "source_url": "https://www.crusoe.ai/resources/newsroom/crusoe-pledges-50-million-in-compute-to-white-house"
+      },
+      {
+        "type": "earnings",
+        "summary": "Newcomer reports Crusoe is on track for about $2B in revenue this year. Separately, Crusoe says Cloud bookings are up more than 20x year over year and Managed Inference has more than $100M in contracted ARR.",
+        "date": "2026-09-21",
+        "source_url": "https://www.newcomer.co/p/crusoe-is-on-track-for-2-billion"
+      },
+      {
+        "type": "other_news",
+        "summary": "Crusoe announced a 1.0 GW campus in Childress, TX with Lancium. It also opened a Spark modular data center factory in Brighton, CO in March, which is older than 90 days.",
+        "date": "2026-07-15",
+        "source_url": "https://valueaddvc.com/blog/crusoe-company-deep-dive"
+      }
+    ],
+    "overall_confidence": "high",
+    "notes": "The Series F, Perplexity and Thinking Machines deals are confirmed by multiple sources, including a Crusoe press release for Thinking Machines. The Jane Street, Boom termination and Childress campus items come from a single secondary blog (valueaddvc.com) and should be verified before you cite them. The White House pledge and Newcomer revenue items have no firm date in the results. The Newcomer date is the Series F timeframe, and the article itself is paywalled. Tracxn lists the Series F as Aug 31, while press coverage places the announcement and initial close around Sept 19–21. Channel Insider describes the round as an 'initial close of an anticipated' $3.9B, so check whether it is fully closed. I found no signals on layoffs, acquisitions or a CEO change. Chase Lochmiller is still CEO. I did not search for hiring trends."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 28.98,
+    "search_api_time_s": 7.73,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 22747,
+    "output_tokens": 1994,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://axevil.com/company/perplexity",
+    "https://energydigital.com/news/electrons-to-tokens-crusoes-independent-ai-supply-chain",
+    "https://finance.yahoo.com/technology/ai/articles/crusoe-thinking-machines-lab-partner-150700602.html",
+    "https://inspenet.com/en/inspenet-tv/crusoe-captures-3-9-billion",
+    "https://markets.businessinsider.com/news/stocks/crusoe-pledges-50-million-in-compute-credits-to-white-house-ai-science-initiative-1036609691",
+    "https://startupfortune.com/hp-is-putting-perplexity-on-new-pcs-while-seven-publishers-sue-it",
+    "https://theaiinsider.tech/2026/09/19/ai-infrastructure-firm-crusoe-raises-3-9b-series-f-at-30-9b-valuation",
+    "https://tracxn.com/d/companies/crusoe/__yyRkgaJgxamAgI3lijDZiChhfKCvnkFGTnaMcmtbFiM",
+    "https://valueaddvc.com/blog/crusoe-company-deep-dive",
+    "https://valueaddvc.com/blog/perplexity-ai-valuation-revenue-2026-23b-450m-arr",
+    "https://www.channelinsider.com/ai/news-crusoe-3-9-billion-series-f-nvidia-ai-infrastructure",
+    "https://www.crusoe.ai/resources/newsroom/crusoe-pledges-50-million-in-compute-to-white-house",
+    "https://www.crusoe.ai/resources/newsroom/crusoe-thinking-machines-lab-inference-partnership",
+    "https://www.eenewseurope.com/en/crusoe-modular-data-centres-ai-inference",
+    "https://www.felicis.com/blog/interview-crusoe-ceo-founder-chase-lochmiller",
+    "https://www.instagram.com/reel/DdauZ8vii0C",
+    "https://www.newcomer.co/p/crusoe-is-on-track-for-2-billion",
+    "https://www.trendingtopics.eu/crusoe-raises-3-9-billion-as-openais-stargate-partner-hits-a-30-9-billion-valuation"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Crusoe AI funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Crusoe Energy AI cloud announces partnership OR launch",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Crusoe new CEO OR appoints OR hires executive",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Crusoe Perplexity partnership GB300 September 2026",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

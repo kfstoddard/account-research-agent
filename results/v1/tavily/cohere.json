@@ -1,0 +1,104 @@
+{
+  "company": "Cohere",
+  "domain": "cohere.com",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Cohere",
+    "signals": [
+      {
+        "type": "acquisition",
+        "summary": "Cohere and AISLE announced a signed letter of intent for Cohere to acquire AISLE, which builds autonomous software-vulnerability discovery and remediation systems. Price and closing date were not disclosed, and the deal is not confirmed as completed.",
+        "date": "2026-10-15",
+        "source_url": "https://venturecapitaltracker.com/startup/cohere"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Cohere launched North 2, its agentic AI platform. It adds admin cost and usage controls, support for rival vendors' models, cross-session memory, and air-gapped deployment.",
+        "date": "2026-10-05",
+        "source_url": "https://www.instagram.com/p/DelPxMkynZK"
+      },
+      {
+        "type": "partnership",
+        "summary": "Thales Canada signed a partnership with Cohere to build agentic AI for the Royal Canadian Navy's in-service support. No contract value was disclosed.",
+        "date": null,
+        "source_url": "https://envantermedya.com/en/thales-cohere-canada-navy-ai-partnership"
+      },
+      {
+        "type": "partnership",
+        "summary": "TD Bank committed up to $25M over three years to a strategic collaboration between its Layer 6 AI research centre and Cohere. The focus is knowledge management, security and responsible adoption.",
+        "date": "2026-09-23",
+        "source_url": "https://www.renascence.io/news/76641/td-bank-invests-up-to-25-million-in-cohere-ai-collaboration"
+      },
+      {
+        "type": "funding",
+        "summary": "Cohere is reported to be in advanced talks to raise $2–3B at a valuation of about $20B, up from $7B in September 2025. The round is not confirmed as closed.",
+        "date": "2026-09-19",
+        "source_url": "https://venturecapitaltracker.com/startup/cohere"
+      },
+      {
+        "type": "acquisition",
+        "summary": "Cohere signed a definitive merger agreement to acquire Germany's Aleph Alpha, pending final regulatory approval. Aleph Alpha co-CEO Ilhan Scheer becomes Cohere's COO, and Samuel Weinbach will lead research. Cohere also acquired a Montreal/Berlin pharma-commercial AI startup and signed MOUs with Indra and Multiverse Computing in Spain.",
+        "date": null,
+        "source_url": "https://www.dawnliphardt.com/cohere-strengthens-its-european-foothold-by-acquiring-aleph"
+      },
+      {
+        "type": "partnership",
+        "summary": "PwC and Cohere announced a global alliance, launching first in Canada, to deploy North and Cohere's models for enterprise clients, including private-cloud, on-prem and air-gapped options.",
+        "date": null,
+        "source_url": "https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "Several items have no explicit date in the sources: Thales, PwC, and the Aleph Alpha definitive agreement. Aleph Alpha was first announced around April 2026, which is outside the 90-day window, and the definitive signing may fall inside it. The ~$20B raise is reported as talks only, and I found no confirmation that it closed. The North 2 date comes from a social post. The Cohere blog and The Logic coverage corroborate the launch but show no date. The AISLE LOI and funding details come from an aggregator (venturecapitaltracker), not a primary press release, so verify before citing them. Embed 5 also appeared in results with no date. I did not find any layoffs or leadership changes beyond the Aleph Alpha executive appointments."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 21.8,
+    "search_api_time_s": 6.81,
+    "searches": 3,
+    "fetches": 0,
+    "input_tokens": 10391,
+    "output_tokens": 1754,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://adalytica.com/news/td-bank-cohere-ai-partnership-48b2c14f",
+    "https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption",
+    "https://cohere.com/blog/embed-5",
+    "https://cohere.com/blog/introducing-north-2",
+    "https://envantermedya.com/en/thales-cohere-canada-navy-ai-partnership",
+    "https://thelogic.co/news/cohere-north-2-ai-platform-cost-control",
+    "https://tracxn.com/d/companies/cohere/__o4xfwmr3XwgsGEyH41XvwBm6Xd-SjsMlSld3d4ci6G0/funding-and-investors",
+    "https://valueaddvc.com/blog/essential-ai-valuation-2026-how-the-transformer-co-founders-built-a-1b-startup",
+    "https://venturecapitaltracker.com/startup/cohere",
+    "https://www.dawnliphardt.com/cohere-strengthens-its-european-foothold-by-acquiring-aleph",
+    "https://www.instagram.com/p/Ddddr-7Euxl",
+    "https://www.instagram.com/p/DelPxMkynZK",
+    "https://www.renascence.io/news/76641/td-bank-invests-up-to-25-million-in-cohere-ai-collaboration",
+    "https://www.startupresearcher.com/news/td-bank-announces-25-million-ai-collaboration-with-cohere"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Cohere AI funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Cohere new product launch",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Cohere acquisition OR partnership OR leadership announcement",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "large_tech",
+  "backend_errors": []
+}

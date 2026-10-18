@@ -1,0 +1,98 @@
+{
+  "company": "Figma",
+  "domain": "figma.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Figma (figma.com)",
+    "signals": [
+      {
+        "type": "product_launch",
+        "summary": "Figma announced Specs, a Markdown-based editor for defining a company's design context for AI agents. It also announced code and library integrations, a Payload headless CMS integration, and 20 new MCP partner integrations, including OpenCode. The announcements came at its first Config event in India.",
+        "date": "2026-10-14",
+        "source_url": "https://www.figma.com/blog/build-by-design/"
+      },
+      {
+        "type": "partnership",
+        "summary": "Figma is launching 20 new MCP partner integrations so users can connect coding and AI tools to Figma. It also announced a Payload headless CMS integration.",
+        "date": "2026-10-14",
+        "source_url": "https://poweredbyai.app/ai-news/figma-announces-new-features-to-define-how-agents-work-on-its-platform"
+      },
+      {
+        "type": "earnings",
+        "summary": "Figma will report Q3 2026 results after market close on Nov 4, 2026. Q3 revenue guidance is $373–375M. A Zacks snippet says the last reported quarter had EPS of $0.08 against a consensus estimate of $0.04.",
+        "date": "2026-11-04",
+        "source_url": "https://www.stocktitan.net/news/FIG/figma-to-announce-third-quarter-2026-financial-results-on-november-4-xk0ae8hj19fr.html"
+      },
+      {
+        "type": "acquisition",
+        "summary": "Figma reportedly acquired the AI startup Common Knowledge, which built Flipbook. The article is undated, so I can't confirm it falls within the last 90 days. Tracxn lists 5 acquisitions by Figma in total.",
+        "date": null,
+        "source_url": "https://medium.com/design-bootcamp/figma-just-bought-another-ai-company-this-is-a-big-deal-a22da80dbf27"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The product and event signals are well supported. Search dates were relative (e.g. '3 days ago'), so I converted them to about 2026-10-14. The Nov 4 date is a scheduled future earnings date, not a past result. The Common Knowledge acquisition has no date. I found no evidence of funding, layoffs or leadership changes. Hiring is ongoing, including a Developer Platform PM role and revenue operations roles, but that is only generic job-board evidence. The stock is around $23, against a 52-week high of about $58.58 (Robinhood), so the seller should expect sensitivity to cost and valuation. A Fortune snippet about a 'crushed' earnings debut likely refers to the 2025 post-IPO report, and I did not use it as a signal."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 127.29,
+    "search_api_time_s": 118.02,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 4798,
+    "output_tokens": 1247,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://1blocknews.com/news/figma-announces-new-features-to-define-how-agents-work-on-its-platform",
+    "https://ca.finance.yahoo.com/quote/FIG/",
+    "https://fortune.com/section/design-thinking/",
+    "https://medium.com/design-bootcamp/figma-just-bought-another-ai-company-this-is-a-big-deal-a22da80dbf27",
+    "https://medium.muz.li/is-knowing-figma-enough-to-get-hired-in-the-ai-era-what-to-add-to-your-portfolio-de93c2cb4223",
+    "https://poweredbyai.app/ai-news/figma-announces-new-features-to-define-how-agents-work-on-its-platform",
+    "https://poweredbyai.app/ai-news/figma-expands-into-coding-hosting-as-ceo-rules-out-covering-high-traffic-bills",
+    "https://robinhood.com/us/en/stocks/FIG/",
+    "https://simplywall.st/stocks/us/software/nyse-fig/figma",
+    "https://tracxn.com/d/acquisitions/acquisitions-by-figma/__ax4OtPOcmyjsFUT81_oGsjztypgqH8K3cQ0_zcUnNBo",
+    "https://www.benzinga.com/quote/FIG/news",
+    "https://www.facebook.com/groups/544033120196337/posts/1752110482721922/",
+    "https://www.figma.com/blog/build-by-design/",
+    "https://www.figma.com/blog/introducing-figma-specs/",
+    "https://www.figma.com/release-notes/",
+    "https://www.linkedin.com/jobs/view/senior-order-management-analyst-at-figma-4478493634",
+    "https://www.stocktitan.net/news/FIG/figma-to-announce-third-quarter-2026-financial-results-on-november-4-xk0ae8hj19fr.html",
+    "https://www.teamblind.com/post/figma-hiring-f8018uoh",
+    "https://www.zacks.com/stock/research/FIG/earnings-calendar",
+    "https://www.ziprecruiter.com/co/figma/Jobs/-in-San-Francisco,CA"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Figma news",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Figma earnings 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Figma acquisition OR partnership OR launch 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Figma leadership OR layoffs OR hiring 2026",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "large_tech",
+  "backend_errors": []
+}

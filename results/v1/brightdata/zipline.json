@@ -1,0 +1,92 @@
+{
+  "company": "Zipline",
+  "domain": "flyzipline.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Zipline (flyzipline.com)",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Zipline is reportedly in talks to raise about $1B at a valuation of about $20B. This is a press report of talks, not a confirmed close.",
+        "date": "2026-09-18",
+        "source_url": "https://wwd.com/sourcing-journal/logistics/zipline-funding-1-billion-drone-drones-last-mile-delivery-faa-regulations-1239245201/"
+      },
+      {
+        "type": "partnership",
+        "summary": "Teriyaki Madness announced a partnership with Zipline. Drone delivery of its food started Oct 15, 2026.",
+        "date": "2026-10-15",
+        "source_url": "https://finance.yahoo.com/small-business/articles/teriyaki-madness-announces-partnership-zipline-211013186.html"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Local news reports Zipline launched autonomous drone delivery in Central Texas, and a related report mentions expansion in the Dallas-Fort Worth area with partners.",
+        "date": null,
+        "source_url": "https://www.facebook.com/FOX7Austin/posts/autonomous-drone-deliveries-are-now-a-reality-in-central-texas-zipline-first-lau/1619931840173065/"
+      },
+      {
+        "type": "hiring",
+        "summary": "Zipline has open roles for Head of Service Delivery and Head of Deployments, Africa. This points to continued build-out of operations and regional leadership teams.",
+        "date": "2026-09-29",
+        "source_url": "https://jobs.a16z.com/jobs/zipline/8006950003--head-of-deployments-africa"
+      },
+      {
+        "type": "other_news",
+        "summary": "Devex profiled Zipline's global expansion. It references a $150M pay-for-performance grant from the U.S. State Department, announced about a year earlier, to support work in Africa.",
+        "date": "2026-10-08",
+        "source_url": "https://www.devex.com/news/zipline-s-global-drone-delivery-vision-113181"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The funding item is based on reports of talks. The sources I saw do not confirm a close, so verify before citing it as done. The Central Texas launch source is an undated Facebook post from a TV station, and the launch date is probably around Oct 12, 2026, based on a '5 days ago' label on a related result. Hiring evidence comes from individual job postings, not a company-wide hiring announcement. I found no recent leadership changes, layoffs or earnings (Zipline is private). A tracxn snippet mentions Zipline hiring ex-Tesla, Uber and Waymo executives, but it had no date or detail, so I left it out. Valuation figures across aggregator sites conflict, for example $7.6B on tracxn. The CEO is Keller Rinaudo Cliffton."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 39.22,
+    "search_api_time_s": 24.72,
+    "searches": 3,
+    "fetches": 0,
+    "input_tokens": 4732,
+    "output_tokens": 1409,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://finance.yahoo.com/small-business/articles/teriyaki-madness-announces-partnership-zipline-211013186.html",
+    "https://jobgether.com/offer/6abd48238a27695aea114a9f-head-of-service-delivery",
+    "https://jobs.a16z.com/jobs/zipline/8006950003--head-of-deployments-africa",
+    "https://multiples.vc/private-comps/zipline",
+    "https://siliconvalleyinvestclub.com/vi/companies/zipline/tear-sheet.pdf",
+    "https://tracxn.com/d/companies/zipline/__HOnzS4P78iB9dsX0RCekEFl3b1ePdiuFboNYPgM5kDA",
+    "https://wwd.com/sourcing-journal/logistics/zipline-funding-1-billion-drone-drones-last-mile-delivery-faa-regulations-1239245201/",
+    "https://www.devex.com/news/zipline-s-global-drone-delivery-vision-113181",
+    "https://www.facebook.com/Devex/posts/in-a-live-recording-of-devexs-theory-of-change-podcast-caitlin-burton-ceo-of-zip/1560193439471904/",
+    "https://www.facebook.com/FOX7Austin/posts/autonomous-drone-deliveries-are-now-a-reality-in-central-texas-zipline-first-lau/1619931840173065/",
+    "https://www.facebook.com/stattimes/posts/drone-delivery-company-zipline-is-in-discussions-to-raise-approximately-1-billio/1510881957725416/",
+    "https://www.google.com/goto?url=CAESpgEB6zswFadbT61TQl121T5KOgVBro6xDzjXExgUjqlsTbu-51MzXRfVV0sP1WTNDdO0MT-eyB5uE0fT5yfEd4xwLavzBV4bPc42eyGA0ORiZFSecy5YZe51qQsknNTbkGfuVSZaEfTFJmCzIG93vk_vtAKeKdog6C-F-t9mBULP_odqThK3k7kMgkiCpxwR_i1NV7whG0MwhDI3hRDtkAFm9xoV3ESh",
+    "https://www.google.com/goto?url=CAESpgEB6zswFdhbeeZANhhB8AtJacZvIkEVZoRKZgtyRQDU061k-8q4ntHtHtzMqr74M8MsO5Bo0Md9AlemLApBFgOtr0ceX-z1u0UmhudvI6zQ3GN1_mumG31vcDDm7thMqmwiONPg8nqL8-zGrBhAUIR3Tv2gQQ7VnTPkZe9ju97LW2xzHLovowSxr80ux2n6eedJ4BrXtqjvRXvYAW-W3NEzEZKeUacR",
+    "https://www.google.com/goto?url=CAESqgEB6zswFRnI-eQUpr7JALK5gBPVw4pcXlco4y6sR_0wttPLJPu-pYUCe8PGEy6kVXibMXzCkf4PrUDG8L9RV_05f4zb3RSj6SmK-Yb1OOSFoCRS1nj8tbyKPPiUEjw1vyhw_9gB4LaJHBqOD6wmF5bbJz5DjMRI5BzqUsMGg-8Zkm-E-s35NgReHIm1oPweQ02GzmuPeqEbVER0cZqYA76sPFfguat1pH_gkA"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Zipline drone delivery funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Zipline drone delivery partnership launch expansion",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Zipline flyzipline new executive hires OR leadership OR layoffs",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

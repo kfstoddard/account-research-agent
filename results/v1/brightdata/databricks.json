@@ -1,0 +1,105 @@
+{
+  "company": "Databricks",
+  "domain": "databricks.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Databricks",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Databricks announced a new funding round at a $188B valuation, according to Forge Global. Equitybee lists an Aug 2026 round of $5B at a $185B valuation, so the figures differ by source.",
+        "date": null,
+        "source_url": "https://forgeglobal.com/databricks_ipo/"
+      },
+      {
+        "type": "funding",
+        "summary": "Equitybee's funding history lists a $2B debt financing in Feb 2026 and a $5B private equity round in Dec 2025 at a $129B valuation.",
+        "date": "2026-02-01",
+        "source_url": "https://equitybee.com/companies/company?company=databricks"
+      },
+      {
+        "type": "partnership",
+        "summary": "Databricks and Microsoft expanded their partnership to bring business context to enterprise AI. Databricks uses Azure Cobalt 100 and plans to adopt Cobalt 200.",
+        "date": "2026-09-25",
+        "source_url": "https://www.hpcwire.com/bigdatawire/this-just-in/databricks-and-microsoft-expand-partnership-to-help-enterprises-bring-business-context-to-enterprise-ai/"
+      },
+      {
+        "type": "partnership",
+        "summary": "EY and Databricks formalised and expanded their partnership in the Netherlands.",
+        "date": "2026-09-22",
+        "source_url": "https://www.consultancy.eu/news/14339/ey-and-databricks-formalise-and-expand-partnership-in-the-netherlands"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Databricks introduced ai_decide, a native AI Function for making fast, low-cost decisions on governed data.",
+        "date": "2026-09-30",
+        "source_url": "https://www.databricks.com/blog/category/platform-and-products-and-announcements"
+      },
+      {
+        "type": "other_news",
+        "summary": "Rimes hired ex-FINRA tech chief Tigran Khrimian as CTO to lead its data platform migration onto Databricks. This is a customer signal, not a Databricks leadership change.",
+        "date": "2026-10-14",
+        "source_url": "https://www.fintechfutures.com/job-cuts-new-hires/rimes-cto-appointment-tigran-khrimian"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The funding valuation is inconsistent across sources ($185B in Aug 2026 per Equitybee vs $188B per Forge Global). I couldn't verify either figure against a primary source, and the round date for the $188B figure is unknown. The Rimes date is approximate, estimated from '3-4 days ago' in the search results. The Feb 2026 debt date is only month-level. The acquisition search returned nothing, so I can't say whether there were any recent acquisitions. I found no Databricks leadership changes, earnings or layoffs. I didn't verify the Microsoft partnership details beyond the snippet. There was no hiring-trend data beyond a single LinkedIn profile, which I didn't use as a signal."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 50.51,
+    "search_api_time_s": 38.62,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 11494,
+    "output_tokens": 1378,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "http://www.nasdaqprivatemarket.com/company/databricks/",
+    "https://docs.databricks.com/aws/en/release-notes/",
+    "https://docs.databricks.com/aws/en/release-notes/product/2026/june",
+    "https://equitybee.com/companies/company?company=databricks",
+    "https://financefeeds.com/rimes-taps-former-finra-executive-to-lead-data-platform-overhaul/",
+    "https://forgeglobal.com/databricks_ipo/",
+    "https://sg.linkedin.com/in/jie-guo-%E9%83%AD%E6%9D%B0-14493292",
+    "https://tracxn.com/d/companies/databricks/__h71WlGEvmuefCzSdZogxaGihmuCYu0rBKj3hkmJQF7M/funding-and-investors",
+    "https://www.coliseum-online.com/motogp-top-tier-leadership-team-hires-to-boost-business/",
+    "https://www.consultancy.eu/news/14339/ey-and-databricks-formalise-and-expand-partnership-in-the-netherlands",
+    "https://www.databricks.com/blog/category/platform-and-products-and-announcements",
+    "https://www.facebook.com/databricksinc/posts/at-databricks-we-want-employees-using-the-best-models-on-day-1-but-new-doesnt-al/1630586292446922/",
+    "https://www.facebook.com/databricksinc/posts/today-were-proud-to-announce-databricks-as-the-new-sponsor-of-cal-bears-field-al/1625336549638563/",
+    "https://www.fintechfutures.com/job-cuts-new-hires/rimes-cto-appointment-tigran-khrimian",
+    "https://www.hpcwire.com/bigdatawire/this-just-in/databricks-and-microsoft-expand-partnership-to-help-enterprises-bring-business-context-to-enterprise-ai/"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Databricks funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Databricks acquisition announces",
+      "recency": "month",
+      "n_results": 0
+    },
+    {
+      "tool": "web_search",
+      "query": "Databricks launches new product",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Databricks executive hires leadership appoints",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "large_tech",
+  "backend_errors": []
+}

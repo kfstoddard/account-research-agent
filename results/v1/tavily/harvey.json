@@ -1,0 +1,125 @@
+{
+  "company": "Harvey",
+  "domain": "harvey.ai",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Harvey (harvey.ai)",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Harvey raised $550M at a $15.5B valuation, co-led by Diffusion and Lightspeed. This follows a $200M round at $11B in March 2026 and an $8B valuation in December 2025.",
+        "date": "2026-09-09",
+        "source_url": "https://okara.ai/blog/harvey-ai-revenue-growth"
+      },
+      {
+        "type": "funding",
+        "summary": "Ontario Teachers' Pension Plan invested US$50M in Harvey, and Harvey announced a deeper commitment to Canada.",
+        "date": "2026-09-24",
+        "source_url": "https://crustdata.com/profiles/company/harvey"
+      },
+      {
+        "type": "earnings",
+        "summary": "Co-founder Winston Weinberg said ARR has passed $400M, up from about $190M in January. Harvey says it has 3,000+ customer organizations, 200,000+ lawyers, and 80% of the Am Law 100. The ARR figure was reported widely but was not in Harvey's own funding announcement.",
+        "date": "2026-09-09",
+        "source_url": "https://okara.ai/blog/harvey-ai-revenue-growth"
+      },
+      {
+        "type": "other_news",
+        "summary": "Harvey is opening a Boston office. It will support existing customers (Ropes & Gray, Mintz, DraftKings, Toast and others) and house sales staff. COO Katie Burke was quoted.",
+        "date": "2026-10-01",
+        "source_url": "https://www.bostonglobe.com/2026/10/01/business/harvey-ai-boston-office"
+      },
+      {
+        "type": "other_news",
+        "summary": "CEO Winston Weinberg told Nikkei that Harvey will open a Japan office in 2027 and target major Japanese law firms and corporate legal departments.",
+        "date": "2026-10-13",
+        "source_url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-legal-ai-startup-harvey-to-open-japan-office-in-2027-ceo-says"
+      },
+      {
+        "type": "other_news",
+        "summary": "Harvey chose London to lead its pro bono push (City A.M. headline).",
+        "date": "2026-09-22",
+        "source_url": "https://crustdata.com/profiles/company/harvey"
+      },
+      {
+        "type": "hiring",
+        "summary": "Harvey hired 22 Am Law 200 lawyers in six months, more than Anthropic, OpenAI and Legora combined. Many went into ~$220K 'legal engineer' roles. Harvey and Legora together have nearly 600 open roles. Crustdata lists about 1,795 Harvey employees, up 129% year over year.",
+        "date": null,
+        "source_url": "https://www.bestlawfirms.com/articles/harvey-am-law-200-lawyers-ai-company-hiring/8553"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Harvey published an engineering post on its Connector Library. Users have 100,000+ connections to external tools, with a policy engine governing what agents can access.",
+        "date": "2026-10-02",
+        "source_url": "https://x.com/harvey/status/2106044082044940742"
+      },
+      {
+        "type": "partnership",
+        "summary": "Harvey integrated PacerPro docket data into litigation workflows. Its implementation of DeepJudge's Agent Handoff Protocol is entering beta. Both items come from an aggregator and have no firm dates.",
+        "date": null,
+        "source_url": "https://academy.haqq.ai/ar/legal-news/topic/partnership"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The funding announcement date is inconsistent across sources. Okara, HokAI and Medium point to September 9, 2026, with a Medium piece dated Sept 20. SaaSRise says Oct 1, and it looks less reliable. I used Sept 9. Funding and ARR details come mostly from secondary sources, not a primary Harvey press release. The PacerPro and DeepJudge items are undated, so check them before citing. Competitive context from one newsletter: Legora raised $600M at $5.6B and is reportedly in talks at about $10B. Anthropic, Google and OpenAI have each shipped legal products. Earlier 2026 events, outside the 90-day window, include the Hexus acquisition and the HSBC and SCC Online partnerships in January. I did not find any leadership changes or layoffs."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 23.96,
+    "search_api_time_s": 8.74,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 24942,
+    "output_tokens": 1841,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://academy.haqq.ai/ar/legal-news/topic/partnership",
+    "https://asia.nikkei.com/business/technology/artificial-intelligence/us-legal-ai-startup-harvey-to-open-japan-office-in-2027-ceo-says",
+    "https://crustdata.com/profiles/company/harvey",
+    "https://freehire.me/jobs/staff-software-engineer-frontend-harvey-ugu5byvu",
+    "https://harveyllc.com/tag/executive-partnership",
+    "https://hokai.io/guides/harvey-vs-legora",
+    "https://medium.com/@marklimgam/15-5-billion-brief-how-harvey-is-rewriting-the-economics-of-legal-ai-fd10cad2e610",
+    "https://newmarketpitch.com/blogs/news/legaltech-top-startups-fundraising",
+    "https://okara.ai/blog/harvey-ai-revenue-growth",
+    "https://spellbook.com/learn/harvey-ai-pricing",
+    "https://www.allsite.pro/analysis/harvey",
+    "https://www.bestlawfirms.com/articles/harvey-am-law-200-lawyers-ai-company-hiring/8553",
+    "https://www.bostonglobe.com/2026/10/01/business/harvey-ai-boston-office",
+    "https://www.builtinnyc.com/job/legal-engineer-custom-solutions/9604013",
+    "https://www.lawdroidmanifesto.com/p/the-inevitability-machine-why-the",
+    "https://www.saasrise.com/deals/harvey-raises-550m-in-funding-round-valuation-reaches-155b-fdaacbc6-e5ae-49f1-a9e7-224789dfde95",
+    "https://x.com/harvey/status/2106044082044940742"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Harvey AI legal funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Harvey harvey.ai acquisition OR partnership OR launch",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Harvey legal AI new hire OR executive OR CEO OR hiring",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Harvey $550 million $15.5 billion valuation announcement",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

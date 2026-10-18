@@ -1,0 +1,100 @@
+{
+  "company": "Crusoe",
+  "domain": "crusoe.ai",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Crusoe",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Crusoe raised a $3.9B Series F at a $30.9B valuation to expand AI data centers and modular AI factories.",
+        "date": "2026-09-22",
+        "source_url": "https://www.bizjournals.com/denver/news/2026/09/22/crusoe-data-center-funding-raise-denver.html"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Crusoe is developing a data center campus in Armstrong County, Texas. The campus is for Google, powered by adjacent West Texas wind, and uses closed-loop liquid cooling.",
+        "date": "2026-09-28",
+        "source_url": "https://www.crusoe.ai/resources/newsroom/crusoe-developing-data-center-campus-in-armstrong-county-texas"
+      },
+      {
+        "type": "other_news",
+        "summary": "Crusoe filed for a $4.8B data center campus in Jayton, Texas. Construction is planned to begin at the end of the year.",
+        "date": "2026-10-02",
+        "source_url": "https://www.datacenterdynamics.com/en/news/crusoe-files-for-48bn-data-center-campus-in-jayton-texas/"
+      },
+      {
+        "type": "other_news",
+        "summary": "Crusoe is planning a Phase 3 expansion at its Stargate campus in Abilene, with two new data center buildings.",
+        "date": "2026-10-02",
+        "source_url": "https://baxtel.com/data-center/crusoe-abilene-9"
+      },
+      {
+        "type": "hiring",
+        "summary": "Crusoe is hiring for senior roles, including Director of Recruiting for Digital Infrastructure and Director of Commercial Operations. The postings suggest the company is scaling its teams.",
+        "date": "2026-09-22",
+        "source_url": "https://www.inclimate.com/jobs/47d0f537-0dc2-4a7a-a6e0-7a4391b3c214/director-recruiting-digital-infrastructure-crusoe-09b085c5dc6e4009b330378ff0c11fb2"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The funding and Texas campus signals come from several consistent sources. I didn't open the pages, so details rest on search snippets. One search (partnerships) returned an error and was not retried, and a later broader search covered only part of that gap. I found no leadership change, layoff or earnings signals. The leadership search returned only job postings. The Google tie to the Armstrong County campus comes from Crusoe's own newsroom snippet. I didn't verify it elsewhere. The Series F investor list was not captured."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 111.54,
+    "search_api_time_s": 102.45,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 7174,
+    "output_tokens": 1119,
+    "tool_errors": 1
+  },
+  "seen_urls": [
+    "https://aiweekly.co/whos-who/person/crusoe",
+    "https://baxtel.com/data-center/crusoe-abilene-9",
+    "https://energydigital.com/news/electrons-to-tokens-crusoes-independent-ai-supply-chain",
+    "https://inspenet.com/en/news/crusoe-infrastructure-ia-valuation-30900m/",
+    "https://jobstash.xyz/director-commercial-operations-crusoe-inc/fvnTpB",
+    "https://tracxn.com/d/companies/crusoe/__yyRkgaJgxamAgI3lijDZiChhfKCvnkFGTnaMcmtbFiM/funding-and-investors",
+    "https://www.bizjournals.com/denver/news/2026/09/22/crusoe-data-center-funding-raise-denver.html",
+    "https://www.cnbc.com/2026/09/18/anthropic-openai-small-ai-data-center-deals.html",
+    "https://www.crusoe.ai/resources/newsroom/crusoe-developing-data-center-campus-in-armstrong-county-texas",
+    "https://www.datacenterdynamics.com/en/news/crusoe-files-for-48bn-data-center-campus-in-jayton-texas/",
+    "https://www.inclimate.com/jobs/47d0f537-0dc2-4a7a-a6e0-7a4391b3c214/director-recruiting-digital-infrastructure-crusoe-09b085c5dc6e4009b330378ff0c11fb2",
+    "https://www.instagram.com/reel/DdrWmcARV7D/",
+    "https://www.linkedin.com/posts/ai-chips-datacenters_ai-artificialintelligence-ainews-activity-7506925138441965568-9cMU",
+    "https://www.linkedin.com/posts/davitg_infrastructure-crusoe-raises-activity-7506590131911360512-W9Mv",
+    "https://www.linkedin.com/posts/josephpaul213_crusoe-raises-39b-series-f-at-a-309b-activity-7507415888099237888-emoc"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Crusoe AI funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Crusoe Energy AI data center announcement partnership",
+      "error": "non-JSON SERP response after retry (first 150 chars: '')"
+    },
+    {
+      "tool": "web_search",
+      "query": "Crusoe new CEO OR appoints OR hires executive",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Crusoe Abilene OR Wyoming OR Microsoft OR OpenAI data center news October 2026",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": [
+    "search: non-JSON SERP response after retry (first 150 chars: '')"
+  ]
+}

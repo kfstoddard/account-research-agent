@@ -1,0 +1,104 @@
+{
+  "company": "ElevenLabs",
+  "domain": "elevenlabs.io",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "ElevenLabs",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "ElevenLabs closed a $300M employee tender offer at a $22B valuation. That is double the $11B set in its February Series D, and the tender is a secondary sale rather than new primary capital.",
+        "date": "2026-09-30",
+        "source_url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/"
+      },
+      {
+        "type": "leadership_change",
+        "summary": "Ashley Kramer joined as ElevenLabs' first Chief Revenue Officer, a newly created role, as the company pushes into enterprise sales.",
+        "date": "2026-09-02",
+        "source_url": "https://www.usatoday.com/story/special/contributor-content/2026/09/18/elevenlabs-hires-its-first-chief-revenue-officer-as-the-ai-voice-race-turns-toward-business/91828397007/"
+      },
+      {
+        "type": "partnership",
+        "summary": "DXC Technology announced a strategic partnership with ElevenLabs to embed voice AI across enterprise operations, and joint projects are now starting.",
+        "date": "2026-09-29",
+        "source_url": "https://www.techpartner.news/news/dxc-technology-partners-with-elevenlabs-to-embed-voice-ai-across-enterprise-operations-629280"
+      },
+      {
+        "type": "hiring",
+        "summary": "ElevenLabs is opening a Singapore office and plans to hire for engineering and sales roles.",
+        "date": "2026-10-09",
+        "source_url": "https://www.straitstimes.com/tech/ai-speech-software-firm-elevenlabs-sets-up-shop-in-spore-hires-engineering-sales-roles"
+      },
+      {
+        "type": "hiring",
+        "summary": "ElevenLabs has open enterprise sales roles, such as Enterprise Account Executive for Consumer Brands, and a Chief of Staff role for its Talent organization. Together these point to a sales and recruiting build-out.",
+        "date": "2026-10-07",
+        "source_url": "https://www.linkedin.com/jobs/view/enterprise-account-executive-consumer-brands-at-elevenlabs-4476793590"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "I found no product-launch signal I could verify. The product search returned only irrelevant social posts, so I left out the mentions of Eleven v4 and automatic video background music and sound effects. Check elevenlabs.io/blog for launches. The DXC partnership was first announced in late July, per The Source Code. The 2026-09-29 date is the date of the article, not the original announcement. The CRO source is USA Today contributor content, so it may be sponsored or less independent. The Series D in February raised about $500M, per the FT snippet. The $22B valuation comes from a tender offer, not a new primary round. I did not find any layoffs or acquisitions."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 124.92,
+    "search_api_time_s": 114.6,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 5188,
+    "output_tokens": 1358,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://elevenlabs.io/blog/tender-22bn",
+    "https://humainism.ai/updates/elevenlabs-secures-180-million-in-funding-for-voice-ai-innovation/",
+    "https://multiples.vc/private-comps/elevenlabs",
+    "https://remotive.com/remote/jobs/human-resources/chief-of-staff-6273223",
+    "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+    "https://www.ft.com/content/08a71b38-d98c-472a-9576-e40ae2cfdf19?syn-25a6b1a6=1",
+    "https://www.instagram.com/reel/DeLyXMEzMmc/",
+    "https://www.instagram.com/reel/DeUUiBhs01A/",
+    "https://www.instagram.com/reel/DehxPc1CFjA/",
+    "https://www.linkedin.com/jobs/view/enterprise-account-executive-consumer-brands-at-elevenlabs-4476793590",
+    "https://www.mainsights.io/ma-news/us-investment-firms-acquire-minority-stake-in-uk-ai-company-elevenlabs",
+    "https://www.reddit.com/r/singapore/comments/1x2tm5x/ai_speech_software_firm_elevenlabs_sets_up_shop/",
+    "https://www.reuters.com/legal/transactional/elevenlabs-valuation-doubles-22-billion-surging-ai-voice-agent-demand-2026-09-30/",
+    "https://www.straitstimes.com/tech/ai-speech-software-firm-elevenlabs-sets-up-shop-in-spore-hires-engineering-sales-roles",
+    "https://www.techpartner.news/news/dxc-technology-partners-with-elevenlabs-to-embed-voice-ai-across-enterprise-operations-629280",
+    "https://www.the-sourcecode.com/ai-tech/elevenlabs-dxc-joint-voice-ai-projects-enterprise",
+    "https://www.usatoday.com/story/special/contributor-content/2026/09/18/elevenlabs-hires-its-first-chief-revenue-officer-as-the-ai-voice-race-turns-toward-business/91828397007/",
+    "https://www.youtube.com/watch?v=OR8j1S1xpe4",
+    "https://www.youtube.com/watch?v=PWxF7MH5y_c",
+    "https://www.youtube.com/watch?v=ZLVlr9Jy1Gs"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "ElevenLabs funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "ElevenLabs launches new product",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "ElevenLabs partnership announcement",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "ElevenLabs hires executive OR acquisition OR hiring",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

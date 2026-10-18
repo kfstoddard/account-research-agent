@@ -1,0 +1,110 @@
+{
+  "company": "Databricks",
+  "domain": "databricks.com",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Databricks",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Databricks closed a $5B strategic round (Series L) at a $190B valuation, led by Coatue with Blackstone, MGX and T. Rowe Price. The valuation was $134B in February 2026.",
+        "date": "2026-08-13",
+        "source_url": "https://valueaddvc.com/blog/databricks-190b-data-and-ai-lakehouse-platform-company-deep-dive"
+      },
+      {
+        "type": "earnings",
+        "summary": "Databricks reported crossing a $7B annualized revenue run-rate, growing more than 80% year over year. It has been free-cash-flow positive and has set no IPO date.",
+        "date": "2026-08-13",
+        "source_url": "https://www.geekwire.com/2026/seattle-startup-row-zero-acquired-by-databricks-to-bring-enterprise-spreadsheets-to-ai-platform"
+      },
+      {
+        "type": "acquisition",
+        "summary": "Databricks acquired spreadsheet startup Row Zero to add a live, governed spreadsheet interface to Genie. TechCrunch calls it the company's fourth acquisition of 2026, and Ghodsi said more are planned.",
+        "date": "2026-09-24",
+        "source_url": "https://techcrunch.com/2026/09/24/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire"
+      },
+      {
+        "type": "partnership",
+        "summary": "Fox Corporation named Databricks its platform of choice for data, AI apps and agents in a multi-year strategic partnership. Fox will use Lakebase, Genie Code, Unity Gateway and Genie Ontology.",
+        "date": "2026-10-13",
+        "source_url": "https://www.databricks.com/company/newsroom/press-releases/fox-corporation-selects-databricks-strategic-partner-next"
+      },
+      {
+        "type": "partnership",
+        "summary": "Microsoft and Databricks expanded their decade-long partnership through the 2030s. Databricks will deepen its use of Azure, including Azure Cobalt, and Microsoft will integrate Genie and Unity AI Gateway across its products.",
+        "date": "2026-07-23",
+        "source_url": "https://www.hpcwire.com/bigdatawire/this-just-in/databricks-and-microsoft-expand-partnership-to-help-enterprises-bring-business-context-to-enterprise-ai"
+      },
+      {
+        "type": "hiring",
+        "summary": "Databricks is actively hiring. a16z's job board lists 895 open roles, and Databricks has current postings for partner marketing (AWS and AI partners) and PR.",
+        "date": null,
+        "source_url": "https://jobs.a16z.com/company/databricks"
+      }
+    ],
+    "overall_confidence": "high",
+    "notes": "The funding, acquisition and Fox partnership signals come from multiple sources, including Databricks' own press releases and TechCrunch. The $7B run-rate figure comes from secondary reporting, and I did not see a primary earnings source. A stockanalysis.com snippet mentioned other recent items I could not date or verify, so I left them out of the signals. They are the Panther Labs (cybersecurity) acquisition, the Electric (Postgres/Lakebase) acquisition, and the CustomerLake agentic CDP launch. Check these before outreach. I found no leadership-change signals for Databricks itself. The only leadership result was an unrelated Rimes CTO hire. The 895 open roles come from an undated a16z page. The Fox deal and Databricks' emphasis on Genie, Lakebase and agents suggest good angles for AI, data-governance or agent-related conversations."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 20.79,
+    "search_api_time_s": 7.07,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 13288,
+    "output_tokens": 1421,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://americanbazaaronline.com/2026/09/25/databricks-expands-data-platform-with-acquisition-of-row-zero-488848",
+    "https://community.databricks.com/t5/community-articles/databricks-partner-tiers-explained-for-the-people-who-build-the/td-p/163456",
+    "https://financefeeds.com/rimes-taps-former-finra-executive-to-lead-data-platform-overhaul",
+    "https://jobs.a16z.com/company/databricks",
+    "https://sg.linkedin.com/in/jie-guo-%E9%83%AD%E6%9D%B0-14493292",
+    "https://stockanalysis.com/private/databricks",
+    "https://techcrunch.com/2026/09/24/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire",
+    "https://tippedrecruitment.com/roles/vp-partnerships-recruitment",
+    "https://tracxn.com/d/companies/databricks/__h71WlGEvmuefCzSdZogxaGihmuCYu0rBKj3hkmJQF7M",
+    "https://tracxn.com/d/companies/databricks/__h71WlGEvmuefCzSdZogxaGihmuCYu0rBKj3hkmJQF7M/funding-and-investors",
+    "https://valueaddvc.com/blog/databricks-190b-data-and-ai-lakehouse-platform-company-deep-dive",
+    "https://vestedfinance.com/blog/us-stocks/how-to-invest-in-databricks-ipo-from-india",
+    "https://www.careers.jnj.com/en/jobs/r-103068/director-data-science-and-ai",
+    "https://www.consultancy.eu/news/14339/ey-and-databricks-formalise-and-expand-partnership-in-the-netherlands",
+    "https://www.databricks.com/company/careers/marketing/sr-partner-marketing-manager-aws--ai-partners-8860665002",
+    "https://www.databricks.com/company/careers/marketing/sr-public-relations-manager-8860657002?gh_src=Notable+Capital+job+board",
+    "https://www.databricks.com/company/newsroom/press-releases/databricks-acquires-row-zero-bringing-live-governed-spreadsheets",
+    "https://www.databricks.com/company/newsroom/press-releases/fox-corporation-selects-databricks-strategic-partner-next",
+    "https://www.geekwire.com/2026/seattle-startup-row-zero-acquired-by-databricks-to-bring-enterprise-spreadsheets-to-ai-platform",
+    "https://www.hpcwire.com/bigdatawire/this-just-in/databricks-and-microsoft-expand-partnership-to-help-enterprises-bring-business-context-to-enterprise-ai"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Databricks funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Databricks acquisition announces",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Databricks launch new product partnership",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Databricks executive hires appoints leadership",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "large_tech",
+  "backend_errors": []
+}

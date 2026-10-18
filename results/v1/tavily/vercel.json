@@ -1,0 +1,125 @@
+{
+  "company": "Vercel",
+  "domain": "vercel.com",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Vercel",
+    "signals": [
+      {
+        "type": "acquisition",
+        "summary": "Vercel acquired Stakpak, an autonomous DevOps agent startup founded in Egypt, in July 2026. It was Vercel's third acquisition in about a year. Vercel also reportedly acquired Better Auth, an open-source auth library, within a week or so of Stakpak.",
+        "date": "2026-07-17",
+        "source_url": "https://tracxn.com/d/companies/vercel/__uPuJfXzfvAQs0wmUuqRiXFxW4uGbcaKUHjHks8VPbrI"
+      },
+      {
+        "type": "acquisition",
+        "summary": "Vercel reportedly acquired Better Auth, an open-source authentication library, shortly after Stakpak. The source is a secondary news article and gives no exact date.",
+        "date": null,
+        "source_url": "https://launchbaseafrica.com/2026/09/30/replit-atta-ai"
+      },
+      {
+        "type": "product_launch",
+        "summary": "At Vercel Ship 2026 the company announced Vercel Services (microservices as first-class, available July 1), AI SDK 7 (over 16M weekly downloads), and Vercel Connect, which gives agents scoped temporary credentials.",
+        "date": null,
+        "source_url": "https://vercel.com/blog/vercel-ship-2026-recap"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Vercel Shop, its open-source Next.js storefront template for Shopify, became generally available, along with the rebuilt Hydrogen SDK for use across JS frameworks, as part of an agent-commerce push with Shopify.",
+        "date": null,
+        "source_url": "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers"
+      },
+      {
+        "type": "product_launch",
+        "summary": "A new model called Jev, introduced Sept 15, became the fastest-adopted model in AI Gateway history. Nearly 13% of paid teams used it within 24 hours.",
+        "date": "2026-09-15",
+        "source_url": "https://vercel.com/blog/ai-gateway-jev-model-launch"
+      },
+      {
+        "type": "other_news",
+        "summary": "Vercel ran a $1M bug bounty to escape Vercel Sandbox (Aug 18 to Sep 1). It received 1,285 reports and paid out $242K. One Linux kernel zero-day was found, and Vercel reports no customer data was compromised. Findings were published Oct 14.",
+        "date": "2026-10-14",
+        "source_url": "https://www.sourcery.vc/p/breaking-93b-vercel-on-ais-infra"
+      },
+      {
+        "type": "earnings",
+        "summary": "Vercel said it crossed a $500M annualized revenue run rate in early July 2026. This comes from a third-party blog, not from Vercel directly. Separately, CEO Guillermo Rauch says AI agents account for 60% of Vercel deployments, up from 3% at the start of 2026.",
+        "date": "2026-07-01",
+        "source_url": "https://okara.ai/blog/vercel-revenue-growth"
+      },
+      {
+        "type": "hiring",
+        "summary": "Vercel is hiring for strategic cloud and product partnerships leads and for enterprise and account executives in Austin ($280K-$320K for enterprise AEs). This points to an enterprise sales and partnership build-out.",
+        "date": null,
+        "source_url": "https://www.linkedin.com/jobs/view/strategic-cloud-partnerships-lead-at-vercel-corp-4477661353"
+      },
+      {
+        "type": "partnership",
+        "summary": "Vercel and Shopify are collaborating on agent commerce. Vercel also hosted a hackathon with OpenAI/Codex at Ship week in New York.",
+        "date": null,
+        "source_url": "https://vercel.com/blog/vercel-ship-2026-recap"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The latest funding round I found is the Series F on 2025-09-30: $300M at a $9.3B valuation, led by Accel and GIC. That is outside the 90-day window, so I did not list it as a signal. I found no new round in 2026, no layoffs and no leadership changes. Many sources show no date, and several of the signals above come from third-party aggregators (Tracxn, Okara, Launch Base Africa), so verify them before quoting them. The ~$500M run-rate figure is not confirmed by a primary source. The product launches (Ship 2026, Vercel Shop) are undated in the snippets, so they may fall slightly outside the 90 days. Possible openers: the agent-native infrastructure push, Sandbox security, enterprise expansion, and the acquisitions of Stakpak and Better Auth."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 23.42,
+    "search_api_time_s": 7.23,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 17804,
+    "output_tokens": 1800,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://ecosystem.andorra-startup.com/companies/zeit",
+    "https://evion.app/events/techwadi-2026-annual-forum",
+    "https://guptadeepak.com/startup-offers/programs/vercel-for-startups",
+    "https://launchbaseafrica.com/2026/09/30/replit-atta-ai",
+    "https://okara.ai/blog/vercel-revenue-growth",
+    "https://thecondia.com/replit-acquires-atta-egypts-ai-startup",
+    "https://tracxn.com/d/companies/vercel/__uPuJfXzfvAQs0wmUuqRiXFxW4uGbcaKUHjHks8VPbrI",
+    "https://vercel.com/blog/ai-gateway-jev-model-launch",
+    "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers",
+    "https://vercel.com/blog/vercel-ship-2026-recap",
+    "https://www.builtinaustin.com/job/growth-marketing-manager-discoverability/10271984",
+    "https://www.builtinnyc.com/company/vercel/jobs",
+    "https://www.instagram.com/p/DefZAWJEznS",
+    "https://www.linkedin.com/jobs/view/strategic-cloud-partnerships-lead-at-vercel-corp-4477661353",
+    "https://www.linkedin.com/jobs/view/strategic-product-partnerships-lead-at-vercel-corp-4477644973",
+    "https://www.sourcery.vc/p/breaking-93b-vercel-on-ais-infra",
+    "https://www.upmarket.co/private-markets/pre-ipo/vercel"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Vercel funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Vercel announces launch",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Vercel acquisition OR partnership OR hires executive",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Vercel acquires Stakpak",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

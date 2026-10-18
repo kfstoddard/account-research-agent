@@ -1,0 +1,105 @@
+{
+  "company": "Peloton",
+  "domain": "onepeloton.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Peloton (onepeloton.com)",
+    "signals": [
+      {
+        "type": "product_launch",
+        "summary": "Peloton launched the Tread Flex, its first foldable and most affordable treadmill. It also announced new AI-powered coaching features for runners, walkers and hikers, and a new partnership with WHOOP.",
+        "date": "2026-09-22",
+        "source_url": "https://investor.onepeloton.com/news-releases/news-release-details/peloton-launches-foldable-peloton-tread-flex-its-most-affordable"
+      },
+      {
+        "type": "product_launch",
+        "summary": "CNBC reports Peloton is revamping its treadmill line with three new treadmills, including its first folding model, plus new Peloton IQ features. The company is aiming to broaden appeal from casual walkers and hikers to serious runners.",
+        "date": "2026-09-22",
+        "source_url": "https://www.cnbc.com/2026/09/22/peloton-announces-new-tread-peloton-iq-features.html"
+      },
+      {
+        "type": "partnership",
+        "summary": "Peloton added a WHOOP partnership to its wellness ecosystem, alongside existing Apple Health, Fitbit and Garmin Connect integrations.",
+        "date": "2026-09-22",
+        "source_url": "https://investor.onepeloton.com/news-releases/news-release-details/peloton-launches-foldable-peloton-tread-flex-its-most-affordable"
+      },
+      {
+        "type": "partnership",
+        "summary": "A Peloton–Google Gemini integration is reportedly live. Members can link their Peloton account in Gemini to find classes and add them to their schedules.",
+        "date": null,
+        "source_url": "https://theclipout.com/peloton-gemini-integration-launches/"
+      },
+      {
+        "type": "leadership_change",
+        "summary": "Chief Accounting Officer Saqib Baig notified Peloton on Oct 8, 2026 that he is stepping down to pursue an external opportunity. A separate post says his last day is Nov 27.",
+        "date": "2026-10-08",
+        "source_url": "https://www.theglobeandmail.com/investing/markets/stocks/PTON-Q/pressreleases/7591463/peloton-announces-chief-accounting-officer-leadership-transition/"
+      },
+      {
+        "type": "other_news",
+        "summary": "Peloton ran a Tread Flex marketing campaign with Miley Cyrus, set to her new single \"Bass Persuades\".",
+        "date": "2026-09-22",
+        "source_url": "https://investor.onepeloton.com/news-releases/news-release-details/peloton-debuts-peloton-tread-flex-alongside-miley-let-yourself"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The Gemini integration article was shown only as \"1 day ago\", so I left its date null. It was probably published around mid-October 2026. I found no reliable earnings, funding, acquisition or layoff signals in the last 90 days. One result said FY2026 was Peloton's \"first profitable year\", but it came from a low-quality retail-spam page, so I excluded it. Check Peloton's investor site for the actual FY2026 Q4 results. A snippet about CEO change and about 3,000 layoffs was undated and likely refers to 2024, so I excluded it. The CAO departure suggests finance-team change, and the treadmill and AI launches suggest a push to regain momentum."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 45.67,
+    "search_api_time_s": 32.17,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 4497,
+    "output_tokens": 1467,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://careers.onepeloton.com/en/all-jobs/8223464/legal-director-privacy/",
+    "https://investor.onepeloton.com/news-releases/news-release-details/peloton-debuts-peloton-tread-flex-alongside-miley-let-yourself",
+    "https://investor.onepeloton.com/news-releases/news-release-details/peloton-launches-foldable-peloton-tread-flex-its-most-affordable",
+    "https://theclipout.com/peloton-gemini-integration-launches/",
+    "https://www.circuly.io/blog/how-peloton-built-a-business-around-hardware-as-a-service",
+    "https://www.cnbc.com/2026/09/22/peloton-announces-new-tread-peloton-iq-features.html",
+    "https://www.facebook.com/PeloBuddy/posts/peloton-chief-accounting-officer-saqib-baig-is-stepping-down-for-an-external-opp/1155263460394626/",
+    "https://www.facebook.com/axiosnews/posts/peloton-expands-treadmill-lineup-in-bid-to-regain-momentum/1469232425066722/",
+    "https://www.instagram.com/p/DemRs30F-yh/",
+    "https://www.linkedin.com/jobs/view/change-management-lead-at-peloton-consulting-group-4472085041",
+    "https://www.nt22developer.com/?f570168=03_2055546_2_30",
+    "https://www.onepeloton.com/blog/whats-new-2026-treadmill-updates",
+    "https://www.reddit.com/r/pelotoncycle/comments/1wx3c4w/peloton_fear_mongering/",
+    "https://www.theglobeandmail.com/investing/markets/stocks/PTON-Q/pressreleases/7591463/peloton-announces-chief-accounting-officer-leadership-transition/",
+    "https://www.youtube.com/watch?v=GEodbpM_YNc"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Peloton news October 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Peloton earnings 2026 quarter results",
+      "recency": "month",
+      "n_results": 1
+    },
+    {
+      "tool": "web_search",
+      "query": "Peloton product launch partnership 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Peloton layoffs OR hiring OR leadership change 2026",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "non_tech",
+  "backend_errors": []
+}

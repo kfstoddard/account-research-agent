@@ -1,0 +1,100 @@
+{
+  "company": "Chobani",
+  "domain": "chobani.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Chobani",
+    "signals": [
+      {
+        "type": "other_news",
+        "summary": "Chobani announced plans to invest about $1.2B over five years in a 1.5M sq ft manufacturing facility. The Food Business News topic page ties this to an Allentown campus. The snippet I saw was truncated, and the page it came from was a soccer-sponsorship press release.",
+        "date": "2026-09-29",
+        "source_url": "https://www.foodbusinessnews.net/topics/206-chobani"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Chobani launched La Colombe Matcha Lattes in three flavors: Vanilla, Strawberry and a third (probably classic matcha).",
+        "date": "2026-09-25",
+        "source_url": "https://www.yahoo.com/lifestyle/articles/chobani-launches-la-colombe-matcha-205247471.html"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Chobani is bringing back Peppermint Mocha Coffee Creamer. It is also releasing Pistachio Chocolate Coffee Creamer as its fourth and final Flavor Drop of the year.",
+        "date": "2026-10-07",
+        "source_url": "https://parade.com/food/chobani-is-officially-bringing-back-its-most-loved-seasonal-coffee-creamer-flavor"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Chobani launched High Protein Drinks in 6 flavors with 20g or 30g of protein. The post's title mentions a $20M investment in a facility. The post is undated, so the timing is unconfirmed.",
+        "date": null,
+        "source_url": "https://www.instagram.com/p/Dd5TLsCG73u/"
+      },
+      {
+        "type": "hiring",
+        "summary": "Chobani has open roles in Twin Falls (production supervisor, HTST operator), Philadelphia (procurement manager covering new product launches) and New York (eCommerce). These suggest continued manufacturing and supply chain hiring.",
+        "date": "2026-10-16",
+        "source_url": "https://careers.chobani.com/job/Philadelphia-Procurement-Manager-PA-19019/1440828900/"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "Chobani's job postings say it acquired Daily Harvest in 2025. That is outside the 90-day window, so I did not list it as a signal. The Food Business News page also mentions 'Chobani raises $650 million', but I couldn't confirm the date, so I left it out. It may be older. The $1.2B investment is the strongest hook, but I couldn't open the primary press release. Confirm the location (Allentown, PA) and the details before citing them. One search failed, and I hit the search limit before I could verify further. I found no leadership change or layoff signals, but I didn't search for them specifically."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 116.84,
+    "search_api_time_s": 102.61,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 14633,
+    "output_tokens": 1339,
+    "tool_errors": 1
+  },
+  "seen_urls": [
+    "https://careers.chobani.com/job/New-York-Associate-Manager%2C-eCommerce-NY-10001/1424115300/",
+    "https://careers.chobani.com/job/Philadelphia-Procurement-Manager-PA-19019/1440828900/",
+    "https://careers.chobani.com/job/Twin-Falls-HTST-Operator-%28Grade-6%29-C-Shift-%28600-PM-to-630-AM%2C-every-other-weekend-required%29-ID-83301/1440443800/",
+    "https://careers.chobani.com/job/Twin-Falls-Production-Supervisor-ID-83301/1440056200/",
+    "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+    "https://nvidianews.nvidia.com/news/nvidia-commits-1-billion-to-advance-us-science-over-the-next-five-years",
+    "https://parade.com/food/chobani-is-officially-bringing-back-its-most-loved-seasonal-coffee-creamer-flavor",
+    "https://www.facebook.com/CollegeofSouthernIdaho/posts/2000-boxes-packed-today-csi-students-faculty-and-staff-teamed-up-with-chobani-fo/1553450983494067/",
+    "https://www.fincen.gov/news/news-releases/fincen-assesses-12-billion-penalty-against-bank-america",
+    "https://www.foodbusinessnews.net/topics/206-chobani",
+    "https://www.instagram.com/p/Dd5TLsCG73u/",
+    "https://www.kff.org/medicaid/a-closer-look-at-the-50-billion-rural-health-transformation-program/",
+    "https://www.prnewswire.com/news-releases/chobani-feeds-the-dream-of-500-youth-soccer-clubs-nationwide-302908474.html",
+    "https://www.uoregon.edu/press/2026/knight-engineering/",
+    "https://www.yahoo.com/lifestyle/articles/chobani-launches-la-colombe-matcha-205247471.html"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Chobani news 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Chobani funding OR acquisition OR expansion OR CEO 2026",
+      "error": "non-JSON SERP response after retry (first 150 chars: '')"
+    },
+    {
+      "tool": "web_search",
+      "query": "Chobani launch new product",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Chobani $1.2 billion Allentown manufacturing campus",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "non_tech",
+  "backend_errors": [
+    "search: non-JSON SERP response after retry (first 150 chars: '')"
+  ]
+}

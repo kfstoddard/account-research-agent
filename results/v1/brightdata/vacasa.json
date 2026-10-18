@@ -1,0 +1,87 @@
+{
+  "company": "Vacasa",
+  "domain": "vacasa.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Vacasa (vacasa.com)",
+    "signals": [
+      {
+        "type": "leadership_change",
+        "summary": "Joe Riley took over as CEO of Casago, which acquired Vacasa in 2025. The change took effect on Oct 2, 2026, after the final Vacasa market transitions were completed.",
+        "date": "2026-10-02",
+        "source_url": "https://www.businesswire.com/news/home/20261002386620/en/Casago-Leadership-Transition-Takes-Effect-as-Joe-Riley-Becomes-CEO"
+      },
+      {
+        "type": "other_news",
+        "summary": "Casago completed its final Vacasa market transitions in September 2026. All former Vacasa markets are now locally owned and operated by Casago franchisees or other partners, so the centralized Vacasa model has become a distributed franchise network.",
+        "date": "2026-10-02",
+        "source_url": "https://vrmintel.com/casago-leadership-transition-takes-effect-as-joe-riley-becomes-ceo/"
+      },
+      {
+        "type": "other_news",
+        "summary": "Former Vacasa and Wyndham executives launched First Chair Destinations, a new professionally managed vacation rental brand. Bob Milne, a former Vacasa COO, is its COO and President.",
+        "date": "2026-09-23",
+        "source_url": "https://shorttermrentalz.com/news/former-vacasa-wyndham-first-chair-destinations/"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "Vacasa no longer appears to operate as an independent company. Casago acquired it in 2025, and the Vacasa markets have now moved to Casago franchisees. Outreach should probably target Casago and its local franchise operators, not a central Vacasa team. A Robinhood page still shows a VCSA stock quote, but I did not verify its status and did not use it. I found no funding, earnings, layoff, hiring or product-launch signals in the last 90 days. I did not open the articles, so the details come from search snippets. First Chair's founding team comes from the snippet and headline, so check it before using it in outreach."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 50.75,
+    "search_api_time_s": 41.85,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 7965,
+    "output_tokens": 938,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://app.dealroom.co/news/feed/joe-riley-becomes-ceo-of-casago-following-vacasa-market-transitions",
+    "https://en.10minhotel.com/2026/10/02/casago-leadership-transition-takes-effect-as-joe-riley-becomes-ceo/",
+    "https://finance.yahoo.com/small-business/articles/casago-leadership-transition-takes-effect-140000527.html",
+    "https://mitchellake.com/intelligence/wire/casago-restructuring-2026-10-02",
+    "https://robinhood.com/us/en/stocks/VCSA/",
+    "https://santamariatimes.marketminute.com/article/bizwire-2026-10-2-casago-leadership-transition-takes-effect-as-joe-riley-becomes-ceo",
+    "https://shorttermrentalz.com/news/former-vacasa-wyndham-first-chair-destinations/",
+    "https://vrmintel.com/casago-leadership-transition-takes-effect-as-joe-riley-becomes-ceo/",
+    "https://www.businesswire.com/news/home/20261002386620/en/Casago-Leadership-Transition-Takes-Effect-as-Joe-Riley-Becomes-CEO",
+    "https://www.citybiz.co/article/913374/casago-names-joe-riley-ceo-following-completion-of-vacasa-market-transitions/",
+    "https://www.facebook.com/TheVRMA/posts/tomorrows-discussion-could-spark-your-next-big-breakthrough-join-vacation-rental/1705481121577302/",
+    "https://www.linkedin.com/jobs/view/product-policy-manager-genai-at-meta-4476579818",
+    "https://www.linkedin.com/posts/sschwab_vrma-needs-to-change-the-way-it-does-business-activity-7506884274206265344-8p1i",
+    "https://www.thehostreport.com/news/joe-riley-takes-over-as-casago-ceo",
+    "https://www.youtube.com/watch?v=gU20tCmofJw&vl=en"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Vacasa news 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Vacasa Casago acquisition OR layoffs OR leadership OR partnership",
+      "recency": "month",
+      "n_results": 3
+    },
+    {
+      "tool": "web_search",
+      "query": "Vacasa hiring OR product launch OR CEO",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Casago Vacasa market transitions completed September 2026 franchise",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "non_tech",
+  "backend_errors": []
+}

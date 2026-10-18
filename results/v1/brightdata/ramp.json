@@ -1,0 +1,94 @@
+{
+  "company": "Ramp",
+  "domain": "ramp.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Ramp (ramp.com)",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Ramp reportedly raised $1.85B at a $60B valuation. Headlines also say annualized revenue is above $2B and that it is adding AI agent cost controls to its platform.",
+        "date": null,
+        "source_url": "https://www.google.com/goto?url=CAESowEB6zswFdBffRERlqdRLpr6qHCH2L-8bA4_gTag8zcRTTq0XswGavwRCz6ZRha4YTuxrf4758HQid28p0dZ1D28XRDJXjheKECDfevLBxnupnpMqcZRSGzVswt-NZT5xGjY-df2m9QdJ8SOSyA7CEk-vlnCw0If0Fuxz2XIJPKEOsbZYA1ikYq8CxzrpMpotIECBvqNcp0bSiaiKCUgqAhuewlH"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Ramp launched Ramp Accounts Receivable, an invoice-to-cash product with a free tier. It is available to US single-entity businesses on QuickBooks Online and NetSuite, and other ERP integrations are 'coming soon'.",
+        "date": "2026-09-22",
+        "source_url": "https://www.thisweekinfintech.com/p/ramp-introduces-accounts-receivable-product"
+      },
+      {
+        "type": "partnership",
+        "summary": "Ramp and the San Francisco 49ers announced a multi-year partnership aimed at fans, finance leaders and Bay Area businesses.",
+        "date": "2026-10-08",
+        "source_url": "https://www.49ers.com/news/ramp-and-san-francisco-49ers-announce-new-multi-year-partnership"
+      },
+      {
+        "type": "hiring",
+        "summary": "Ramp has open roles for Senior Channel Partner Manager (Global Advisory/GSI and Strategic Advisory) and Financial Partnerships Manager, International. These suggest it is building out its accounting-firm and advisory channel and its international payments partnerships.",
+        "date": "2026-09-30",
+        "source_url": "https://www.linkedin.com/jobs/view/senior-channel-partner-manager-strategic-advisory-at-ramp-4472087522"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The funding result links are Google redirect URLs. The snippets were empty, and the dates were only relative ('1–2 days ago', 'a week ago'), so the round was probably announced around mid-October 2026. I left the date null. The round size, valuation and revenue come from headlines only, so confirm them against the original article before quoting them. A welcome.ai item dated 2026-09-28 mentioned a Ramp UK launch. I left it out because it may be a re-post of older news. The 49ers deal is a sponsorship rather than a business partnership. I found no leadership change, acquisition, layoff or earnings signals. Ramp is private, and I ran only 4 searches, one of which failed and was retried."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 63.6,
+    "search_api_time_s": 44.59,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 7809,
+    "output_tokens": 1463,
+    "tool_errors": 1
+  },
+  "seen_urls": [
+    "https://app.dealroom.co/news/feed/ramp-launches-accounts-receivable-product-to-help-businesses-get-paid-faster",
+    "https://jobs.lsvp.com/jobs/ramp",
+    "https://welcome.ai/content/ramps-uk-launch-enhances-financial-management-and-user-experience",
+    "https://www.49ers.com/news/ramp-and-san-francisco-49ers-announce-new-multi-year-partnership",
+    "https://www.accountingtoday.com/news/ramp-launches-ar-product-to-pair-with-payment-capacities",
+    "https://www.builtinnyc.com/job/financial-partnerships-manager-international/8487038",
+    "https://www.google.com/goto?url=CAESlAEB6zswFb8tsO8Do5OhdAUfglsg60ZqgYc7sjuB7FM4q5m2PAZcjvQX8mIsu6ixVIsTvEOaZfEd3PRUH-s6Ob9Czcd8zgxxebmw3-0hpaT7MRUfgbhumHZ1l0oJA5yyvqiEPK9AUYKVG3nhIMRg1-23_IW8hur_zJRvlMxMlN6JV67aNZMvAYSeGVL6OOarwPel7yM8",
+    "https://www.google.com/goto?url=CAESnAEB6zswFWw8LUw9dOxUzic9yQYD-KM3YGiTELet7y5yuSE-yGeR7RGYO3q6niFVKCvWX-dijHcWGaX1iezBJ7yUeOh8caM_cVGNIxzBPaek1cHzdKBInlk1Y7OoEc0doYKGuOUTwtlWiSbTESMyeQrkgptv-yjbMea7R3PNXfkB7YQkSWh9MN8o_J9hiOdXCChwAqUnZ5iqgfxPCyk",
+    "https://www.google.com/goto?url=CAESowEB6zswFdBffRERlqdRLpr6qHCH2L-8bA4_gTag8zcRTTq0XswGavwRCz6ZRha4YTuxrf4758HQid28p0dZ1D28XRDJXjheKECDfevLBxnupnpMqcZRSGzVswt-NZT5xGjY-df2m9QdJ8SOSyA7CEk-vlnCw0If0Fuxz2XIJPKEOsbZYA1ikYq8CxzrpMpotIECBvqNcp0bSiaiKCUgqAhuewlH",
+    "https://www.google.com/goto?url=CAESqgEB6zswFTxUqc8uBgFOnNEuC-7lyheutmuhzoNstZIVEi8RFOTMs0DUcxMhD2K3FO19pSYDf8YmlMNEUJke3NyyRYG8GpSRws5l50llZhqvNR1LkyEqL5kdV29B2EcS9bZKYyq0kjkeHOSHqBq4YSmSHIG8G5CnsB4daczpPA_NXR0QzKZaxc5MLY6IiiCVUT1rKhwq8wVZc2pOVhF3lhu3AtLmZGyFNUdBEA",
+    "https://www.google.com/goto?url=CAESvAEB6zswFVr2q5hLOUr0DA3FQJ647oAzdm54VWrGp2EgSO0v7i2y1hRerv91CL6Fo-cMkGZU1tAAkwpkgNwAHQJCiIkFgwShRDWOeh11zSXw6VlOfsOLhTnEKWWvEVpev9mk5chHByo8b9_RXrIwhEdQ1G5vAYCU2pRCGIMJ_XgVj2bKpp05mt6_tGFm-JLFMqt0nCOORhNTWfmBUC4rCvPqNZtcCrg5TK6DViIcU4Y2_6TRh6qLWVeSyDhVAg",
+    "https://www.lelezard.com/en/news-ramp-launches-ramp-accounts-receivable-to-help-businesses-get-paid-faster-22375002.html",
+    "https://www.linkedin.com/jobs/view/senior-channel-partner-manager-strategic-advisory-at-ramp-4472087522",
+    "https://www.remotesource.com/jobs/1xOcMaqTwuk31ZJGqYZXb-senior-channel-partner-manager-global-advisory-gsi-at-ramp",
+    "https://www.thisweekinfintech.com/p/ramp-introduces-accounts-receivable-product"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Ramp fintech funding valuation 2026",
+      "error": "non-JSON SERP response after retry (first 150 chars: 'This query recently failed and cannot be attempted at this time. Please try again later, after a minimum of 15 seconds. https://docs.brightdata.com/sc')"
+    },
+    {
+      "tool": "web_search",
+      "query": "Ramp ramp.com product launch announces",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Ramp acquisition OR partnership OR hires executive 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Ramp raises valuation billion",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": [
+    "search: non-JSON SERP response after retry (first 150 chars: 'This query recently failed and cannot be attempted at this time. Please try again later, after a minimum of 15 seconds. https://docs.brightdata.com/sc')"
+  ]
+}

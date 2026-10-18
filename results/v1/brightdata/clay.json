@@ -1,0 +1,65 @@
+{
+  "company": "Clay",
+  "domain": "clay.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": null,
+  "raw_final_text": "{\"company\":\"Clay (clay.com)\",\"signals\":[{\"type\":\"funding\",\"summary\":\"Clay reportedly closed a $115M Series D in September 2026 at a $7.1B post-money valuation, after about 4x revenue growth in 2025. Clay's own blog headline and the aggregator coverage are consistent on this.\",\"date\":\"2026-10-05\",\"source_url\":\"https://www.newnex.io/feed/clay-raises-115m-series-d-at-7-1bn-valuation\"},{\"type\":\"other_news\",\"summary\":\"Clay announced its second employee tender offer in nine months. The blog snippet puts the valuation at $5B, which conflicts with the $7.1B Series D figure.\",\"date\":\"2026-10-08\",\"source_url\":\"https://www.clay.com/blog/tender-offer-2026\"},{\"type\":\"partnership\",\"summary\":\"Clay and Marketbridge announced a strategic partnership to help large enterprises turn buyer intelligence into coordinated GTM execution.\",\"date\":\"2026-09-29\",\"source_url\":\"https://marketbridge.com/clay-and-marketbridge-modernize-enterprise-go-to-market-execution-b2b-organizations/\"},{\"type\":\"hiring\",\"summary\":\"Clay is actively hiring, including a Head of Field Marketing and early-career SDRs (Clay-DRs) in SF. A Clay salesperson also posted that three reps each closed over $1M in enterprise deals last quarter.\",\"date\":\"2026-09-23\",\"source_url\":\"https://jobs.ashbyhq.com/claylabs/c2c47ee2-0e67-410a-8465-8c87ca6a7509\"},{\"type\":\"other_news\",\"summary\":\"Clay launched a community scholarship for people pursuing GTM Engineering careers, which points to continued investment in the GTM engineer ecosystem.\",\"date\":\"2026-09-22\",\"source_url\":\"https://www.clay.com/fr/community-scholarship\"}],\"overall_confidence\":\"medium\",\"notes\":\"The $7.1B Series D valuation is repeated across several secondary sources, but I did not see a primary announcement page. The Tracxn and tender-offer snippets cite a $5B valuation and $325M total raised, which probably predate the Series D or reflect the tender price, so confirm before quoting a figure. Total funding is reported variously as $317M and $325M, and that may not include the Series D. A LinkedIn post suggests Clay repositioned its product as a 'GTM system', but it has no date, so I did not list it as a signal. I found no leadership changes, layoffs or acquisitions in the results. The Head of Field Marketing posting suggests Clay is building out enterprise and field motions. Roughly half of its business reportedly comes from that segment, per the job post snippet.}",
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 58.78,
+    "search_api_time_s": 45.83,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 12398,
+    "output_tokens": 1274,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://jobs.ashbyhq.com/claylabs/c2c47ee2-0e67-410a-8465-8c87ca6a7509",
+    "https://jobs.sapphireventures.com/companies/clay-2-ed7afbce-d16f-41f8-a33f-de2e08c92e46/jobs/96811539-head-of-field-marketing",
+    "https://marketbridge.com/clay-and-marketbridge-modernize-enterprise-go-to-market-execution-b2b-organizations/",
+    "https://markets.businessinsider.com/news/stocks/clay-and-marketbridge-partner-to-modernize-enterprise-go-to-market-execution-for-b2b-organizations-1036581438",
+    "https://multiples.vc/private-comps/clay",
+    "https://pipeline.zoominfo.com/sales/what-is-clay",
+    "https://tracxn.com/d/companies/clay/__4klxbcdinU3gElTPA0raH745Gx10_2_NSf7UzmgALBg",
+    "https://www.clay.com/blog/tender-offer-2026",
+    "https://www.clay.com/fr/community-scholarship",
+    "https://www.clay.com/fr/dossier/voyage-ai-funding",
+    "https://www.demandgenreport.com/industry-news/news-brief/clay-marketbridge-partner-to-modernize-b2b-gtm-execution/54721/",
+    "https://www.linkedin.com/posts/pipeiq_clays-website-finally-says-what-the-product-activity-7507205068941860864-HbUS",
+    "https://www.linkedin.com/posts/sabrina-glaser9_were-hiring-httpswwwclaycomjobs-activity-7510748624465739776-jJW7",
+    "https://www.newnex.io/feed/clay-raises-115m-series-d-at-7-1bn-valuation",
+    "https://www.quotabrief.com/articles/clay-the-ai-sales-tool-vendor-raises-115m-nyt-report-9780c3c5",
+    "https://www.saasrise.com/deals/clay-raises-115m-in-series-d-funding-round-at-71b-valuation-cd63efc8-adac-4a3d-80ed-7968094095d8",
+    "https://wwwauction.thriftycroc.com/news/258858.html"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Clay clay.com funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Clay GTM data enrichment platform news launch partnership",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Clay clay.com hiring OR executive OR acquisition 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Clay Series D $115M $7.1B valuation tender offer $5B",
+      "recency": "month",
+      "n_results": 3
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

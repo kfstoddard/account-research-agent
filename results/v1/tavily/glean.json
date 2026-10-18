@@ -1,0 +1,96 @@
+{
+  "company": "Glean",
+  "domain": "glean.com",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Glean (glean.com)",
+    "signals": [
+      {
+        "type": "partnership",
+        "summary": "Glean is a launch partner in OpenAI's new B2B marketplace, announced at OpenAI DevDay. Eligible OpenAI enterprise customers can apply part of their OpenAI spend commitment to Glean. Glean paired the news with its AI Gateway governance product.",
+        "date": null,
+        "source_url": "https://www.glean.com/blog/glean-openai-b2b-marketplace"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Glean is promoting Glean AI Gateway, an enterprise control plane that governs AI access across Glean Assistant, external coding tools and custom apps. Glean says its Assistant and Agents run on OpenAI's GPT-6 model family.",
+        "date": null,
+        "source_url": "https://www.glean.com/blog/glean-openai-b2b-marketplace"
+      },
+      {
+        "type": "hiring",
+        "summary": "Glean has an open Principal Product Marketing Manager role for 'Glean Enterprise Context'. This suggests a go-to-market push around its context, connectors and Enterprise Graph technology.",
+        "date": null,
+        "source_url": "http://job-boards.greenhouse.io/gleanwork/jobs/4736358005"
+      },
+      {
+        "type": "other_news",
+        "summary": "A Polymarket page says October 2026 secondary-market prints imply a valuation of about $6.9B, slightly below the $7.2B Series F valuation. It also says no new equity round has emerged recently. This is a prediction-market page with unverified figures.",
+        "date": null,
+        "source_url": "https://polymarket.com/event/will-gleans-valuation-hit-by-october-31-2026?marketSlug=will-gleans-valuation-hit-high-7pt25b-by-october-31-2026&outcomeIndex=1"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The OpenAI marketplace blog post has no date in the search results. LinkedIn post IDs suggest it was published in late September or early October 2026, which would fall inside the 90-day window, but I could not confirm that. No new funding round was found. The latest priced round is the $150M Series F in June 2025 at $7.2B, which is outside the window. A third-party guide checked on 2026-09-24 also found no newer funding announcement. I found no recent leadership change, acquisition, layoff or earnings news. A search for leadership news returned only unrelated results, so a gap there is possible. The Wikipedia entry mentions a February 2026 Assistant expansion, which is too old to count as a recent signal. Possible talking points are multi-model governance and AI Gateway, and OpenAI-budget procurement."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 24.98,
+    "search_api_time_s": 9.5,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 23987,
+    "output_tokens": 1684,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "http://job-boards.greenhouse.io/gleanwork/jobs/4736358005",
+    "https://docs.glean.com/glean-core-suite-pricing",
+    "https://en.wikipedia.org/wiki/Glean_Technologies",
+    "https://polymarket.com/event/will-gleans-valuation-hit-by-october-31-2026?marketSlug=will-gleans-valuation-hit-high-7pt25b-by-october-31-2026&outcomeIndex=1",
+    "https://rainvent.ai",
+    "https://sigilpartners.com/success-story/cloud-hires-powering-post-acquisition-growth",
+    "https://siliconvalleyinvestclub.com/de/companies/glean/team/sunil-agrawal",
+    "https://tracxn.com/d/companies/glean/__0aO5V-wZsJgrfCZYNJm9ccNqZCpaXHw-O9LJTlZZYgQ/funding-and-investors",
+    "https://www.bermudareinsurancemagazine.com/the-fidelis-partnership-appoints-helen-wilson-sarah-ching-to-strengthen-bermuda-reinsurance-team",
+    "https://www.getmacha.com/blog/glean-ai-complete-guide",
+    "https://www.glean.com/blog/glean-openai-b2b-marketplace",
+    "https://www.gosearch.ai/blog/glean-pricing-explained",
+    "https://www.heraldscotland.com/news/26561979.brooks-macdonald-appoints-three-senior-hires-across-scotland",
+    "https://www.instagram.com/p/DeZLeF-mLqG",
+    "https://www.kore.ai/blog/top-alternatives-for-glean",
+    "https://www.linkedin.com/posts/amar-maletira_enterprise-ai-will-be-multi-model-and-multi-provider-activity-7510763356983771136-r_7N",
+    "https://www.linkedin.com/posts/zachzielinski_glean-openai-gleanaigateway-activity-7513618388477304832-COt0",
+    "https://www.seedops.co/companies/gleanwork/recent-hires"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Glean funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Glean enterprise AI product launch",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Glean acquisition OR partnership OR hires OR appoints",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "OpenAI DevDay B2B marketplace Glean launch partner",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

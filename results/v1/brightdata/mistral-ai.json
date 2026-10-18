@@ -1,0 +1,116 @@
+{
+  "company": "Mistral AI",
+  "domain": "mistral.ai",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Mistral AI",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Mistral AI announced a €3B Series D at a post-money valuation above €21B (about $24B). Dealroom says Samsung supplied most of it, and the round is framed around frontier research and compute capacity.",
+        "date": null,
+        "source_url": "https://shattered.io/mistral-24-billion-valuation-ai-safety-tool-2026/"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Mistral unveiled Mistral Large 4, an open-weight model, which Trending Topics presents as Europe's bid to stay in the AI race.",
+        "date": "2026-10-06",
+        "source_url": "https://www.trendingtopics.eu/mistral-large-4-open-weight-model/"
+      },
+      {
+        "type": "partnership",
+        "summary": "CERN and Mistral signed a statement of intent for a long-term strategic partnership to build Flare, an AI foundation model for physics. Reuters says Flare will be released to the public on October 27.",
+        "date": "2026-10-15",
+        "source_url": "https://www.reuters.com/science/cern-mistral-partner-build-ai-foundation-models-physics-2026-10-15/"
+      },
+      {
+        "type": "other_news",
+        "summary": "Mistral opened a Munich hub for Physics AI and Industrial AI research, working with German industry partners.",
+        "date": "2026-09-28",
+        "source_url": "https://mistral.ai/news/hallo-deutschland/"
+      },
+      {
+        "type": "partnership",
+        "summary": "Samsung announced a strategic partnership to bring Mistral's AI services into its semiconductor engineering and manufacturing operations.",
+        "date": null,
+        "source_url": "https://www.facebook.com/unboxingai/posts/samsung-has-announced-a-strategic-partnership-with-mistral-ai-bringing-mistrals-/122191386182863973/"
+      },
+      {
+        "type": "partnership",
+        "summary": "Cloudera and Mistral announced a strategic partnership on sovereign AI, so enterprises can build AI without exposing sensitive data.",
+        "date": null,
+        "source_url": "https://www.facebook.com/TechnologyDecisions/posts/cloudera-and-mistral-partner-on-sovereign-ai-capabilities/1889211305588508/"
+      },
+      {
+        "type": "hiring",
+        "summary": "Mistral hired a Senior Corporate Counsel (MENA lead) in Dubai. This points to a Middle East and Africa build-out, and a separate social post mentions Mistral Darija models for Morocco.",
+        "date": null,
+        "source_url": "https://www.facebook.com/LegalEraMagazine/posts/siham-assir-joins-mistral-ai-as-senior-corporate-counsel-mena-leadsiham-assir-jo/1549579713855665/"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The funding, Mistral Large 4, CERN and Munich hub signals are well supported. The funding date is unclear: Dealroom says September, and the Oct 2 article's 'on Tuesday' doesn't match that date, so I left the date null. The Samsung, Cloudera and MENA hiring items come from undated Facebook posts, so treat them as lower confidence and verify before using them. The Mozilla and TotalEnergies deals appeared only in a search-result headline, so I didn't report them. Searches found no layoffs, acquisitions or C-level changes. Good openers: sovereign and industrial AI, European expansion (Munich, MENA), scientific AI (CERN Flare, public release Oct 27), and the new compute capacity funded by the raise."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 40.2,
+    "search_api_time_s": 22.32,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 5261,
+    "output_tokens": 1623,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://app.dealroom.co/companies/mistral_ai",
+    "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "https://epoch.ai/publications/the-plunging-price-of-thought",
+    "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+    "https://mistral.ai/news/hallo-deutschland/",
+    "https://multiples.vc/private-comps/mistral-ai",
+    "https://shattered.io/mistral-24-billion-valuation-ai-safety-tool-2026/",
+    "https://www.businesspost.ie/tech/meta-anthropic-and-mistral-executives-added-to-government-ai-summit/",
+    "https://www.facebook.com/LegalEraMagazine/posts/siham-assir-joins-mistral-ai-as-senior-corporate-counsel-mena-leadsiham-assir-jo/1549579713855665/",
+    "https://www.facebook.com/TechnologyDecisions/posts/cloudera-and-mistral-partner-on-sovereign-ai-capabilitiescloudera-and-mistral-ha/1889211305588508/",
+    "https://www.facebook.com/californiausa22/posts/mistral-ai-inks-mozilla-totalenergies-deals-after-3b-raisemistral-ai-frances-fla/1100750529425596/",
+    "https://www.facebook.com/unboxingai/posts/samsung-has-announced-a-strategic-partnership-with-mistral-ai-bringing-mistrals-/122191386182863973/",
+    "https://www.google.com/goto?url=CAESkQEB6zswFUfaFHSBgOntjHmYscQ5H7oUWlLBevyuNayoStIf2V1bo6-GJ7Gl9NwslvswN5ZM3FTrFskGQAoDmcYzSG_7QhGLIMTYMJJ4oNiqfhd0F9AtpXV-fUDspfsJmIM1VGot4cYCaxsLxnjnDAHr29lZ7MNRjH7Em8HcmguKwmVEoyq_v39zVFvs6SyFl_Er",
+    "https://www.google.com/goto?url=CAESpwEB6zswFTHPe3JeeZzmHVbZDj1NGPRikQqOepBtsVns-BKMgNNOG4tHXIXsofOddocnqJCo7m15YI8SJQTTOyMCR4fW239IWzdVkMZRv0dFGPRxbfFfpXSM5ZqTVgf_ARpCtiJ5kDeZ92qRhemaF4hEmonbPm7046TVELkj97BSxDFs5webI9_4wTsmQSxRF2DeWrwHe90mrgFRLR4O69SZAAlbTBPuUA",
+    "https://www.instagram.com/reel/DeDLB2ljjNL/",
+    "https://www.lemonde.fr/en/economy/article/2026/10/14/nvidia-ceo-jensen-huang-optimistic-on-ai-risks-sovereignty-and-jobs_6758610_19.html",
+    "https://www.linkedin.com/posts/ai-understanding_mistral-ai-reaches-24-billion-valuation-activity-7511618717093642241-7yyz",
+    "https://www.reuters.com/science/cern-mistral-partner-build-ai-foundation-models-physics-2026-10-15/",
+    "https://www.trendingtopics.eu/mistral-large-4-open-weight-model/",
+    "https://www.youtube.com/watch?v=X1ObmRAgp5A"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Mistral AI funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Mistral AI new product launch",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Mistral AI partnership announcement",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Mistral AI acquisition OR hiring OR executive appointed",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "large_tech",
+  "backend_errors": []
+}

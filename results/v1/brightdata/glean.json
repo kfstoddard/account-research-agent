@@ -1,0 +1,87 @@
+{
+  "company": "Glean",
+  "domain": "glean.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Glean (glean.com)",
+    "signals": [
+      {
+        "type": "partnership",
+        "summary": "Glean joined OpenAI's new B2B marketplace as a launch partner. Eligible enterprise customers can use part of their OpenAI commitment on Glean.",
+        "date": "2026-09-29",
+        "source_url": "https://www.glean.com/blog/glean-openai-b2b-marketplace"
+      },
+      {
+        "type": "product_launch",
+        "summary": "At Glean GO 2026, Glean reportedly launched a new class of proactive agents, starting with an OnCall Assistant, along with an AI desktop workspace. This comes from a LinkedIn recap, not a Glean primary source. The recap is dated about 3 weeks before today, and I can't pin down the exact date.",
+        "date": null,
+        "source_url": "https://www.linkedin.com/posts/ravitjain_dataandai-enterpriseai-aiagents-activity-7509674094926262273-tUsV"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Glean has a Team Chat feature that puts teams and AI in one shared chat and dashboard. A product demo video was posted within the last week.",
+        "date": null,
+        "source_url": "https://www.youtube.com/watch?v=hHL0moHxCIo"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The searches found no new funding round in the last 90 days. The latest confirmed round in the results is the $150M Series F from June 2025 at a $7.2B valuation, led by Wellington Management. Tracxn lists $765M raised in total. That round falls outside the 90-day window, so it isn't listed as a signal. The searches found nothing on leadership changes, acquisitions, layoffs, earnings or hiring. A search for those returned irrelevant results, and one later search failed. The GO 2026 and Team Chat items rest on secondary sources, so check Glean's own announcements before citing specifics. A good opening angle is the OpenAI marketplace partnership and the shift toward agents."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 35.01,
+    "search_api_time_s": 25.0,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 11501,
+    "output_tokens": 991,
+    "tool_errors": 1
+  },
+  "seen_urls": [
+    "https://docs.glean.com/get-started/golive/model-choice",
+    "https://en.wikipedia.org/wiki/Glean_Technologies",
+    "https://governor.maryland.gov/news/press-releases/governor-moore-signs-executive-order-codifying-responsible-data-center-development-framework",
+    "https://tracxn.com/d/companies/glean/__0aO5V-wZsJgrfCZYNJm9ccNqZCpaXHw-O9LJTlZZYgQ/funding-and-investors",
+    "https://www.getmacha.com/blog/glean-ai-complete-guide",
+    "https://www.glean.com/blog/glean-openai-b2b-marketplace",
+    "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/",
+    "https://www.gov.nv.gov/press-releases/governor-joe-lombardo-signs-executive-order-placing-guardrails-on-data-center-development-restoring-education-funding/",
+    "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf",
+    "https://www.kore.ai/blog/top-alternatives-for-glean",
+    "https://www.linkedin.com/posts/ravitjain_dataandai-enterpriseai-aiagents-activity-7509674094926262273-tUsV",
+    "https://www.upmarket.co/private-markets/pre-ipo/glean/",
+    "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/",
+    "https://www.youtube.com/watch?v=hHL0moHxCIo"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Glean enterprise AI funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Glean launches new product announcement",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Glean partnership OR acquisition OR hires executive",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Glean Arvind Jain Glean GO 2026 agents ARR",
+      "error": "non-JSON SERP response after retry (first 150 chars: 'This query recently failed and cannot be attempted at this time. Please try again later, after a minimum of 15 seconds. https://docs.brightdata.com/sc')"
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": [
+    "search: non-JSON SERP response after retry (first 150 chars: 'This query recently failed and cannot be attempted at this time. Please try again later, after a minimum of 15 seconds. https://docs.brightdata.com/sc')"
+  ]
+}

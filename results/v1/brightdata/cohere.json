@@ -1,0 +1,100 @@
+{
+  "company": "Cohere",
+  "domain": "cohere.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Cohere",
+    "signals": [
+      {
+        "type": "acquisition",
+        "summary": "Cohere and Germany's Aleph Alpha signed a definitive merger agreement on 2026-09-16 at a reported $20B combined valuation. Sources disagree on whether it has closed (see notes).",
+        "date": "2026-09-16",
+        "source_url": "https://www.itpro.com/technology/artificial-intelligence/no-government-or-enterprise-should-have-to-choose-between-capable-ai-and-control-over-their-technology-cohere-ceo-aidan-gomez-shares-new-details-on-aleph-alpha-merger"
+      },
+      {
+        "type": "acquisition",
+        "summary": "Cohere said on 2026-10-15 that it signed a letter of intent to buy AISLE, a San Francisco AI cybersecurity startup. This is a non-binding LOI and I could only see the search snippet.",
+        "date": "2026-10-15",
+        "source_url": "https://www.konsulteer.com/article/cohere-signs-letter-of-intent-to-buy-ai-cybersecurity-startup-aisle"
+      },
+      {
+        "type": "funding",
+        "summary": "A funding tracker lists Cohere as being in talks to raise $2–3B at a reported valuation of about $20B (September 2026). The round is unconfirmed.",
+        "date": "2026-09-01",
+        "source_url": "https://venturecapitaltracker.com/startup/cohere"
+      },
+      {
+        "type": "other_news",
+        "summary": "CEO Aidan Gomez called for a global AI safety body that includes China, as Cohere pushes to play a bigger international role.",
+        "date": "2026-09-29",
+        "source_url": "https://financialpost.com/technology/cohere-ceo-calls-for-global-ai-safety-body"
+      },
+      {
+        "type": "hiring",
+        "summary": "Cohere is actively hiring go-to-market staff, including an Account Executive for SLED (West), which points to a push into US public-sector sales.",
+        "date": null,
+        "source_url": "https://www.linkedin.com/jobs/view/account-executive-sled-west-at-cohere-4444882008?refId=v33BqzOAY4LG2DqCtnNF%2BQ%3D%3D&trackingId=IKUZvx7inaYwOvdYrh%2BgAQ%3D%3D"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "Sources conflict on the Aleph Alpha deal. A Financial Post snippet (2026-09-29) says Cohere 'completed its acquisition' earlier that month. ITPro (2026-09-21) and others say the deal is signed but still needs Canadian and German regulatory approval and is expected to close later this year. Treat it as signed and likely pending, and verify before citing it. The $20B valuation and the 'in talks' funding figures come from secondary or aggregator sources. A tear-sheet snippet mentioned an expanded AMD partnership and the appointments of Joelle Pineau as Chief AI Officer and Francois Chadwick as CFO. I did not include these as signals because I couldn't confirm their dates and the source is a low-quality aggregator. The Tracxn result lists $500M raised in Aug 2025 and a $7B valuation. That is older than the 90-day window. Results for 'Cohere Health' are a different company and were excluded. One search errored, and I could not verify the AISLE LOI at its source because my search budget ran out."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 99.69,
+    "search_api_time_s": 87.24,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 7362,
+    "output_tokens": 1493,
+    "tool_errors": 1
+  },
+  "seen_urls": [
+    "https://alanlongbon.substack.com/p/cohere-update-the-aleph-alpha-deal",
+    "https://builtin.com/company/cohere-health/faq/stability-growth",
+    "https://finance.yahoo.com/technology/ai/articles/another-little-known-firm-jensen-193002873.html",
+    "https://financialpost.com/technology/cohere-ceo-calls-for-global-ai-safety-body",
+    "https://multiples.vc/private-comps/cohere-health",
+    "https://siliconvalleyinvestclub.com/vi/companies/cohere/tear-sheet.pdf",
+    "https://tracxn.com/d/companies/cohere/__o4xfwmr3XwgsGEyH41XvwBm6Xd-SjsMlSld3d4ci6G0/funding-and-investors",
+    "https://venturecapitaltracker.com/startup/cohere",
+    "https://www.briefia.fr/en/article/cohere-et-aleph-alpha-finalisent-leur-fusion",
+    "https://www.facebook.com/CEOInsightsIndia/posts/coforge-appoints-akhil-gupta-as-chairmancoforge-has-appointed-akhil-gupta-former/1529230199226820/",
+    "https://www.instagram.com/reel/DdflnMzgQIw/",
+    "https://www.itpro.com/technology/artificial-intelligence/no-government-or-enterprise-should-have-to-choose-between-capable-ai-and-control-over-their-technology-cohere-ceo-aidan-gomez-shares-new-details-on-aleph-alpha-merger",
+    "https://www.konsulteer.com/article/cohere-signs-letter-of-intent-to-buy-ai-cybersecurity-startup-aisle",
+    "https://www.linkedin.com/jobs/view/account-executive-sled-west-at-cohere-4444882008?refId=v33BqzOAY4LG2DqCtnNF%2BQ%3D%3D&trackingId=IKUZvx7inaYwOvdYrh%2BgAQ%3D%3D",
+    "https://www.linkedin.com/posts/venture-fox_sovereignai-venturecapital-aistrategy-activity-7507859134344617985-3BFB"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Cohere funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Cohere AI launch partnership announcement",
+      "error": "non-JSON SERP response after retry (first 150 chars: '')"
+    },
+    {
+      "tool": "web_search",
+      "query": "Cohere acquisition OR hires OR executive appointed",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Cohere Aleph Alpha acquisition completed",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "large_tech",
+  "backend_errors": [
+    "search: non-JSON SERP response after retry (first 150 chars: '')"
+  ]
+}

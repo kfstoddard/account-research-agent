@@ -1,0 +1,112 @@
+{
+  "company": "Harvey",
+  "domain": "harvey.ai",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Harvey (harvey.ai)",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Harvey raised $550M at a $15.5B valuation, co-led by Diffusion and Lightspeed Venture Partners. Reports cite ARR above $400M and more than 3,000 customers.",
+        "date": "2026-10-01",
+        "source_url": "https://www.saasrise.com/deals/harvey-raises-550m-in-funding-round-valuation-reaches-155b-fdaacbc6-e5ae-49f1-a9e7-224789dfde95"
+      },
+      {
+        "type": "other_news",
+        "summary": "Harvey is opening a Boston office this fall and is hiring in sales, recruiting, legal engineering and customer success. COO Katie Burke, a former HubSpot executive, is a Boston champion.",
+        "date": "2026-10-01",
+        "source_url": "https://www.bostonglobe.com/2026/10/01/business/harvey-ai-boston-office/"
+      },
+      {
+        "type": "hiring",
+        "summary": "Harvey hired 22 Am Law 200 lawyers in H1 2026, more than Anthropic, OpenAI and Legora combined. It also has open GTM roles, such as Head of GTM Strategy & Operations, AMER.",
+        "date": "2026-10-13",
+        "source_url": "https://www.bestlawfirms.com/articles/harvey-am-law-200-lawyers-ai-company-hiring/8553"
+      },
+      {
+        "type": "partnership",
+        "summary": "Harvey launched a Pro Bono Program with partner organizations. The partners will deliver AI for pro bono teams and vulnerable justice-system users.",
+        "date": "2026-09-22",
+        "source_url": "https://www.harvey.ai/blog/introducing-harveys-pro-bono-program"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Harvey's site now lists Legal Work Orchestration (legal project management with agents) and Harvey Intake (an in-house legal front door and request management).",
+        "date": null,
+        "source_url": "https://www.harvey.ai/platform/intake"
+      },
+      {
+        "type": "partnership",
+        "summary": "Harvey is live in the OpenAI Marketplace as an official launch partner.",
+        "date": null,
+        "source_url": "https://www.linkedin.com/posts/harvey-ai_your-companys-ai-investment-can-now-reach-activity-7511032400764706816-hoN-"
+      },
+      {
+        "type": "other_news",
+        "summary": "Per a Nikkei Asia post, Harvey's CEO says it will open a Japan office in 2027. He also said efficiency gains could pressure the billable-hour model.",
+        "date": null,
+        "source_url": "https://www.facebook.com/nikkeiasia/posts/us-legal-ai-startup-harvey-to-open-japan-office-in-2027-ceo-saysincreased-effici/1530735122423081/"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The funding round is well corroborated, but sources give different dates (Harvey blog Sep 28, Okara Sep 26, SaaSRise Oct 1). I used Oct 1 and did not verify it against a primary press release. Some older snippets mention a $300M Series E at a $5B valuation. That is a previous round, so ignore it. The OpenAI Marketplace and Japan office items come from LinkedIn and Facebook posts with no date, so treat them as lower confidence. The hiring signal date (2026-10-13) is inferred from the \"4 days ago\" label. I found no leadership changes, acquisitions, layoffs or earnings in the last 90 days, and I ran out of search budget before checking further. Good conversation openers: the Boston expansion (if the seller targets New England law firms or in-house teams), rapid scaling after the raise, and the new orchestration and intake products for in-house legal."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 51.81,
+    "search_api_time_s": 32.42,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 12397,
+    "output_tokens": 1862,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://forgeglobal.com/harvey_stock/",
+    "https://okara.ai/blog/harvey-ai-revenue-growth",
+    "https://www.bestlawfirms.com/articles/harvey-am-law-200-lawyers-ai-company-hiring/8553",
+    "https://www.bostonglobe.com/2026/10/01/business/harvey-ai-boston-office/",
+    "https://www.facebook.com/fintechgate1/posts/legal-ai-powerhouse-us-startup-harvey-raises-550m-valuation-soars-to-155b-artifi/122178622772710394/",
+    "https://www.facebook.com/nikkeiasia/posts/us-legal-ai-startup-harvey-to-open-japan-office-in-2027-ceo-saysincreased-effici/1530735122423081/",
+    "https://www.harvey.ai/blog/agreements-make-history",
+    "https://www.harvey.ai/blog/harvey-to-open-boston-office",
+    "https://www.harvey.ai/blog/introducing-harveys-pro-bono-program",
+    "https://www.harvey.ai/company/careers/b85907be-9937-4bf1-91a0-4474c35e4402",
+    "https://www.harvey.ai/platform/intake",
+    "https://www.harvey.ai/platform/legal-work-orchestration",
+    "https://www.instagram.com/p/DdtHyxQmKBl/",
+    "https://www.linkedin.com/posts/harvey-ai_your-companys-ai-investment-can-now-reach-activity-7511032400764706816-hoN-",
+    "https://www.linkedin.com/posts/jesselandry23_harvey-raises-550m-series-h-at-a-155b-activity-7508519798075604992-uZOc",
+    "https://www.saasrise.com/deals/harvey-raises-550m-in-funding-round-valuation-reaches-155b-fdaacbc6-e5ae-49f1-a9e7-224789dfde95"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Harvey AI legal funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Harvey harvey.ai acquisition OR partnership OR launch",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Harvey legal AI new hire OR executive OR CEO OR hiring",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Harvey $550M funding round led by investors legal AI",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

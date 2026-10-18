@@ -1,0 +1,127 @@
+{
+  "company": "Ramp",
+  "domain": "ramp.com",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Ramp (ramp.com)",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Ramp raised $1.85B at a $60B valuation, co-led by Dragoneer, Thrive Capital, Founders Fund, Sands Capital and Avenir. This comes four months after its $44B round. Ramp's press release says annualized revenue is above $2B.",
+        "date": "2026-10-15",
+        "source_url": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai"
+      },
+      {
+        "type": "funding",
+        "summary": "Ramp announced a $750M Series F at a $44B valuation, led by ICONIQ, GIC and Ontario Teachers'. It said total payment volume grew about 170% year over year in March 2026.",
+        "date": "2026-06-04",
+        "source_url": "https://www.prnewswire.com/news-releases/ramp-raises-series-f-at-44-billion-valuation-302791103.html"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Ramp launched Ramp Accounts Receivable, an invoice-to-cash product, so it now covers both payables and receivables. It is available to US single-entity businesses with QuickBooks Online and NetSuite integrations.",
+        "date": "2026-09-22",
+        "source_url": "https://www.morningstar.com/news/pr-newswire/20260922ny53747/ramp-launches-ramp-accounts-receivable-to-help-businesses-get-paid-faster"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Ramp launched its corporate card, expense, bill pay and accounting automation platform in the UK. This is its first major expansion outside North America, following a Canada launch in July.",
+        "date": "2026-09-19",
+        "source_url": "https://fintechmagazine.com/news/this-weeks-top-5-stories-in-fintech-19-08-2026"
+      },
+      {
+        "type": "acquisition",
+        "summary": "Ramp acquired travel platform Juno and payments platform Billhop. Billhop gave it payment licenses in the UK and Sweden, which supported the UK launch.",
+        "date": null,
+        "source_url": "https://www.fintechfutures.com/venture-capital-funding/ramp-reportedly-hits-60bn-valuation-in-1.85bn-funding-round"
+      },
+      {
+        "type": "partnership",
+        "summary": "ServiceTitan announced a strategic partnership with Ramp. Contractors get AI bill pay and Ramp-powered expense cards that sync into ServiceTitan jobs.",
+        "date": "2026-09-30",
+        "source_url": "https://www.servicetitan.com/press/servicetitan-announces-strategic-partnership-with-ramp-to-automate-financial-workflows-for-contractors-with-ai-powered-tools"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Ramp opened stablecoin accounts and payments to customers.",
+        "date": "2026-07-21",
+        "source_url": "https://www.cpapracticeadvisor.com/2026/09/24/ramp-rolls-out-accounts-receivable-product/190503"
+      },
+      {
+        "type": "partnership",
+        "summary": "Ramp and the San Francisco 49ers announced a multi-year partnership. The search result gave no date.",
+        "date": null,
+        "source_url": "https://www.prnewswire.com/news-releases/ramp-reaches-60-billion-valuation-as-annualized-revenue-tops-2-billion-302909315.html"
+      },
+      {
+        "type": "other_news",
+        "summary": "Ramp is pushing into AI agents for procurement, accounting and payments, and into token spend management. It has also launched Router.com and Glass, plus an AI operating system for accounting firms (Stack). Capital One's $5.15B acquisition of competitor Brex earlier this year changes the competitive landscape.",
+        "date": "2026-10-15",
+        "source_url": "https://www.connectingthedotsinfin.tech/ramp-hits-60-billion-as-ai-moves-into-the-back-office"
+      }
+    ],
+    "overall_confidence": "high",
+    "notes": "The funding, UK launch, AR launch and ServiceTitan partnership are well sourced and dated. Several dates are approximate. The Juno and Billhop acquisitions and the 49ers deal had no date in the results, so check them before citing a timeframe. The stablecoin launch date comes from a related-articles list, not a primary source. The FinTech Futures piece describes the $1.85B round as 'reported', and TechCrunch confirms it. I found no leadership changes, layoffs or hiring signals. Eric Glyman and Karim Atiyeh are listed as co-CEOs on Ramp's blog. Ramp is in a fast-growth, well-funded phase, so outreach could focus on scaling finance operations, international expansion (UK and Canada), and AI spend controls."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 23.7,
+    "search_api_time_s": 8.38,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 22881,
+    "output_tokens": 1930,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://fintechmagazine.com/news/this-weeks-top-5-stories-in-fintech-19-08-2026",
+    "https://news.crunchbase.com/venture/fintech-unicorn-ramp-300m-raise-lightspeed",
+    "https://ramp.com/blog/business-credit-card-liability",
+    "https://ramp.com/blog/how-to-pay-vendors-with-credit-card",
+    "https://ramp.com/blog/jumpstart-smb-finance",
+    "https://ramp.com/blog/ramp-at-60-billion",
+    "https://ramp.com/legal/platform-agreement",
+    "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai",
+    "https://www.connectingthedotsinfin.tech/ramp-hits-60-billion-as-ai-moves-into-the-back-office",
+    "https://www.cpapracticeadvisor.com/2026/09/24/ramp-rolls-out-accounts-receivable-product/190503",
+    "https://www.fintechfutures.com/venture-capital-funding/ramp-reportedly-hits-60bn-valuation-in-1.85bn-funding-round",
+    "https://www.morningstar.com/news/pr-newswire/20260922ny53747/ramp-launches-ramp-accounts-receivable-to-help-businesses-get-paid-faster",
+    "https://www.otpp.com/en-ca/about-us/news-and-insights/2026/ramp-raises-series-f-at-44-billion-valuation",
+    "https://www.prnewswire.com/news-releases/ramp-raises-series-f-at-44-billion-valuation-302791103.html",
+    "https://www.prnewswire.com/news-releases/ramp-reaches-60-billion-valuation-as-annualized-revenue-tops-2-billion-302909315.html",
+    "https://www.rho.co/blog/ramp-competitors",
+    "https://www.servicetitan.com/press/servicetitan-announces-strategic-partnership-with-ramp-to-automate-financial-workflows-for-contractors-with-ai-powered-tools",
+    "https://www.thisweekinfintech.com/p/grab-buys-into-atome-as-nubank-launches-in-the-us-exits-deep-reads",
+    "https://x.com/sytaylor/status/2105649123806351819"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Ramp fintech funding valuation 2026",
+      "recency": "year",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Ramp ramp.com product launch announcement",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Ramp corporate card acquisition OR partnership OR hires OR executive",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Ramp UK launch acquires",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

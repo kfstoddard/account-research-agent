@@ -1,0 +1,91 @@
+{
+  "company": "Clay",
+  "domain": "clay.com",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Clay (clay.com)",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Clay raised a $115M Series D at a $7.1B valuation. Reuters, SiliconANGLE and others covered it. One social post says Wellington Management led the round, and Tracxn lists Wellington as lead with Sequoia, a16z, Meritech, DST, CapitalG and others participating.",
+        "date": "2026-09-09",
+        "source_url": "https://tracxn.com/d/companies/clay/__4klxbcdinU3gElTPA0raH745Gx10_2_NSf7UzmgALBg"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Clay shipped a run of products over the summer. These include Account Research Agents (Jul 22), open-weight models in Claygent (Jul 16), an API and CLI (Jul 9), MCP for Reps in AI tools, and continuous TAM account discovery (Jul 28). It also launched targeted ad audiences with higher match rates (Aug 4).",
+        "date": "2026-07-22",
+        "source_url": "https://www.clay.com/blog/tender-offer-2026"
+      },
+      {
+        "type": "other_news",
+        "summary": "Clay announced a $1M scholarship fund in September to train GTM engineers. CEO Kareem Amin is also scheduled to speak at TechCrunch Disrupt 2026 on the rise of the GTM engineer.",
+        "date": "2026-10-02",
+        "source_url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer"
+      },
+      {
+        "type": "other_news",
+        "summary": "Clay held its SCULPT 2026 conference with more than 2,000 attendees, up from 700 the year before. It presented a 'self-learning revenue engine' roadmap that includes Clay Workflows, a Knowledge Hub and an inbound SDR agent.",
+        "date": null,
+        "source_url": "https://www.youtube.com/watch?v=tND3nepYV0c"
+      },
+      {
+        "type": "partnership",
+        "summary": "Intentsify announced a partnership with Clay to bring buyer intent data into Clay GTM workflows.",
+        "date": null,
+        "source_url": "https://www.demandgenreport.com/industry-news/news-brief/intentsify-partners-with-clay-on-intent-data/54596"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The Series D is well corroborated across several sources. The lead investor is less certain: the snippets mention Wellington, but the SaaS Rise snippet says investors were not disclosed. Headcount was about 176 as of Aug 2026, and one social post cites about 17,000 paying customers. Neither figure comes from a primary source. Earlier context falls outside the 90-day window: ARR tripled to $100M (reported Feb 2026), and a tender offer at a $5B valuation was announced Jan 28, 2026. I found no leadership changes, layoffs, acquisitions or hiring signals. The Intentsify partnership and SCULPT dates were not shown in the results, so I could not confirm they fall in the last 90 days. The Oct 2 TechCrunch date comes from the URL path. Suggested opener: congratulate them on the Series D and tie your pitch to the GTM-engineer push or the agent and API launches."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 18.15,
+    "search_api_time_s": 6.47,
+    "searches": 3,
+    "fetches": 0,
+    "input_tokens": 10057,
+    "output_tokens": 1449,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://coldreach.ai/blog/clay-review",
+    "https://siliconvalleyinvestclub.com/companies/clay/tear-sheet.pdf",
+    "https://tech.yahoo.com/ai/articles/techcrunch-disrupt-2026-clay-kareem-143000152.html",
+    "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer",
+    "https://tracxn.com/d/companies/clay/__4klxbcdinU3gElTPA0raH745Gx10_2_NSf7UzmgALBg",
+    "https://www.clay.com/blog/tender-offer-2026",
+    "https://www.clay.com/dossier/landing-funding",
+    "https://www.demandbase.com/blog/b2b-data-enrichment-tools",
+    "https://www.demandgenreport.com/industry-news/news-brief/intentsify-partners-with-clay-on-intent-data/54596",
+    "https://www.instagram.com/reel/DeehgrZjawR",
+    "https://www.octavehq.com/post/smartlead-clay-integration-data-enrichment",
+    "https://www.saasrise.com/deals/clay-raises-115m-in-series-d-funding-round-at-71b-valuation-cd63efc8-adac-4a3d-80ed-7968094095d8",
+    "https://www.youtube.com/watch?v=tND3nepYV0c"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Clay clay.com funding 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Clay GTM data enrichment startup news",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Clay Kareem Amin new hire OR launch OR partnership OR acquisition",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}

@@ -1,0 +1,120 @@
+{
+  "company": "Chobani",
+  "domain": "chobani.com",
+  "backend": "tavily",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Chobani",
+    "signals": [
+      {
+        "type": "other_news",
+        "summary": "Chobani announced a $1.2B investment to take over Keurig Dr Pepper's 1.5M sq ft facility in Upper Macungie Township, PA. It is Chobani's first dairy operation in Pennsylvania. It is expected to create 900 jobs, with production starting in 2027 and more than 3B lbs of PA milk a year at full scale.",
+        "date": "2026-09-01",
+        "source_url": "https://www.pottsmerc.com/2026/09/20/chobanis-lehigh-valley-plans-are-a-huge-win-for-pa-farmers-could-reverse-decades-of-declines"
+      },
+      {
+        "type": "other_news",
+        "summary": "Chobani's Rome, NY plant expansion (Phase 1) is reported to need up to 2M lb of milk a day. PennLive reported a mid-summer 2027 start after $270M in upgrades. The company's cumulative US investment count is reported at $14.4B across 77 projects in 21 states.",
+        "date": "2026-09-25",
+        "source_url": "https://www.thebullvine.com/news/chobani-rome-plant-phase-1-milk"
+      },
+      {
+        "type": "hiring",
+        "summary": "Chobani is hiring for the new Pennsylvania plant (Director of Finance - Plant, Allentown). It also has open roles in procurement, innovation scientist, talent acquisition (including early-careers programs), and field sales. This points to a high-growth, high-headcount phase.",
+        "date": "2026-10-02",
+        "source_url": "https://careers.chobani.com/job/Allentown-Director-of-Finance-Plant-PA-18101/1426484400"
+      },
+      {
+        "type": "product_launch",
+        "summary": "La Colombe Matcha Lattes launched online on Sept. 29, with a wider retail and café rollout to follow.",
+        "date": "2026-09-29",
+        "source_url": "https://www.yahoo.com/lifestyle/articles/chobani-launches-la-colombe-matcha-lattes-205247471.html"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Chobani is bringing back holiday creamers (Peppermint Mocha) and releasing a Pistachio Chocolate Flavor Drop. 2026 has also brought other new creamer flavors, such as Ube Sweet Cream.",
+        "date": null,
+        "source_url": "https://sporked.com/article/chobani-returning-creamers"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Chobani launched High Protein Drinks (20g or 30g protein, 6 flavors) alongside a $20M investment in new manufacturing. The source is an Instagram post, and no date is shown.",
+        "date": null,
+        "source_url": "https://www.instagram.com/p/Dd5TLsCG73u"
+      },
+      {
+        "type": "other_news",
+        "summary": "Chobani ran its annual 'Let's Eat Week' food-insecurity initiative, including a Philadelphia event that packed 2,200 food boxes with the mayor attending.",
+        "date": "2026-10-14",
+        "source_url": "https://www.phila.gov/2026-10-14-mayor-cherelle-l-parkers-public-schedule-for-wednesday-october-14-2026"
+      },
+      {
+        "type": "other_news",
+        "summary": "There is some negative local press. An SF Standard opinion piece says Chobani has gone quiet on plans for Anchor Brewing, which it bought more than two years ago. The Real Deal reported that the planned Chobani House in Manhattan 'remains conspicuously quiet'.",
+        "date": "2026-09-28",
+        "source_url": "https://sfstandard.com/opinion/2026/09/28/hamdi-ulukaya-anchor-beer-chobani-boycott"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The strongest signals are the large manufacturing expansions in Pennsylvania and Rome, NY, and the related hiring. Operations, supply chain, procurement, finance and plant-build vendors are the most relevant angles. I found no funding round, acquisition, leadership change, earnings or layoffs in the last 90 days. Chobani is private, so the $20B valuation on Notice.co is unverified and I left it out. The High Protein Drinks launch and the creamer news have no dates. The Daily Harvest acquisition (2025) and the La Colombe acquisition (2023) are older than the 90-day window and appear only as background on the careers pages."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 19.25,
+    "search_api_time_s": 5.72,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 11334,
+    "output_tokens": 1691,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://careers.chobani.com/job/Allentown-Director-of-Finance-Plant-PA-18101/1426484400",
+    "https://careers.chobani.com/job/New-York-Associate-Manager%2C-eCommerce-NY-10001/1424115300",
+    "https://careers.chobani.com/job/New-York-Director%2C-Talent-Acquisition-Performance-&-Enablement-NY-10001/1432672200",
+    "https://careers.chobani.com/job/New-York-Senior-Talent-Researcher-NY-10001/1437365800",
+    "https://careers.chobani.com/job/North-Brunswick-Township-Senior-Innovation-Scientist-NJ/1419121900",
+    "https://careers.chobani.com/job/Philadelphia-Procurement-Manager-PA-19019/1440828900",
+    "https://careers.chobani.com/job/Remote-Territory-Manager-%28General%29-Bay-Area-%28SF%29-CA/1410159600",
+    "https://executive-moves.com/company/chobani",
+    "https://notice.co/c/chobani",
+    "https://pagetsitdone.com/key_industries/agriculture/case_study_chobani",
+    "https://sfstandard.com/opinion/2026/09/28/hamdi-ulukaya-anchor-beer-chobani-boycott",
+    "https://sporked.com/article/chobani-returning-creamers",
+    "https://www.instagram.com/p/Dd5TLsCG73u",
+    "https://www.linkedin.com/posts/michelesuttonhr_chobani-talentacquisition-supplychain-activity-7509278710684913665-Zlg3",
+    "https://www.phila.gov/2026-10-14-mayor-cherelle-l-parkers-public-schedule-for-wednesday-october-14-2026",
+    "https://www.pottsmerc.com/2026/09/20/chobanis-lehigh-valley-plans-are-a-huge-win-for-pa-farmers-could-reverse-decades-of-declines",
+    "https://www.thebullvine.com/news/chobani-rome-plant-phase-1-milk",
+    "https://www.yahoo.com/lifestyle/articles/chobani-launches-la-colombe-matcha-205247471.html"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Chobani news 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Chobani funding OR acquisition OR expansion 2026",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Chobani new product launch",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Chobani executive appointed OR hiring OR layoffs",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "non_tech",
+  "backend_errors": []
+}

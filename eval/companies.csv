@@ -1,0 +1,21 @@
+company,domain,segment
+Databricks,databricks.com,large_tech
+Figma,figma.com,large_tech
+Ramp,ramp.com,growth_startup
+Rippling,rippling.com,growth_startup
+Glean,glean.com,growth_startup
+Harvey,harvey.ai,growth_startup
+Clay,clay.com,growth_startup
+Vercel,vercel.com,growth_startup
+Supabase,supabase.com,growth_startup
+ElevenLabs,elevenlabs.io,growth_startup
+Runway,runwayml.com,growth_startup
+Mistral AI,mistral.ai,large_tech
+Cohere,cohere.com,large_tech
+Crusoe,crusoe.ai,growth_startup
+Zipline,flyzipline.com,growth_startup
+Chobani,chobani.com,non_tech
+Allbirds,allbirds.com,non_tech
+Peloton,onepeloton.com,non_tech
+Vacasa,vacasa.com,non_tech
+Columbia Sportswear,columbia.com,non_tech

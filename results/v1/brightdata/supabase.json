@@ -1,0 +1,104 @@
+{
+  "company": "Supabase",
+  "domain": "supabase.com",
+  "backend": "brightdata",
+  "run_date": "2026-10-17",
+  "answer": {
+    "company": "Supabase",
+    "signals": [
+      {
+        "type": "funding",
+        "summary": "Supabase announced $150M in new funding led by GIC, with CapitalG, IronArc Ventures and Square Peg participating.",
+        "date": "2026-10-02",
+        "source_url": "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html"
+      },
+      {
+        "type": "acquisition",
+        "summary": "Supabase is acquiring Turso, a database platform, to build database infrastructure for agentic AI workloads. Turso Database stays open source.",
+        "date": "2026-10-02",
+        "source_url": "https://supabase.com/blog/supabase-is-acquiring-turso"
+      },
+      {
+        "type": "product_launch",
+        "summary": "At Select 2026, Supabase announced Multigres (Vitess for Postgres), OrioleDB moving to beta, a Compute offering, and new MCP tooling for agents, including log querying.",
+        "date": "2026-10-02",
+        "source_url": "https://supabase.com/blog/supabase-select-2026-recap"
+      },
+      {
+        "type": "funding",
+        "summary": "Supabase reportedly raised a $500M Series F at a $10.5B post-money valuation. An SEC Form D shows about $440M sold to 25 investors, with the first sale on May 13, 2026.",
+        "date": "2026-06-04",
+        "source_url": "https://devthrottle.com/ai-library/milestones/2026-supabase-series-f"
+      },
+      {
+        "type": "product_launch",
+        "summary": "Supabase's August 2026 developer update added database, observability, AI-agent, authentication, security and data-movement features.",
+        "date": null,
+        "source_url": "https://www.linkedin.com/posts/undercode-news_supabases-august-2026-update-pushes-postgres-activity-7512543245089001472--wQf"
+      }
+    ],
+    "overall_confidence": "medium",
+    "notes": "The Oct 2 funding and Turso acquisition are well supported. The sources include the PR Newswire release and Supabase's own blog. The Series F ($500M at $10.5B, June 2026) comes from secondary aggregators (devthrottle, vcmarketcap, RoundOS). I did not see a primary announcement for it. The Form D shows $440M sold against $500M offered, so the amount is approximate. I did not confirm how the Oct 2 $150M relates to the June Series F, for example whether it is an extension. Check this before quoting figures. I found no leadership changes, hiring surges, layoffs or named partnerships in the last 90 days. That may be a gap in the searches, not evidence that none exist. Possible openers: the agentic/AI-agent database push, scaling Postgres with Multigres, and Turso integration. The August update's date is unverified (null)."
+  },
+  "raw_final_text": null,
+  "stop_reason": "answered",
+  "metrics": {
+    "wall_time_s": 82.52,
+    "search_api_time_s": 68.45,
+    "searches": 4,
+    "fetches": 0,
+    "input_tokens": 12394,
+    "output_tokens": 1395,
+    "tool_errors": 0
+  },
+  "seen_urls": [
+    "https://daily.dev/posts/supabase-buys-turso-and-ships-a-dozen-features-pgbouncer-patches-two-pre-auth-cves-vw5kpzmnt",
+    "https://daily.dev/posts/supabase-select-2026-turso-acquisition-compute-multigres-and-orioledb-kvn8bdkx4",
+    "https://devthrottle.com/ai-library/milestones/2026-supabase-series-f",
+    "https://finance.yahoo.com/technology/ai/articles/supabase-raises-150m-buys-turso-083958845.html",
+    "https://mentionfox.com/funding/supabase-inc-form-d-26000001",
+    "https://pomegra.io/startups/supabase-raises-150m-buys-turso-2026-deal-explained-2026-10-05",
+    "https://roundos.ai/funding/deals/supabase-supabasecom-2026-06-04",
+    "https://supabase.com/blog/categories/postgres",
+    "https://supabase.com/blog/categories/product",
+    "https://supabase.com/blog/supabase-is-acquiring-turso",
+    "https://supabase.com/blog/supabase-select-2026-recap",
+    "https://turso.tech/blog/turso-is-joining-supabase",
+    "https://vcmarketcap.com/company/supabase",
+    "https://www.linkedin.com/posts/paulcopplestone_today-supabase-is-announcing-150m-in-new-activity-7511811438659710977-qyxC",
+    "https://www.linkedin.com/posts/undercode-news_supabases-august-2026-update-pushes-postgres-activity-7512543245089001472--wQf",
+    "https://www.prnewswire.com/news-releases/supabase-announces-150m-in-new-funding-and-turso-acquisition-302896752.html",
+    "https://www.thesaasnews.com/news/supabase-raises-150m-other/",
+    "https://www.thinkflow.ro/blog/supabase-cost-2026",
+    "https://www.trysignalbase.com/news/funding/supabase-raises-150",
+    "https://www.youtube.com/watch?v=I9GymvCJRRw"
+  ],
+  "trace": [
+    {
+      "tool": "web_search",
+      "query": "Supabase funding 2026",
+      "recency": "year",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Supabase announces launch",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Supabase acquisition OR partnership OR hires OR CEO",
+      "recency": "month",
+      "n_results": 5
+    },
+    {
+      "tool": "web_search",
+      "query": "Supabase Select 2026 Multigres OrioleDB MCP announcements",
+      "recency": "month",
+      "n_results": 5
+    }
+  ],
+  "segment": "growth_startup",
+  "backend_errors": []
+}
